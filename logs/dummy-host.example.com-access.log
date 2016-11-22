@@ -1,0 +1,1 @@
+::1 - - [16/Apr/2016:10:25:10 +0800] "GET /flasktest/hello?name=CZY HTTP/1.1" 403 224

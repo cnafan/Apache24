@@ -1,0 +1,1 @@
+[Sat Apr 16 10:25:10.701694 2016] [authz_core:error] [pid 3980:tid 992] [client ::1:60225] AH01630: client denied by server configuration: C:/Apache24/docs
