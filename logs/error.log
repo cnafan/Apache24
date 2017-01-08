@@ -24408,3 +24408,11 @@ Apache server interrupted...
 [Fri Jan 06 22:04:31.142138 2017] [mpm_winnt:warn] [pid 2356:tid 1000] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
 [Sat Jan 07 07:10:43.728356 2017] [mpm_winnt:warn] [pid 2356:tid 1000] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
 [Sat Jan 07 16:37:30.244022 2017] [mpm_winnt:warn] [pid 2356:tid 1000] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Jan 08 12:27:31.489546 2017] [mpm_winnt:notice] [pid 2716:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jan 08 12:27:33.552266 2017] [mpm_winnt:notice] [pid 2356:tid 464] AH00364: Child: All worker threads have exited.
+[Sun Jan 08 12:27:34.239524 2017] [mpm_winnt:notice] [pid 2716:tid 428] AH00430: Parent: Child process 2356 exited successfully.
+[Sun Jan 08 12:31:11.450145 2017] [mpm_winnt:notice] [pid 824:tid 428] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Sun Jan 08 12:31:11.465794 2017] [mpm_winnt:notice] [pid 824:tid 428] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Sun Jan 08 12:31:11.465794 2017] [core:notice] [pid 824:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Jan 08 12:31:11.465794 2017] [mpm_winnt:notice] [pid 824:tid 428] AH00418: Parent: Created child process 1044
+[Sun Jan 08 12:31:12.045129 2017] [mpm_winnt:notice] [pid 1044:tid 464] AH00354: Child: Starting 64 worker threads.
