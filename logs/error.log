@@ -24416,3 +24416,220 @@ Apache server interrupted...
 [Sun Jan 08 12:31:11.465794 2017] [core:notice] [pid 824:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
 [Sun Jan 08 12:31:11.465794 2017] [mpm_winnt:notice] [pid 824:tid 428] AH00418: Parent: Created child process 1044
 [Sun Jan 08 12:31:12.045129 2017] [mpm_winnt:notice] [pid 1044:tid 464] AH00354: Child: Starting 64 worker threads.
+[Sun Jan 08 12:45:47.200294 2017] [mpm_winnt:notice] [pid 824:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jan 08 12:45:49.231422 2017] [mpm_winnt:notice] [pid 1044:tid 464] AH00364: Child: All worker threads have exited.
+[Sun Jan 08 12:45:49.325171 2017] [mpm_winnt:notice] [pid 824:tid 428] AH00430: Parent: Child process 1044 exited successfully.
+[Sun Jan 08 12:45:49.997104 2017] [mpm_winnt:notice] [pid 2400:tid 428] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Sun Jan 08 12:45:49.997104 2017] [mpm_winnt:notice] [pid 2400:tid 428] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Sun Jan 08 12:45:49.997104 2017] [core:notice] [pid 2400:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Jan 08 12:45:49.997104 2017] [mpm_winnt:notice] [pid 2400:tid 428] AH00418: Parent: Created child process 2776
+[Sun Jan 08 12:45:50.278279 2017] [mpm_winnt:notice] [pid 2776:tid 464] AH00354: Child: Starting 64 worker threads.
+[Sun Jan 08 17:26:41.731410 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Jan 08 18:50:58.653344 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Jan 08 20:20:41.262657 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Jan 08 21:33:50.559537 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Jan 08 22:16:43.934539 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 121)信号灯超时时间已到  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Jan 08 22:16:43.934539 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Jan 09 03:37:50.715786 2017] [core:error] [pid 2776:tid 972] [client 181.222.6.219:55430] AH00126: Invalid URI in request GET /../../../../../../../mnt/mtd/qt HTTP/1.0
+[Mon Jan 09 06:45:39.075218 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Jan 09 12:51:43.934582 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Jan 09 13:07:39.747184 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 10 04:18:05.794120 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 10 12:09:00.153314 2017] [cgi:error] [pid 2776:tid 972] [client 74.81.75.67:46707] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/test-cgi
+[Tue Jan 10 14:56:43.982281 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Jan 11 03:40:05.778409 2017] [cgi:error] [pid 2776:tid 968] [client 74.81.75.67:36978] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/test-cgi
+[Wed Jan 11 04:44:24.669079 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Jan 11 06:28:44.247101 2017] [cgi:error] [pid 2776:tid 976] [client 183.57.53.177:40176] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/test-cgi
+[Wed Jan 11 07:33:27.294112 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Jan 11 09:50:08.325252 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Jan 11 12:53:15.981416 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Jan 11 13:39:10.325292 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Jan 13 10:40:09.903508 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Jan 13 16:18:04.700164 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Jan 14 04:21:46.058537 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Jan 14 19:54:34.746054 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Jan 14 19:54:40.730379 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Jan 15 08:40:23.432384 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Jan 15 20:25:00.448183 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Jan 16 13:04:35.494927 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Jan 16 14:49:58.932363 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Jan 16 15:51:55.244921 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Jan 16 18:32:21.307440 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Jan 16 19:54:49.885498 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 01:35:21.666937 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 07:20:15.197978 2017] [mpm_winnt:warn] [pid 2776:tid 348] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 15:05:50.229991 2017] [mpm_winnt:notice] [pid 2400:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 17 15:05:52.260513 2017] [mpm_winnt:notice] [pid 2776:tid 464] AH00364: Child: All worker threads have exited.
+[Tue Jan 17 15:05:52.369949 2017] [mpm_winnt:notice] [pid 2400:tid 428] AH00430: Parent: Child process 2776 exited successfully.
+[Tue Jan 17 15:05:53.041957 2017] [mpm_winnt:notice] [pid 1344:tid 428] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Jan 17 15:05:53.041957 2017] [mpm_winnt:notice] [pid 1344:tid 428] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Jan 17 15:05:53.041957 2017] [core:notice] [pid 1344:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 17 15:05:53.041957 2017] [mpm_winnt:notice] [pid 1344:tid 428] AH00418: Parent: Created child process 1320
+[Tue Jan 17 15:05:53.307351 2017] [mpm_winnt:notice] [pid 1320:tid 464] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 17 15:09:50.572984 2017] [mpm_winnt:notice] [pid 1344:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 17 15:09:52.604236 2017] [mpm_winnt:notice] [pid 1320:tid 464] AH00364: Child: All worker threads have exited.
+[Tue Jan 17 15:09:52.698001 2017] [mpm_winnt:notice] [pid 1344:tid 428] AH00430: Parent: Child process 1320 exited successfully.
+[Tue Jan 17 15:09:53.322990 2017] [mpm_winnt:notice] [pid 2516:tid 428] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Jan 17 15:09:53.322990 2017] [mpm_winnt:notice] [pid 2516:tid 428] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Jan 17 15:09:53.322990 2017] [core:notice] [pid 2516:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 17 15:09:53.322990 2017] [mpm_winnt:notice] [pid 2516:tid 428] AH00418: Parent: Created child process 2792
+[Tue Jan 17 15:09:53.541920 2017] [mpm_winnt:notice] [pid 2792:tid 464] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 17 15:10:32.307371 2017] [mpm_winnt:notice] [pid 2516:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 17 15:10:34.338761 2017] [mpm_winnt:notice] [pid 2792:tid 464] AH00364: Child: All worker threads have exited.
+[Tue Jan 17 15:10:34.448038 2017] [mpm_winnt:notice] [pid 2516:tid 428] AH00430: Parent: Child process 2792 exited successfully.
+[Tue Jan 17 15:10:35.104257 2017] [mpm_winnt:notice] [pid 1580:tid 428] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Jan 17 15:10:35.104257 2017] [mpm_winnt:notice] [pid 1580:tid 428] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Jan 17 15:10:35.104257 2017] [core:notice] [pid 1580:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 17 15:10:35.104257 2017] [mpm_winnt:notice] [pid 1580:tid 428] AH00418: Parent: Created child process 1604
+[Tue Jan 17 15:10:35.401108 2017] [mpm_winnt:notice] [pid 1604:tid 464] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 17 19:09:58.338627 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 121)信号灯超时时间已到  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 19:09:58.338627 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 19:09:58.338627 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 19:09:58.338627 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 19:09:58.338627 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 19:09:58.338627 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 19:09:58.338627 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 19:09:58.338627 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 19:09:58.338627 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 19:09:58.338627 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 19:09:58.338627 2017] [mpm_winnt:error] [pid 1604:tid 1356] AH00326: Server ran out of threads to serve requests. Consider raising the ThreadsPerChild setting
+[Tue Jan 17 19:09:58.338627 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 19:09:58.338627 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 19:09:58.338627 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 19:09:58.338627 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 19:09:58.338627 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 19:09:58.338627 2017] [core:error] [pid 1604:tid 976] [client 103.37.151.23:45443] AH00126: Invalid URI in request OPTIONS sip:nm SIP/2.0
+[Tue Jan 17 19:09:58.354227 2017] [core:error] [pid 1604:tid 976] [client 103.37.151.23:46481] AH00126: Invalid URI in request t3 12.1.2
+[Tue Jan 17 20:13:28.291916 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 23:14:07.010491 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 23:14:07.010491 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 23:14:07.010491 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 23:14:07.010491 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 23:14:07.010491 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 23:14:07.010491 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 23:14:07.010491 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 23:14:07.010491 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 23:14:07.010491 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 23:14:07.010491 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 23:14:07.010491 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 23:14:07.010491 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 23:14:07.010491 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 17 23:14:07.010491 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Jan 18 04:00:50.979247 2017] [cgi:error] [pid 1604:tid 960] [client 192.0.240.83:49092] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/test-cgi
+[Wed Jan 18 13:33:08.151251 2017] [core:error] [pid 1604:tid 960] [client 106.39.60.188:50715] AH00126: Invalid URI in request OPTIONS sip:nm SIP/2.0
+[Wed Jan 18 13:33:08.151251 2017] [core:error] [pid 1604:tid 960] [client 106.39.60.188:38176] AH00126: Invalid URI in request t3 12.1.2
+[Wed Jan 18 16:48:10.869917 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Jan 18 17:07:24.463634 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Jan 18 17:07:27.432371 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Jan 18 18:27:35.838636 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Jan 18 20:24:10.151117 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Jan 18 20:27:55.729250 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Jan 18 21:32:02.651132 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Jan 18 22:35:00.369943 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 00:49:03.744927 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 00:49:03.744927 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 00:49:03.744927 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 00:49:03.744927 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 00:49:03.744927 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 00:49:03.744927 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 00:49:03.744927 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 00:49:03.744927 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 00:49:03.744927 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 00:49:03.744927 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 00:49:03.744927 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 01:13:40.979247 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 13:14:41.541917 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 13:14:41.541917 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 13:14:41.541917 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 13:14:41.541917 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 13:14:41.541917 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 13:14:41.541917 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 13:14:41.541917 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 13:14:41.541917 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 13:14:41.541917 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 19 13:14:41.541917 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Jan 20 04:50:08.276110 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Jan 20 10:50:37.447995 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Jan 20 20:25:17.354250 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Jan 20 20:40:57.526117 2017] [core:error] [pid 1604:tid 960] [client 191.190.169.193:49649] AH00126: Invalid URI in request GET /../../../../../../../mnt/mtd/qt HTTP/1.0
+[Fri Jan 20 23:59:02.995058 2017] [mpm_winnt:warn] [pid 1604:tid 1356] (OS 64)指定的网络名不再可用。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Jan 22 00:08:18.322808 2017] [core:error] [pid 1604:tid 944] [client 46.105.123.22:37840] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Sun Jan 22 00:08:26.400926 2017] [cgi:error] [pid 1604:tid 944] [client 46.105.123.22:43772] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/report.cgi
+[Sun Jan 22 00:08:26.947811 2017] [cgi:error] [pid 1604:tid 948] [client 46.105.123.22:45105] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/webmap.cgi
+[Sun Jan 22 00:08:27.510310 2017] [cgi:error] [pid 1604:tid 972] [client 46.105.123.22:45582] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/whois.cgi
+[Sun Jan 22 00:08:30.369685 2017] [cgi:error] [pid 1604:tid 972] [client 46.105.123.22:47001] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/register.cgi
+[Sun Jan 22 00:08:31.119666 2017] [cgi:error] [pid 1604:tid 948] [client 46.105.123.22:47466] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/download.cgi
+[Sun Jan 22 00:08:37.291562 2017] [cgi:error] [pid 1604:tid 948] [client 46.105.123.22:49297] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/shop.cgi
+[Sun Jan 22 00:08:38.791565 2017] [cgi:error] [pid 1604:tid 984] [client 46.105.123.22:49819] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/profile.cgi
+[Sun Jan 22 00:08:40.322807 2017] [cgi:error] [pid 1604:tid 948] [client 46.105.123.22:50029] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/about_us.cgi
+[Sun Jan 22 00:08:41.072803 2017] [cgi:error] [pid 1604:tid 972] [client 46.105.123.22:50473] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php.fcgi
+[Sun Jan 22 00:08:41.838420 2017] [cgi:error] [pid 1604:tid 984] [client 46.105.123.22:50744] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/calendar.cgi
+[Sun Jan 22 00:08:46.150924 2017] [cgi:error] [pid 1604:tid 984] [client 46.105.123.22:52102] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/light_board.cgi
+[Sun Jan 22 00:08:46.697894 2017] [cgi:error] [pid 1604:tid 972] [client 46.105.123.22:53091] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/main.cgi
+[Sun Jan 22 00:08:47.260314 2017] [cgi:error] [pid 1604:tid 948] [client 46.105.123.22:53618] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/search.cgi
+[Sun Jan 22 00:08:47.822806 2017] [cgi:error] [pid 1604:tid 944] [client 46.105.123.22:54138] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/test.cgi
+[Sun Jan 22 00:08:49.979243 2017] [cgi:error] [pid 1604:tid 948] [client 46.105.123.22:54681] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/file_up.cgi
+[Sun Jan 22 00:08:50.525959 2017] [cgi:error] [pid 1604:tid 944] [client 46.105.123.22:56794] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/concept.cgi
+[Sun Jan 22 00:08:53.775934 2017] [cgi:error] [pid 1604:tid 944] [client 46.105.123.22:58078] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/query.cgi
+[Sun Jan 22 00:08:57.947810 2017] [cgi:error] [pid 1604:tid 944] [client 46.105.123.22:59450] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/counter.cgi
+[Sun Jan 22 00:08:59.932221 2017] [cgi:error] [pid 1604:tid 948] [client 46.105.123.22:60106] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/kontakt.cgi
+[Sun Jan 22 00:09:13.932244 2017] [cgi:error] [pid 1604:tid 948] [client 46.105.123.22:36297] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/reboot.cgi
+[Sun Jan 22 00:09:16.088432 2017] [cgi:error] [pid 1604:tid 944] [client 46.105.123.22:36960] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/printenv
+[Sun Jan 22 00:09:22.744683 2017] [cgi:error] [pid 1604:tid 944] [client 46.105.123.22:39893] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/Count.cgi
+[Sun Jan 22 00:09:24.291588 2017] [cgi:error] [pid 1604:tid 948] [client 46.105.123.22:40408] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/supply.cgi
+[Sun Jan 22 00:09:24.854246 2017] [cgi:error] [pid 1604:tid 972] [client 46.105.123.22:41744] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/test.sh
+[Sun Jan 22 00:09:25.432239 2017] [cgi:error] [pid 1604:tid 944] [client 46.105.123.22:42240] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/upload.cgi
+[Sun Jan 22 00:09:27.588421 2017] [cgi:error] [pid 1604:tid 972] [client 46.105.123.22:42726] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/welcome.cgi
+[Sun Jan 22 00:09:28.760305 2017] [cgi:error] [pid 1604:tid 944] [client 46.105.123.22:44549] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/status.cgi
+[Sun Jan 22 00:09:29.338434 2017] [cgi:error] [pid 1604:tid 948] [client 46.105.123.22:45544] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/uptime.cgi
+[Sun Jan 22 00:09:29.900928 2017] [cgi:error] [pid 1604:tid 984] [client 46.105.123.22:46026] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/test
+[Sun Jan 22 00:09:33.463682 2017] [cgi:error] [pid 1604:tid 984] [client 46.105.123.22:49186] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/defaultwebpage.cgi
+[Sun Jan 22 00:09:34.025933 2017] [cgi:error] [pid 1604:tid 948] [client 46.105.123.22:49682] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/forum.cgi
+[Sun Jan 22 00:09:34.572816 2017] [cgi:error] [pid 1604:tid 944] [client 46.105.123.22:50150] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/hello.cgi
+[Sun Jan 22 00:09:35.135458 2017] [cgi:error] [pid 1604:tid 972] [client 46.105.123.22:50635] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Sun Jan 22 00:09:35.682241 2017] [cgi:error] [pid 1604:tid 968] [client 46.105.123.22:51161] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php4
+[Sun Jan 22 00:09:36.244689 2017] [cgi:error] [pid 1604:tid 984] [client 46.105.123.22:51675] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php5
+[Sun Jan 22 00:09:36.791556 2017] [cgi:error] [pid 1604:tid 948] [client 46.105.123.22:52192] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php5-cli
+[Sun Jan 22 03:18:13.071232 2017] [cgi:error] [pid 1604:tid 984] [client 183.57.53.222:33524] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/counter.cgi
+[Sun Jan 22 03:28:39.477683 2017] [cgi:error] [pid 1604:tid 944] [client 101.226.68.215:28721] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/upload.cgi
+[Sun Jan 22 04:57:08.821237 2017] [cgi:error] [pid 1604:tid 984] [client 119.147.207.158:35855] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php5-cli
+[Sun Jan 22 10:51:18.571224 2017] [mpm_winnt:notice] [pid 1580:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jan 22 10:51:20.587314 2017] [mpm_winnt:notice] [pid 1604:tid 464] AH00364: Child: All worker threads have exited.
+[Sun Jan 22 10:51:21.368100 2017] [mpm_winnt:notice] [pid 1580:tid 428] AH00430: Parent: Child process 1604 exited successfully.
+[Sun Jan 22 14:20:51.336916 2017] [mpm_winnt:notice] [pid 1800:tid 428] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Sun Jan 22 14:20:51.368108 2017] [mpm_winnt:notice] [pid 1800:tid 428] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Sun Jan 22 14:20:51.368108 2017] [core:notice] [pid 1800:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Jan 22 14:20:51.368108 2017] [mpm_winnt:notice] [pid 1800:tid 428] AH00418: Parent: Created child process 3536
+[Sun Jan 22 14:20:51.633726 2017] [mpm_winnt:notice] [pid 3536:tid 464] AH00354: Child: Starting 64 worker threads.
+[Sun Jan 22 14:21:01.665033 2017] [mpm_winnt:notice] [pid 1800:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jan 22 14:21:03.680917 2017] [mpm_winnt:notice] [pid 3536:tid 464] AH00364: Child: All worker threads have exited.
+[Sun Jan 22 14:21:03.743158 2017] [mpm_winnt:notice] [pid 1800:tid 428] AH00430: Parent: Child process 3536 exited successfully.
+[Tue Jan 24 18:09:23.508767 2017] [mpm_winnt:notice] [pid 3028:tid 428] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Jan 24 18:09:23.508767 2017] [mpm_winnt:notice] [pid 3028:tid 428] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Jan 24 18:09:23.508767 2017] [core:notice] [pid 3028:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 24 18:09:23.508767 2017] [mpm_winnt:notice] [pid 3028:tid 428] AH00418: Parent: Created child process 3488
+[Tue Jan 24 18:09:23.789976 2017] [mpm_winnt:notice] [pid 3488:tid 464] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 24 23:43:57.618109 2017] [mpm_winnt:notice] [pid 3028:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 24 23:43:59.649422 2017] [mpm_winnt:notice] [pid 3488:tid 464] AH00364: Child: All worker threads have exited.
+[Tue Jan 24 23:43:59.743118 2017] [mpm_winnt:notice] [pid 3028:tid 428] AH00430: Parent: Child process 3488 exited successfully.
+[Tue Jan 24 23:44:00.383790 2017] [mpm_winnt:notice] [pid 2236:tid 428] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Jan 24 23:44:00.383790 2017] [mpm_winnt:notice] [pid 2236:tid 428] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Jan 24 23:44:00.383790 2017] [core:notice] [pid 2236:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 24 23:44:00.383790 2017] [mpm_winnt:notice] [pid 2236:tid 428] AH00418: Parent: Created child process 3124
+[Tue Jan 24 23:44:00.633726 2017] [mpm_winnt:notice] [pid 3124:tid 464] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 24 23:48:02.664991 2017] [mpm_winnt:notice] [pid 2236:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 24 23:48:04.696246 2017] [mpm_winnt:notice] [pid 3124:tid 464] AH00364: Child: All worker threads have exited.
+[Tue Jan 24 23:48:04.758737 2017] [mpm_winnt:notice] [pid 2236:tid 428] AH00430: Parent: Child process 3124 exited successfully.
+[Tue Jan 24 23:48:08.461871 2017] [mpm_winnt:notice] [pid 3828:tid 428] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Jan 24 23:48:08.461871 2017] [mpm_winnt:notice] [pid 3828:tid 428] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Jan 24 23:48:08.461871 2017] [core:notice] [pid 3828:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 24 23:48:08.461871 2017] [mpm_winnt:notice] [pid 3828:tid 428] AH00418: Parent: Created child process 3956
+[Tue Jan 24 23:48:08.696836 2017] [mpm_winnt:notice] [pid 3956:tid 464] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 25 10:09:24.993105 2017] [mpm_winnt:notice] [pid 3828:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 25 10:09:27.024360 2017] [mpm_winnt:notice] [pid 3956:tid 464] AH00364: Child: All worker threads have exited.
+[Wed Jan 25 10:09:27.118306 2017] [mpm_winnt:notice] [pid 3828:tid 428] AH00430: Parent: Child process 3956 exited successfully.
+[Wed Jan 25 10:09:49.946222 2017] [mpm_winnt:notice] [pid 3020:tid 428] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Jan 25 10:09:49.946222 2017] [mpm_winnt:notice] [pid 3020:tid 428] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Jan 25 10:09:49.946222 2017] [core:notice] [pid 3020:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Jan 25 10:09:49.946222 2017] [mpm_winnt:notice] [pid 3020:tid 428] AH00418: Parent: Created child process 3084
+[Wed Jan 25 10:09:50.196223 2017] [mpm_winnt:notice] [pid 3084:tid 464] AH00354: Child: Starting 64 worker threads.
