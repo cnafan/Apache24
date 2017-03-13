@@ -1,29 +1,817 @@
-[Sat Feb 18 11:27:16.101438 2017] [mpm_winnt:notice] [pid 3320:tid 436] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
-[Sat Feb 18 11:27:16.101438 2017] [mpm_winnt:notice] [pid 3320:tid 436] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
-[Sat Feb 18 11:27:16.101438 2017] [core:notice] [pid 3320:tid 436] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
-[Sat Feb 18 11:27:16.101438 2017] [mpm_winnt:notice] [pid 3320:tid 436] AH00418: Parent: Created child process 820
-[Sat Feb 18 11:27:16.351448 2017] [mpm_winnt:notice] [pid 820:tid 480] AH00354: Child: Starting 64 worker threads.
-[Sat Feb 18 12:31:37.804683 2017] [mpm_winnt:notice] [pid 3320:tid 436] AH00422: Parent: Received shutdown signal -- Shutting down the server.
-[Sat Feb 18 12:31:39.835931 2017] [mpm_winnt:notice] [pid 820:tid 480] AH00364: Child: All worker threads have exited.
-[Sat Feb 18 12:31:40.101448 2017] [mpm_winnt:notice] [pid 3320:tid 436] AH00430: Parent: Child process 820 exited successfully.
-[Sat Feb 18 12:31:41.460893 2017] [mpm_winnt:notice] [pid 2800:tid 436] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
-[Sat Feb 18 12:31:41.460893 2017] [mpm_winnt:notice] [pid 2800:tid 436] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
-[Sat Feb 18 12:31:41.460893 2017] [core:notice] [pid 2800:tid 436] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
-[Sat Feb 18 12:31:41.460893 2017] [mpm_winnt:notice] [pid 2800:tid 436] AH00418: Parent: Created child process 3516
-[Sat Feb 18 12:31:41.710907 2017] [mpm_winnt:notice] [pid 3516:tid 480] AH00354: Child: Starting 64 worker threads.
-[Sat Feb 18 12:32:22.163946 2017] [mpm_winnt:notice] [pid 2800:tid 436] AH00422: Parent: Received shutdown signal -- Shutting down the server.
-[Sat Feb 18 12:32:24.195209 2017] [mpm_winnt:notice] [pid 3516:tid 480] AH00364: Child: All worker threads have exited.
-[Sat Feb 18 12:32:24.257894 2017] [mpm_winnt:notice] [pid 2800:tid 436] AH00430: Parent: Child process 3516 exited successfully.
-[Sat Feb 18 12:32:25.992062 2017] [mpm_winnt:notice] [pid 3408:tid 428] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
-[Sat Feb 18 12:32:25.992062 2017] [mpm_winnt:notice] [pid 3408:tid 428] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
-[Sat Feb 18 12:32:25.992062 2017] [core:notice] [pid 3408:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
-[Sat Feb 18 12:32:25.992062 2017] [mpm_winnt:notice] [pid 3408:tid 428] AH00418: Parent: Created child process 2748
-[Sat Feb 18 12:32:26.226441 2017] [mpm_winnt:notice] [pid 2748:tid 464] AH00354: Child: Starting 64 worker threads.
-[Sat Feb 18 12:33:28.289028 2017] [mpm_winnt:notice] [pid 3408:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
-[Sat Feb 18 12:33:30.320200 2017] [mpm_winnt:notice] [pid 2748:tid 464] AH00364: Child: All worker threads have exited.
-[Sat Feb 18 12:33:30.413967 2017] [mpm_winnt:notice] [pid 3408:tid 428] AH00430: Parent: Child process 2748 exited successfully.
-[Sat Feb 18 12:33:31.960898 2017] [mpm_winnt:notice] [pid 1300:tid 428] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
-[Sat Feb 18 12:33:31.960898 2017] [mpm_winnt:notice] [pid 1300:tid 428] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
-[Sat Feb 18 12:33:31.960898 2017] [core:notice] [pid 1300:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
-[Sat Feb 18 12:33:31.960898 2017] [mpm_winnt:notice] [pid 1300:tid 428] AH00418: Parent: Created child process 2144
-[Sat Feb 18 12:33:32.211153 2017] [mpm_winnt:notice] [pid 2144:tid 464] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 11:45:47.957156 2017] [mpm_winnt:notice] [pid 1060:tid 436] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 11:45:47.957156 2017] [mpm_winnt:notice] [pid 1060:tid 436] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 11:45:47.957156 2017] [core:notice] [pid 1060:tid 436] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 11:45:47.957156 2017] [mpm_winnt:notice] [pid 1060:tid 436] AH00418: Parent: Created child process 3820
+[Wed Mar 01 11:45:48.207152 2017] [mpm_winnt:notice] [pid 3820:tid 480] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 12:00:56.472725 2017] [mpm_winnt:notice] [pid 1060:tid 436] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 12:00:58.503944 2017] [mpm_winnt:notice] [pid 3820:tid 480] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 12:00:58.613343 2017] [mpm_winnt:notice] [pid 1060:tid 436] AH00430: Parent: Child process 3820 exited successfully.
+[Wed Mar 01 12:00:59.254296 2017] [mpm_winnt:notice] [pid 3908:tid 436] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 12:00:59.254296 2017] [mpm_winnt:notice] [pid 3908:tid 436] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 12:00:59.254296 2017] [core:notice] [pid 3908:tid 436] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 12:00:59.254296 2017] [mpm_winnt:notice] [pid 3908:tid 436] AH00418: Parent: Created child process 3752
+[Wed Mar 01 12:00:59.535202 2017] [mpm_winnt:notice] [pid 3752:tid 480] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 12:06:18.550824 2017] [mpm_winnt:notice] [pid 3908:tid 436] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 12:06:20.582179 2017] [mpm_winnt:notice] [pid 3752:tid 480] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 12:06:20.769722 2017] [mpm_winnt:notice] [pid 3908:tid 436] AH00430: Parent: Child process 3752 exited successfully.
+[Wed Mar 01 12:06:21.300813 2017] [mpm_winnt:notice] [pid 3696:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 12:06:21.300813 2017] [mpm_winnt:notice] [pid 3696:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 12:06:21.300813 2017] [core:notice] [pid 3696:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 12:06:21.300813 2017] [mpm_winnt:notice] [pid 3696:tid 444] AH00418: Parent: Created child process 2916
+[Wed Mar 01 12:06:21.535198 2017] [mpm_winnt:notice] [pid 2916:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 13:37:12.004166 2017] [mpm_winnt:notice] [pid 3696:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 13:37:14.035221 2017] [mpm_winnt:notice] [pid 2916:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 13:37:14.457157 2017] [mpm_winnt:notice] [pid 3696:tid 444] AH00430: Parent: Child process 2916 exited successfully.
+[Wed Mar 01 13:37:15.207166 2017] [mpm_winnt:notice] [pid 156:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 13:37:15.207166 2017] [mpm_winnt:notice] [pid 156:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 13:37:15.207166 2017] [core:notice] [pid 156:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 13:37:15.222690 2017] [mpm_winnt:notice] [pid 156:tid 444] AH00418: Parent: Created child process 144
+[Wed Mar 01 13:37:15.488339 2017] [mpm_winnt:notice] [pid 144:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 20:35:57.441449 2017] [mpm_winnt:notice] [pid 156:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 20:35:59.472828 2017] [mpm_winnt:notice] [pid 144:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 20:36:00.004188 2017] [mpm_winnt:notice] [pid 156:tid 444] AH00430: Parent: Child process 144 exited successfully.
+[Wed Mar 01 20:36:00.613317 2017] [mpm_winnt:notice] [pid 3792:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 20:36:00.613317 2017] [mpm_winnt:notice] [pid 3792:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 20:36:00.613317 2017] [core:notice] [pid 3792:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 20:36:00.613317 2017] [mpm_winnt:notice] [pid 3792:tid 444] AH00418: Parent: Created child process 2988
+[Wed Mar 01 20:36:00.894579 2017] [mpm_winnt:notice] [pid 2988:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 20:48:05.863688 2017] [mpm_winnt:notice] [pid 3792:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 20:48:07.894581 2017] [mpm_winnt:notice] [pid 2988:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 20:48:08.332167 2017] [mpm_winnt:notice] [pid 3792:tid 444] AH00430: Parent: Child process 2988 exited successfully.
+[Wed Mar 01 20:48:10.879143 2017] [mpm_winnt:notice] [pid 3020:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 20:48:10.879143 2017] [mpm_winnt:notice] [pid 3020:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 20:48:10.879143 2017] [core:notice] [pid 3020:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 20:48:10.879143 2017] [mpm_winnt:notice] [pid 3020:tid 444] AH00418: Parent: Created child process 1908
+[Wed Mar 01 20:48:11.144586 2017] [mpm_winnt:notice] [pid 1908:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 20:53:19.019602 2017] [mpm_winnt:notice] [pid 3020:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 20:53:21.050831 2017] [mpm_winnt:notice] [pid 1908:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 20:53:21.238701 2017] [mpm_winnt:notice] [pid 3020:tid 444] AH00430: Parent: Child process 1908 exited successfully.
+[Wed Mar 01 20:53:36.582148 2017] [mpm_winnt:notice] [pid 1384:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 20:53:36.582148 2017] [mpm_winnt:notice] [pid 1384:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 20:53:36.582148 2017] [core:notice] [pid 1384:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 20:53:36.582148 2017] [mpm_winnt:notice] [pid 1384:tid 444] AH00418: Parent: Created child process 844
+[Wed Mar 01 20:53:36.832183 2017] [mpm_winnt:notice] [pid 844:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 20:55:08.019577 2017] [mpm_winnt:notice] [pid 1384:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 20:55:10.050839 2017] [mpm_winnt:notice] [pid 844:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 20:55:10.238327 2017] [mpm_winnt:notice] [pid 1384:tid 444] AH00430: Parent: Child process 844 exited successfully.
+[Wed Mar 01 20:55:10.832160 2017] [mpm_winnt:notice] [pid 3024:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 20:55:10.832160 2017] [mpm_winnt:notice] [pid 3024:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 20:55:10.832160 2017] [core:notice] [pid 3024:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 20:55:10.832160 2017] [mpm_winnt:notice] [pid 3024:tid 444] AH00418: Parent: Created child process 2952
+[Wed Mar 01 20:55:11.082163 2017] [mpm_winnt:notice] [pid 2952:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 20:55:28.535211 2017] [mpm_winnt:notice] [pid 3024:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 20:55:30.566450 2017] [mpm_winnt:notice] [pid 2952:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 20:55:30.675837 2017] [mpm_winnt:notice] [pid 3024:tid 444] AH00430: Parent: Child process 2952 exited successfully.
+[Wed Mar 01 20:56:53.347746 2017] [mpm_winnt:notice] [pid 3092:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 20:56:53.347746 2017] [mpm_winnt:notice] [pid 3092:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 20:56:53.347746 2017] [core:notice] [pid 3092:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 20:56:53.347746 2017] [mpm_winnt:notice] [pid 3092:tid 444] AH00418: Parent: Created child process 1636
+[Wed Mar 01 20:56:53.613325 2017] [mpm_winnt:notice] [pid 1636:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 22:43:46.488321 2017] [mpm_winnt:notice] [pid 3092:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 22:43:48.519637 2017] [mpm_winnt:notice] [pid 1636:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 22:43:48.972699 2017] [mpm_winnt:notice] [pid 3092:tid 444] AH00430: Parent: Child process 1636 exited successfully.
+[Wed Mar 01 22:43:49.660194 2017] [mpm_winnt:notice] [pid 3132:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 22:43:49.660194 2017] [mpm_winnt:notice] [pid 3132:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 22:43:49.660194 2017] [core:notice] [pid 3132:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 22:43:49.660194 2017] [mpm_winnt:notice] [pid 3132:tid 444] AH00418: Parent: Created child process 2172
+[Wed Mar 01 22:43:49.941459 2017] [mpm_winnt:notice] [pid 2172:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 23:01:44.332160 2017] [mpm_winnt:notice] [pid 3132:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 23:01:46.363330 2017] [mpm_winnt:notice] [pid 2172:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 23:01:46.675840 2017] [mpm_winnt:notice] [pid 3132:tid 444] AH00430: Parent: Child process 2172 exited successfully.
+[Wed Mar 01 23:01:47.175823 2017] [mpm_winnt:notice] [pid 3152:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 23:01:47.175823 2017] [mpm_winnt:notice] [pid 3152:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 23:01:47.175823 2017] [core:notice] [pid 3152:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 23:01:47.175823 2017] [mpm_winnt:notice] [pid 3152:tid 444] AH00418: Parent: Created child process 3316
+[Wed Mar 01 23:01:47.441584 2017] [mpm_winnt:notice] [pid 3316:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 23:05:33.488324 2017] [mpm_winnt:notice] [pid 3152:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 23:05:35.519581 2017] [mpm_winnt:notice] [pid 3316:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 23:05:35.613444 2017] [mpm_winnt:notice] [pid 3152:tid 444] AH00430: Parent: Child process 3316 exited successfully.
+[Wed Mar 01 23:05:36.254149 2017] [mpm_winnt:notice] [pid 1984:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 23:05:36.254149 2017] [mpm_winnt:notice] [pid 1984:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 23:05:36.254149 2017] [core:notice] [pid 1984:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 23:05:36.254149 2017] [mpm_winnt:notice] [pid 1984:tid 444] AH00418: Parent: Created child process 3420
+[Wed Mar 01 23:05:36.472694 2017] [mpm_winnt:notice] [pid 3420:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 23:07:51.269583 2017] [mpm_winnt:notice] [pid 1984:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 23:07:53.300865 2017] [mpm_winnt:notice] [pid 3420:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 23:07:53.472711 2017] [mpm_winnt:notice] [pid 1984:tid 444] AH00430: Parent: Child process 3420 exited successfully.
+[Wed Mar 01 23:07:55.019597 2017] [mpm_winnt:notice] [pid 3772:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 23:07:55.019597 2017] [mpm_winnt:notice] [pid 3772:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 23:07:55.019597 2017] [core:notice] [pid 3772:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 23:07:55.019597 2017] [mpm_winnt:notice] [pid 3772:tid 444] AH00418: Parent: Created child process 2804
+[Wed Mar 01 23:07:55.285227 2017] [mpm_winnt:notice] [pid 2804:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 23:09:29.269569 2017] [mpm_winnt:notice] [pid 3772:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 23:09:31.300824 2017] [mpm_winnt:notice] [pid 2804:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 23:09:31.472730 2017] [mpm_winnt:notice] [pid 3772:tid 444] AH00430: Parent: Child process 2804 exited successfully.
+[Wed Mar 01 23:09:32.832162 2017] [mpm_winnt:notice] [pid 1992:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 23:09:32.832162 2017] [mpm_winnt:notice] [pid 1992:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 23:09:32.832162 2017] [core:notice] [pid 1992:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 23:09:32.832162 2017] [mpm_winnt:notice] [pid 1992:tid 444] AH00418: Parent: Created child process 3796
+[Wed Mar 01 23:09:33.066490 2017] [mpm_winnt:notice] [pid 3796:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 23:10:36.050817 2017] [mpm_winnt:notice] [pid 1992:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 23:10:38.066962 2017] [mpm_winnt:notice] [pid 3796:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 23:10:38.207299 2017] [mpm_winnt:notice] [pid 1992:tid 444] AH00430: Parent: Child process 3796 exited successfully.
+[Wed Mar 01 23:10:38.816451 2017] [mpm_winnt:notice] [pid 2516:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 23:10:38.816451 2017] [mpm_winnt:notice] [pid 2516:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 23:10:38.816451 2017] [core:notice] [pid 2516:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 23:10:38.816451 2017] [mpm_winnt:notice] [pid 2516:tid 444] AH00418: Parent: Created child process 1272
+[Wed Mar 01 23:10:39.051147 2017] [mpm_winnt:notice] [pid 1272:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 23:13:51.066454 2017] [mpm_winnt:notice] [pid 2516:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 23:13:53.097699 2017] [mpm_winnt:notice] [pid 1272:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 23:13:53.191475 2017] [mpm_winnt:notice] [pid 2516:tid 444] AH00430: Parent: Child process 1272 exited successfully.
+[Wed Mar 01 23:13:53.832164 2017] [mpm_winnt:notice] [pid 3420:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 23:13:53.832164 2017] [mpm_winnt:notice] [pid 3420:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 23:13:53.832164 2017] [core:notice] [pid 3420:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 23:13:53.832164 2017] [mpm_winnt:notice] [pid 3420:tid 444] AH00418: Parent: Created child process 644
+[Wed Mar 01 23:13:54.066473 2017] [mpm_winnt:notice] [pid 644:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 23:15:04.363326 2017] [mpm_winnt:notice] [pid 3420:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 23:15:06.394569 2017] [mpm_winnt:notice] [pid 644:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 23:15:06.535197 2017] [mpm_winnt:notice] [pid 3420:tid 444] AH00430: Parent: Child process 644 exited successfully.
+[Wed Mar 01 23:15:07.097695 2017] [mpm_winnt:notice] [pid 100:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 23:15:07.097695 2017] [mpm_winnt:notice] [pid 100:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 23:15:07.097695 2017] [core:notice] [pid 100:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 23:15:07.097695 2017] [mpm_winnt:notice] [pid 100:tid 444] AH00418: Parent: Created child process 3092
+[Wed Mar 01 23:15:07.347696 2017] [mpm_winnt:notice] [pid 3092:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 23:15:54.175818 2017] [mpm_winnt:notice] [pid 100:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 23:15:56.207193 2017] [mpm_winnt:notice] [pid 3092:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 23:15:56.363343 2017] [mpm_winnt:notice] [pid 100:tid 444] AH00430: Parent: Child process 3092 exited successfully.
+[Wed Mar 01 23:15:56.910195 2017] [mpm_winnt:notice] [pid 3152:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 23:15:56.910195 2017] [mpm_winnt:notice] [pid 3152:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 23:15:56.910195 2017] [core:notice] [pid 3152:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 23:15:56.910195 2017] [mpm_winnt:notice] [pid 3152:tid 444] AH00418: Parent: Created child process 2852
+[Wed Mar 01 23:15:57.160189 2017] [mpm_winnt:notice] [pid 2852:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 23:16:51.863336 2017] [mpm_winnt:notice] [pid 3152:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 23:16:53.894585 2017] [mpm_winnt:notice] [pid 2852:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 23:16:54.004198 2017] [mpm_winnt:notice] [pid 3152:tid 444] AH00430: Parent: Child process 2852 exited successfully.
+[Wed Mar 01 23:16:54.660200 2017] [mpm_winnt:notice] [pid 136:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 23:16:54.660200 2017] [mpm_winnt:notice] [pid 136:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 23:16:54.660200 2017] [core:notice] [pid 136:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 23:16:54.660200 2017] [mpm_winnt:notice] [pid 136:tid 444] AH00418: Parent: Created child process 3516
+[Wed Mar 01 23:16:54.957167 2017] [mpm_winnt:notice] [pid 3516:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 23:19:17.129168 2017] [mpm_winnt:notice] [pid 136:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 23:19:19.160204 2017] [mpm_winnt:notice] [pid 3516:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 23:19:19.488340 2017] [mpm_winnt:notice] [pid 136:tid 444] AH00430: Parent: Child process 3516 exited successfully.
+[Wed Mar 01 23:19:19.894569 2017] [mpm_winnt:notice] [pid 3196:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 23:19:19.894569 2017] [mpm_winnt:notice] [pid 3196:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 23:19:19.894569 2017] [core:notice] [pid 3196:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 23:19:19.894569 2017] [mpm_winnt:notice] [pid 3196:tid 444] AH00418: Parent: Created child process 3512
+[Wed Mar 01 23:19:20.144567 2017] [mpm_winnt:notice] [pid 3512:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 23:22:47.254151 2017] [mpm_winnt:notice] [pid 3196:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 23:22:49.285229 2017] [mpm_winnt:notice] [pid 3512:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 23:22:49.425825 2017] [mpm_winnt:notice] [pid 3196:tid 444] AH00430: Parent: Child process 3512 exited successfully.
+[Wed Mar 01 23:22:50.050827 2017] [mpm_winnt:notice] [pid 1060:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 23:22:50.050827 2017] [mpm_winnt:notice] [pid 1060:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 23:22:50.050827 2017] [core:notice] [pid 1060:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 23:22:50.050827 2017] [mpm_winnt:notice] [pid 1060:tid 444] AH00418: Parent: Created child process 2768
+[Wed Mar 01 23:22:50.332161 2017] [mpm_winnt:notice] [pid 2768:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 23:26:53.832163 2017] [mpm_winnt:notice] [pid 1060:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 23:26:55.863330 2017] [mpm_winnt:notice] [pid 2768:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 23:26:56.004197 2017] [mpm_winnt:notice] [pid 1060:tid 444] AH00430: Parent: Child process 2768 exited successfully.
+[Wed Mar 01 23:26:56.613324 2017] [mpm_winnt:notice] [pid 204:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 23:26:56.613324 2017] [mpm_winnt:notice] [pid 204:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 23:26:56.613324 2017] [core:notice] [pid 204:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 23:26:56.629712 2017] [mpm_winnt:notice] [pid 204:tid 444] AH00418: Parent: Created child process 3152
+[Wed Mar 01 23:26:56.879096 2017] [mpm_winnt:notice] [pid 3152:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 23:28:09.222699 2017] [mpm_winnt:notice] [pid 204:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 23:28:11.254176 2017] [mpm_winnt:notice] [pid 3152:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 23:28:11.363341 2017] [mpm_winnt:notice] [pid 204:tid 444] AH00430: Parent: Child process 3152 exited successfully.
+[Wed Mar 01 23:28:11.972700 2017] [mpm_winnt:notice] [pid 1248:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 23:28:11.972700 2017] [mpm_winnt:notice] [pid 1248:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 23:28:11.972700 2017] [core:notice] [pid 1248:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 23:28:11.972700 2017] [mpm_winnt:notice] [pid 1248:tid 444] AH00418: Parent: Created child process 3212
+[Wed Mar 01 23:28:12.207154 2017] [mpm_winnt:notice] [pid 3212:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 23:29:20.863317 2017] [mpm_winnt:notice] [pid 1248:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 23:29:22.879175 2017] [mpm_winnt:notice] [pid 3212:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 23:29:22.988367 2017] [mpm_winnt:notice] [pid 1248:tid 444] AH00430: Parent: Child process 3212 exited successfully.
+[Wed Mar 01 23:29:23.613317 2017] [mpm_winnt:notice] [pid 1756:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 23:29:23.613317 2017] [mpm_winnt:notice] [pid 1756:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 23:29:23.613317 2017] [core:notice] [pid 1756:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 23:29:23.613317 2017] [mpm_winnt:notice] [pid 1756:tid 444] AH00418: Parent: Created child process 288
+[Wed Mar 01 23:29:23.863322 2017] [mpm_winnt:notice] [pid 288:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 01 23:33:01.285645 2017] [mpm_winnt:notice] [pid 1756:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 01 23:33:03.316466 2017] [mpm_winnt:notice] [pid 288:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 01 23:33:03.410653 2017] [mpm_winnt:notice] [pid 1756:tid 444] AH00430: Parent: Child process 288 exited successfully.
+[Wed Mar 01 23:33:04.222713 2017] [mpm_winnt:notice] [pid 3296:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 01 23:33:04.222713 2017] [mpm_winnt:notice] [pid 3296:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 01 23:33:04.222713 2017] [core:notice] [pid 3296:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 01 23:33:04.222713 2017] [mpm_winnt:notice] [pid 3296:tid 444] AH00418: Parent: Created child process 2644
+[Wed Mar 01 23:33:04.629163 2017] [mpm_winnt:notice] [pid 2644:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 08:15:50.832236 2017] [mpm_winnt:notice] [pid 3296:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 08:15:52.863325 2017] [mpm_winnt:notice] [pid 2644:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 08:15:53.363492 2017] [mpm_winnt:notice] [pid 3296:tid 444] AH00430: Parent: Child process 2644 exited successfully.
+[Thu Mar 02 08:15:53.988324 2017] [mpm_winnt:notice] [pid 1428:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 08:15:53.988324 2017] [mpm_winnt:notice] [pid 1428:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 08:15:53.988324 2017] [core:notice] [pid 1428:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 08:15:53.988324 2017] [mpm_winnt:notice] [pid 1428:tid 444] AH00418: Parent: Created child process 860
+[Thu Mar 02 08:15:54.238404 2017] [mpm_winnt:notice] [pid 860:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 08:16:57.519565 2017] [mpm_winnt:notice] [pid 1428:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 08:16:59.550842 2017] [mpm_winnt:notice] [pid 860:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 08:16:59.675860 2017] [mpm_winnt:notice] [pid 1428:tid 444] AH00430: Parent: Child process 860 exited successfully.
+[Thu Mar 02 08:17:00.379157 2017] [mpm_winnt:notice] [pid 2972:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 08:17:00.379157 2017] [mpm_winnt:notice] [pid 2972:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 08:17:00.379157 2017] [core:notice] [pid 2972:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 08:17:00.379157 2017] [mpm_winnt:notice] [pid 2972:tid 444] AH00418: Parent: Created child process 1976
+[Thu Mar 02 08:17:00.660198 2017] [mpm_winnt:notice] [pid 1976:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 08:22:13.582163 2017] [mpm_winnt:notice] [pid 2972:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 08:22:15.613421 2017] [mpm_winnt:notice] [pid 1976:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 08:22:15.707173 2017] [mpm_winnt:notice] [pid 2972:tid 444] AH00430: Parent: Child process 1976 exited successfully.
+[Thu Mar 02 08:22:31.378976 2017] [mpm_winnt:notice] [pid 1296:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 08:22:31.378976 2017] [mpm_winnt:notice] [pid 1296:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 08:22:31.378976 2017] [core:notice] [pid 1296:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 08:22:31.378976 2017] [mpm_winnt:notice] [pid 1296:tid 444] AH00418: Parent: Created child process 4080
+[Thu Mar 02 08:22:31.629152 2017] [mpm_winnt:notice] [pid 4080:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 08:24:20.550826 2017] [mpm_winnt:notice] [pid 1296:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 08:24:22.582161 2017] [mpm_winnt:notice] [pid 4080:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 08:24:22.785214 2017] [mpm_winnt:notice] [pid 1296:tid 444] AH00430: Parent: Child process 4080 exited successfully.
+[Thu Mar 02 08:24:59.066446 2017] [mpm_winnt:notice] [pid 3432:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 08:24:59.066446 2017] [mpm_winnt:notice] [pid 3432:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 08:24:59.066446 2017] [core:notice] [pid 3432:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 08:24:59.066446 2017] [mpm_winnt:notice] [pid 3432:tid 444] AH00418: Parent: Created child process 2964
+[Thu Mar 02 08:24:59.300824 2017] [mpm_winnt:notice] [pid 2964:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 11:02:33.863317 2017] [mpm_winnt:notice] [pid 3432:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 11:02:35.879342 2017] [mpm_winnt:notice] [pid 2964:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 11:02:36.613348 2017] [mpm_winnt:notice] [pid 3432:tid 444] AH00430: Parent: Child process 2964 exited successfully.
+[Thu Mar 02 11:02:57.738321 2017] [mpm_winnt:notice] [pid 3992:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 11:02:57.738321 2017] [mpm_winnt:notice] [pid 3992:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 11:02:57.738321 2017] [core:notice] [pid 3992:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 11:02:57.738321 2017] [mpm_winnt:notice] [pid 3992:tid 444] AH00418: Parent: Created child process 3132
+[Thu Mar 02 11:02:57.972696 2017] [mpm_winnt:notice] [pid 3132:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 11:03:10.707206 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20760] mod_wsgi (pid=3132): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Thu Mar 02 11:03:10.707206 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20760] mod_wsgi (pid=3132): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Thu Mar 02 11:03:10.707206 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20760] Traceback (most recent call last):\r
+[Thu Mar 02 11:03:10.707206 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20760]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Thu Mar 02 11:03:10.707206 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20760]     from run import app\r
+[Thu Mar 02 11:03:10.707206 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20760]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Thu Mar 02 11:03:10.707206 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20760]     from app import app\r
+[Thu Mar 02 11:03:10.707206 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20760]   File "c:/weishop\\app\\__init__.py", line 19, in <module>\r
+[Thu Mar 02 11:03:10.707206 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20760]     from app import views, models\r
+[Thu Mar 02 11:03:10.707206 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20760]   File "c:/weishop\\app\\views.py", line 13\r
+[Thu Mar 02 11:03:10.707206 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20760]     print request.headers\r
+[Thu Mar 02 11:03:10.707206 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20760]                 ^\r
+[Thu Mar 02 11:03:10.707206 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20760] SyntaxError: Missing parentheses in call to 'print'\r
+[Thu Mar 02 11:03:10.769588 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20762] mod_wsgi (pid=3132): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Thu Mar 02 11:03:10.769588 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20762] mod_wsgi (pid=3132): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Thu Mar 02 11:03:10.769588 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20762] Traceback (most recent call last):\r
+[Thu Mar 02 11:03:10.769588 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20762]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Thu Mar 02 11:03:10.769588 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20762]     from run import app\r
+[Thu Mar 02 11:03:10.769588 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20762]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Thu Mar 02 11:03:10.769588 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20762]     from app import app\r
+[Thu Mar 02 11:03:10.769588 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20762]   File "c:/weishop\\app\\__init__.py", line 19, in <module>\r
+[Thu Mar 02 11:03:10.769588 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20762]     from app import views, models\r
+[Thu Mar 02 11:03:10.769588 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20762]   File "c:/weishop\\app\\views.py", line 13\r
+[Thu Mar 02 11:03:10.769588 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20762]     print request.headers\r
+[Thu Mar 02 11:03:10.769588 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20762]                 ^\r
+[Thu Mar 02 11:03:10.769588 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20762] SyntaxError: Missing parentheses in call to 'print'\r
+[Thu Mar 02 11:03:17.504183 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20766] mod_wsgi (pid=3132): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Thu Mar 02 11:03:17.504183 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20766] mod_wsgi (pid=3132): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Thu Mar 02 11:03:17.504183 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20766] Traceback (most recent call last):\r
+[Thu Mar 02 11:03:17.504183 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20766]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Thu Mar 02 11:03:17.504183 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20766]     from run import app\r
+[Thu Mar 02 11:03:17.504183 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20766]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Thu Mar 02 11:03:17.504183 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20766]     from app import app\r
+[Thu Mar 02 11:03:17.504183 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20766]   File "c:/weishop\\app\\__init__.py", line 19, in <module>\r
+[Thu Mar 02 11:03:17.504183 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20766]     from app import views, models\r
+[Thu Mar 02 11:03:17.504183 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20766]   File "c:/weishop\\app\\views.py", line 13\r
+[Thu Mar 02 11:03:17.504183 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20766]     print request.headers\r
+[Thu Mar 02 11:03:17.504183 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20766]                 ^\r
+[Thu Mar 02 11:03:17.504183 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20766] SyntaxError: Missing parentheses in call to 'print'\r
+[Thu Mar 02 11:04:40.988332 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20779] mod_wsgi (pid=3132): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Thu Mar 02 11:04:40.988332 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20779] mod_wsgi (pid=3132): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Thu Mar 02 11:04:40.988332 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20779] Traceback (most recent call last):\r
+[Thu Mar 02 11:04:40.988332 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20779]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Thu Mar 02 11:04:40.988332 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20779]     from run import app\r
+[Thu Mar 02 11:04:40.988332 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20779]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Thu Mar 02 11:04:40.988332 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20779]     from app import app\r
+[Thu Mar 02 11:04:40.988332 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20779]   File "c:/weishop\\app\\__init__.py", line 19, in <module>\r
+[Thu Mar 02 11:04:40.988332 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20779]     from app import views, models\r
+[Thu Mar 02 11:04:40.988332 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20779]   File "c:/weishop\\app\\views.py", line 13\r
+[Thu Mar 02 11:04:40.988332 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20779]     print request.headers\r
+[Thu Mar 02 11:04:40.988332 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20779]                 ^\r
+[Thu Mar 02 11:04:40.988332 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20779] SyntaxError: Missing parentheses in call to 'print'\r
+[Thu Mar 02 11:04:41.035221 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20780] mod_wsgi (pid=3132): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Thu Mar 02 11:04:41.035221 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20780] mod_wsgi (pid=3132): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Thu Mar 02 11:04:41.035221 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20780] Traceback (most recent call last):\r
+[Thu Mar 02 11:04:41.035221 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20780]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Thu Mar 02 11:04:41.035221 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20780]     from run import app\r
+[Thu Mar 02 11:04:41.035221 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20780]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Thu Mar 02 11:04:41.035221 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20780]     from app import app\r
+[Thu Mar 02 11:04:41.035221 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20780]   File "c:/weishop\\app\\__init__.py", line 19, in <module>\r
+[Thu Mar 02 11:04:41.035221 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20780]     from app import views, models\r
+[Thu Mar 02 11:04:41.035221 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20780]   File "c:/weishop\\app\\views.py", line 13\r
+[Thu Mar 02 11:04:41.035221 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20780]     print request.headers\r
+[Thu Mar 02 11:04:41.035221 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20780]                 ^\r
+[Thu Mar 02 11:04:41.035221 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20780] SyntaxError: Missing parentheses in call to 'print'\r
+[Thu Mar 02 11:06:14.395226 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20788] mod_wsgi (pid=3132): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Thu Mar 02 11:06:14.395226 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20788] mod_wsgi (pid=3132): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Thu Mar 02 11:06:14.395226 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20788] Traceback (most recent call last):\r
+[Thu Mar 02 11:06:14.395226 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20788]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Thu Mar 02 11:06:14.395226 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20788]     from run import app\r
+[Thu Mar 02 11:06:14.395226 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20788]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Thu Mar 02 11:06:14.395226 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20788]     from app import app\r
+[Thu Mar 02 11:06:14.395226 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20788]   File "c:/weishop\\app\\__init__.py", line 19, in <module>\r
+[Thu Mar 02 11:06:14.395226 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20788]     from app import views, models\r
+[Thu Mar 02 11:06:14.395226 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20788]   File "c:/weishop\\app\\views.py", line 13\r
+[Thu Mar 02 11:06:14.395226 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20788]     print request.headers\r
+[Thu Mar 02 11:06:14.395226 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20788]                 ^\r
+[Thu Mar 02 11:06:14.395226 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20788] SyntaxError: Missing parentheses in call to 'print'\r
+[Thu Mar 02 11:06:15.222708 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20787] mod_wsgi (pid=3132): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Thu Mar 02 11:06:15.222708 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20787] mod_wsgi (pid=3132): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Thu Mar 02 11:06:15.222708 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20787] Traceback (most recent call last):\r
+[Thu Mar 02 11:06:15.222708 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20787]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Thu Mar 02 11:06:15.222708 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20787]     from run import app\r
+[Thu Mar 02 11:06:15.222708 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20787]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Thu Mar 02 11:06:15.222708 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20787]     from app import app\r
+[Thu Mar 02 11:06:15.222708 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20787]   File "c:/weishop\\app\\__init__.py", line 19, in <module>\r
+[Thu Mar 02 11:06:15.222708 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20787]     from app import views, models\r
+[Thu Mar 02 11:06:15.222708 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20787]   File "c:/weishop\\app\\views.py", line 13\r
+[Thu Mar 02 11:06:15.222708 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20787]     print request.headers\r
+[Thu Mar 02 11:06:15.222708 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20787]                 ^\r
+[Thu Mar 02 11:06:15.222708 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20787] SyntaxError: Missing parentheses in call to 'print'\r
+[Thu Mar 02 11:06:15.988335 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20790] mod_wsgi (pid=3132): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Thu Mar 02 11:06:15.988335 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20790] mod_wsgi (pid=3132): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Thu Mar 02 11:06:15.988335 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20790] Traceback (most recent call last):\r
+[Thu Mar 02 11:06:15.988335 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20790]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Thu Mar 02 11:06:15.988335 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20790]     from run import app\r
+[Thu Mar 02 11:06:15.988335 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20790]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Thu Mar 02 11:06:15.988335 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20790]     from app import app\r
+[Thu Mar 02 11:06:15.988335 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20790]   File "c:/weishop\\app\\__init__.py", line 19, in <module>\r
+[Thu Mar 02 11:06:15.988335 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20790]     from app import views, models\r
+[Thu Mar 02 11:06:15.988335 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20790]   File "c:/weishop\\app\\views.py", line 13\r
+[Thu Mar 02 11:06:15.988335 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20790]     print request.headers\r
+[Thu Mar 02 11:06:15.988335 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20790]                 ^\r
+[Thu Mar 02 11:06:15.988335 2017] [wsgi:error] [pid 3132:tid 1036] [client 36.40.136.215:20790] SyntaxError: Missing parentheses in call to 'print'\r
+[Thu Mar 02 11:06:17.550828 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20791] mod_wsgi (pid=3132): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Thu Mar 02 11:06:17.550828 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20791] mod_wsgi (pid=3132): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Thu Mar 02 11:06:17.550828 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20791] Traceback (most recent call last):\r
+[Thu Mar 02 11:06:17.550828 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20791]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Thu Mar 02 11:06:17.550828 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20791]     from run import app\r
+[Thu Mar 02 11:06:17.550828 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20791]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Thu Mar 02 11:06:17.550828 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20791]     from app import app\r
+[Thu Mar 02 11:06:17.550828 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20791]   File "c:/weishop\\app\\__init__.py", line 19, in <module>\r
+[Thu Mar 02 11:06:17.550828 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20791]     from app import views, models\r
+[Thu Mar 02 11:06:17.550828 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20791]   File "c:/weishop\\app\\views.py", line 13\r
+[Thu Mar 02 11:06:17.550828 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20791]     print request.headers\r
+[Thu Mar 02 11:06:17.550828 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20791]                 ^\r
+[Thu Mar 02 11:06:17.550828 2017] [wsgi:error] [pid 3132:tid 1032] [client 36.40.136.215:20791] SyntaxError: Missing parentheses in call to 'print'\r
+[Thu Mar 02 11:07:56.113341 2017] [mpm_winnt:notice] [pid 3992:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 11:07:58.144573 2017] [mpm_winnt:notice] [pid 3132:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 11:07:58.363323 2017] [mpm_winnt:notice] [pid 3992:tid 444] AH00430: Parent: Child process 3132 exited successfully.
+[Thu Mar 02 11:07:58.894564 2017] [mpm_winnt:notice] [pid 1008:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 11:07:58.894564 2017] [mpm_winnt:notice] [pid 1008:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 11:07:58.894564 2017] [core:notice] [pid 1008:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 11:07:58.894564 2017] [mpm_winnt:notice] [pid 1008:tid 444] AH00418: Parent: Created child process 3340
+[Thu Mar 02 11:07:59.175823 2017] [mpm_winnt:notice] [pid 3340:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 11:29:10.879149 2017] [wsgi:error] [pid 3340:tid 1036] [client 36.40.136.215:18571] mod_wsgi (pid=3340): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Thu Mar 02 11:29:10.879149 2017] [wsgi:error] [pid 3340:tid 1036] [client 36.40.136.215:18571] mod_wsgi (pid=3340): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Thu Mar 02 11:29:10.879149 2017] [wsgi:error] [pid 3340:tid 1036] [client 36.40.136.215:18571] Traceback (most recent call last):\r
+[Thu Mar 02 11:29:10.879149 2017] [wsgi:error] [pid 3340:tid 1036] [client 36.40.136.215:18571]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Thu Mar 02 11:29:10.879149 2017] [wsgi:error] [pid 3340:tid 1036] [client 36.40.136.215:18571]     from run import app\r
+[Thu Mar 02 11:29:10.879149 2017] [wsgi:error] [pid 3340:tid 1036] [client 36.40.136.215:18571]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Thu Mar 02 11:29:10.879149 2017] [wsgi:error] [pid 3340:tid 1036] [client 36.40.136.215:18571]     from app import app\r
+[Thu Mar 02 11:29:10.879149 2017] [wsgi:error] [pid 3340:tid 1036] [client 36.40.136.215:18571]   File "c:/weishop\\app\\__init__.py", line 19, in <module>\r
+[Thu Mar 02 11:29:10.879149 2017] [wsgi:error] [pid 3340:tid 1036] [client 36.40.136.215:18571]     from app import views, models\r
+[Thu Mar 02 11:29:10.879149 2017] [wsgi:error] [pid 3340:tid 1036] [client 36.40.136.215:18571]   File "c:/weishop\\app\\views.py", line 21\r
+[Thu Mar 02 11:29:10.894583 2017] [wsgi:error] [pid 3340:tid 1036] [client 36.40.136.215:18571]     return 'welcome'\r
+[Thu Mar 02 11:29:10.894583 2017] [wsgi:error] [pid 3340:tid 1036] [client 36.40.136.215:18571]                    ^\r
+[Thu Mar 02 11:29:10.894583 2017] [wsgi:error] [pid 3340:tid 1036] [client 36.40.136.215:18571] IndentationError: unindent does not match any outer indentation level\r
+[Thu Mar 02 11:29:59.035217 2017] [mpm_winnt:notice] [pid 1008:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 11:30:01.066455 2017] [mpm_winnt:notice] [pid 3340:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 11:30:01.316819 2017] [mpm_winnt:notice] [pid 1008:tid 444] AH00430: Parent: Child process 3340 exited successfully.
+[Thu Mar 02 11:30:01.816447 2017] [mpm_winnt:notice] [pid 2136:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 11:30:01.816447 2017] [mpm_winnt:notice] [pid 2136:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 11:30:01.816447 2017] [core:notice] [pid 2136:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 11:30:01.816447 2017] [mpm_winnt:notice] [pid 2136:tid 444] AH00418: Parent: Created child process 1392
+[Thu Mar 02 11:30:02.097697 2017] [mpm_winnt:notice] [pid 1392:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 11:30:09.941445 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18586] mod_wsgi (pid=1392): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Thu Mar 02 11:30:09.941445 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18586] mod_wsgi (pid=1392): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Thu Mar 02 11:30:09.941445 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18586] Traceback (most recent call last):\r
+[Thu Mar 02 11:30:09.941445 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18586]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Thu Mar 02 11:30:09.941445 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18586]     from run import app\r
+[Thu Mar 02 11:30:09.941445 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18586]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Thu Mar 02 11:30:09.941445 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18586]     from app import app\r
+[Thu Mar 02 11:30:09.941445 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18586]   File "c:/weishop\\app\\__init__.py", line 19, in <module>\r
+[Thu Mar 02 11:30:09.941445 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18586]     from app import views, models\r
+[Thu Mar 02 11:30:09.941445 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18586]   File "c:/weishop\\app\\views.py", line 21\r
+[Thu Mar 02 11:30:09.941445 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18586]     return 'welcome'\r
+[Thu Mar 02 11:30:09.941445 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18586]                    ^\r
+[Thu Mar 02 11:30:09.941445 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18586] IndentationError: unindent does not match any outer indentation level\r
+[Thu Mar 02 11:30:10.004239 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18587] mod_wsgi (pid=1392): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Thu Mar 02 11:30:10.004239 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18587] mod_wsgi (pid=1392): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Thu Mar 02 11:30:10.004239 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18587] Traceback (most recent call last):\r
+[Thu Mar 02 11:30:10.004239 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18587]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Thu Mar 02 11:30:10.004239 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18587]     from run import app\r
+[Thu Mar 02 11:30:10.004239 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18587]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Thu Mar 02 11:30:10.004239 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18587]     from app import app\r
+[Thu Mar 02 11:30:10.004239 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18587]   File "c:/weishop\\app\\__init__.py", line 19, in <module>\r
+[Thu Mar 02 11:30:10.004239 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18587]     from app import views, models\r
+[Thu Mar 02 11:30:10.004239 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18587]   File "c:/weishop\\app\\views.py", line 21\r
+[Thu Mar 02 11:30:10.004239 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18587]     return 'welcome'\r
+[Thu Mar 02 11:30:10.004239 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18587]                    ^\r
+[Thu Mar 02 11:30:10.004239 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18587] IndentationError: unindent does not match any outer indentation level\r
+[Thu Mar 02 11:31:33.457182 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18615] mod_wsgi (pid=1392): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Thu Mar 02 11:31:33.457182 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18615] mod_wsgi (pid=1392): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Thu Mar 02 11:31:33.457182 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18615] Traceback (most recent call last):\r
+[Thu Mar 02 11:31:33.457182 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18615]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Thu Mar 02 11:31:33.457182 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18615]     from run import app\r
+[Thu Mar 02 11:31:33.457182 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18615]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Thu Mar 02 11:31:33.457182 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18615]     from app import app\r
+[Thu Mar 02 11:31:33.457182 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18615]   File "c:/weishop\\app\\__init__.py", line 19, in <module>\r
+[Thu Mar 02 11:31:33.457182 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18615]     from app import views, models\r
+[Thu Mar 02 11:31:33.457182 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18615]   File "c:/weishop\\app\\views.py", line 21\r
+[Thu Mar 02 11:31:33.457182 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18615]     return '<h1>welcome</h1>'\r
+[Thu Mar 02 11:31:33.457182 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18615]                             ^\r
+[Thu Mar 02 11:31:33.457182 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18615] IndentationError: unindent does not match any outer indentation level\r
+[Thu Mar 02 11:31:33.504183 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18616] mod_wsgi (pid=1392): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Thu Mar 02 11:31:33.504183 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18616] mod_wsgi (pid=1392): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Thu Mar 02 11:31:33.504183 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18616] Traceback (most recent call last):\r
+[Thu Mar 02 11:31:33.504183 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18616]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Thu Mar 02 11:31:33.504183 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18616]     from run import app\r
+[Thu Mar 02 11:31:33.504183 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18616]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Thu Mar 02 11:31:33.504183 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18616]     from app import app\r
+[Thu Mar 02 11:31:33.504183 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18616]   File "c:/weishop\\app\\__init__.py", line 19, in <module>\r
+[Thu Mar 02 11:31:33.504183 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18616]     from app import views, models\r
+[Thu Mar 02 11:31:33.504183 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18616]   File "c:/weishop\\app\\views.py", line 21\r
+[Thu Mar 02 11:31:33.504183 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18616]     return '<h1>welcome</h1>'\r
+[Thu Mar 02 11:31:33.504183 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18616]                             ^\r
+[Thu Mar 02 11:31:33.504183 2017] [wsgi:error] [pid 1392:tid 1036] [client 36.40.136.215:18616] IndentationError: unindent does not match any outer indentation level\r
+[Thu Mar 02 11:33:24.472718 2017] [mpm_winnt:notice] [pid 2136:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 11:33:26.504158 2017] [mpm_winnt:notice] [pid 1392:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 11:33:26.582171 2017] [mpm_winnt:notice] [pid 2136:tid 444] AH00430: Parent: Child process 1392 exited successfully.
+[Thu Mar 02 11:33:27.238314 2017] [mpm_winnt:notice] [pid 1456:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 11:33:27.238314 2017] [mpm_winnt:notice] [pid 1456:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 11:33:27.238314 2017] [core:notice] [pid 1456:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 11:33:27.238314 2017] [mpm_winnt:notice] [pid 1456:tid 444] AH00418: Parent: Created child process 3576
+[Thu Mar 02 11:33:27.472711 2017] [mpm_winnt:notice] [pid 3576:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 11:41:26.894584 2017] [mpm_winnt:notice] [pid 1456:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 11:41:28.925825 2017] [mpm_winnt:notice] [pid 3576:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 11:41:29.035203 2017] [mpm_winnt:notice] [pid 1456:tid 444] AH00430: Parent: Child process 3576 exited successfully.
+[Thu Mar 02 11:41:49.957153 2017] [mpm_winnt:notice] [pid 3828:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 11:41:49.957153 2017] [mpm_winnt:notice] [pid 3828:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 11:41:49.957153 2017] [core:notice] [pid 3828:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 11:41:49.957153 2017] [mpm_winnt:notice] [pid 3828:tid 444] AH00418: Parent: Created child process 976
+[Thu Mar 02 11:41:50.207159 2017] [mpm_winnt:notice] [pid 976:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 11:43:25.972725 2017] [mpm_winnt:notice] [pid 3828:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 11:43:28.004361 2017] [mpm_winnt:notice] [pid 976:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 11:43:28.113431 2017] [mpm_winnt:notice] [pid 3828:tid 444] AH00430: Parent: Child process 976 exited successfully.
+[Thu Mar 02 11:43:45.816459 2017] [mpm_winnt:notice] [pid 1844:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 11:43:45.816459 2017] [mpm_winnt:notice] [pid 1844:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 11:43:45.816459 2017] [core:notice] [pid 1844:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 11:43:45.816459 2017] [mpm_winnt:notice] [pid 1844:tid 444] AH00418: Parent: Created child process 3396
+[Thu Mar 02 11:43:46.097697 2017] [mpm_winnt:notice] [pid 3396:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 11:54:43.222742 2017] [mpm_winnt:notice] [pid 1844:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 11:54:45.254210 2017] [mpm_winnt:notice] [pid 3396:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 11:54:45.347713 2017] [mpm_winnt:notice] [pid 1844:tid 444] AH00430: Parent: Child process 3396 exited successfully.
+[Thu Mar 02 11:54:47.222726 2017] [mpm_winnt:notice] [pid 3448:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 11:54:47.222726 2017] [mpm_winnt:notice] [pid 3448:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 11:54:47.222726 2017] [core:notice] [pid 3448:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 11:54:47.222726 2017] [mpm_winnt:notice] [pid 3448:tid 444] AH00418: Parent: Created child process 2380
+[Thu Mar 02 11:54:47.457164 2017] [mpm_winnt:notice] [pid 2380:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 12:13:24.519600 2017] [mpm_winnt:notice] [pid 3448:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 12:13:26.550833 2017] [mpm_winnt:notice] [pid 2380:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 12:13:26.800820 2017] [mpm_winnt:notice] [pid 3448:tid 444] AH00430: Parent: Child process 2380 exited successfully.
+[Thu Mar 02 12:13:27.316436 2017] [mpm_winnt:notice] [pid 3088:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 12:13:27.316436 2017] [mpm_winnt:notice] [pid 3088:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 12:13:27.316436 2017] [core:notice] [pid 3088:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 12:13:27.316436 2017] [mpm_winnt:notice] [pid 3088:tid 444] AH00418: Parent: Created child process 3920
+[Thu Mar 02 12:13:27.566443 2017] [mpm_winnt:notice] [pid 3920:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 12:18:34.097699 2017] [mpm_winnt:notice] [pid 3088:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 12:18:36.129164 2017] [mpm_winnt:notice] [pid 3920:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 12:18:36.175828 2017] [mpm_winnt:notice] [pid 3088:tid 444] AH00430: Parent: Child process 3920 exited successfully.
+[Thu Mar 02 12:18:36.910273 2017] [mpm_winnt:notice] [pid 3748:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 12:18:36.910273 2017] [mpm_winnt:notice] [pid 3748:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 12:18:36.910273 2017] [core:notice] [pid 3748:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 12:18:36.910273 2017] [mpm_winnt:notice] [pid 3748:tid 444] AH00418: Parent: Created child process 3456
+[Thu Mar 02 12:18:37.160199 2017] [mpm_winnt:notice] [pid 3456:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 12:20:07.597699 2017] [wsgi:error] [pid 3456:tid 1036]  * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)\r
+[Thu Mar 02 12:20:07.597699 2017] [wsgi:warn] [pid 3456:tid 1036] mod_wsgi (pid=3456): Callback registration for signal 15 ignored.
+[Thu Mar 02 12:20:07.597699 2017] [wsgi:warn] [pid 3456:tid 1036]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Thu Mar 02 12:20:07.597699 2017] [wsgi:warn] [pid 3456:tid 1036]     from run import app\r
+[Thu Mar 02 12:20:07.597699 2017] [wsgi:warn] [pid 3456:tid 1036]   File "<frozen importlib._bootstrap>", line 2237, in _find_and_load\r
+[Thu Mar 02 12:20:07.597699 2017] [wsgi:warn] [pid 3456:tid 1036]   File "<frozen importlib._bootstrap>", line 2226, in _find_and_load_unlocked\r
+[Thu Mar 02 12:20:07.597699 2017] [wsgi:warn] [pid 3456:tid 1036]   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked\r
+[Thu Mar 02 12:20:07.597699 2017] [wsgi:warn] [pid 3456:tid 1036]   File "<frozen importlib._bootstrap>", line 1129, in _exec\r
+[Thu Mar 02 12:20:07.597699 2017] [wsgi:warn] [pid 3456:tid 1036]   File "<frozen importlib._bootstrap>", line 1471, in exec_module\r
+[Thu Mar 02 12:20:07.597699 2017] [wsgi:warn] [pid 3456:tid 1036]   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed\r
+[Thu Mar 02 12:20:07.613318 2017] [wsgi:warn] [pid 3456:tid 1036]   File "c:/weishop\\run.py", line 3, in <module>\r
+[Thu Mar 02 12:20:07.613318 2017] [wsgi:warn] [pid 3456:tid 1036]     app.run(port=9999,debug = True,threaded=True)\r
+[Thu Mar 02 12:20:07.613318 2017] [wsgi:warn] [pid 3456:tid 1036]   File "C:\\Python34\\lib\\site-packages\\flask\\app.py", line 772, in run\r
+[Thu Mar 02 12:20:07.613318 2017] [wsgi:warn] [pid 3456:tid 1036]     run_simple(host, port, self, **options)\r
+[Thu Mar 02 12:20:07.613318 2017] [wsgi:warn] [pid 3456:tid 1036]   File "C:\\Python34\\lib\\site-packages\\werkzeug\\serving.py", line 692, in run_simple\r
+[Thu Mar 02 12:20:07.613318 2017] [wsgi:warn] [pid 3456:tid 1036]     reloader_type)\r
+[Thu Mar 02 12:20:07.613318 2017] [wsgi:warn] [pid 3456:tid 1036]   File "C:\\Python34\\lib\\site-packages\\werkzeug\\_reloader.py", line 242, in run_with_reloader\r
+[Thu Mar 02 12:20:07.613318 2017] [wsgi:warn] [pid 3456:tid 1036]     signal.signal(signal.SIGTERM, lambda *args: sys.exit(0))\r
+[Thu Mar 02 12:20:07.613318 2017] [wsgi:error] [pid 3456:tid 1036]  * Restarting with stat\r
+[Thu Mar 02 12:23:18.769571 2017] [mpm_winnt:notice] [pid 3748:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 12:23:37.097708 2017] [mpm_winnt:notice] [pid 3456:tid 496] AH00362: Child: Waiting 0 more seconds for 4 worker threads to finish.
+[Thu Mar 02 12:23:37.207152 2017] [mpm_winnt:notice] [pid 3456:tid 496] AH00363: Child: Terminating 4 threads that failed to exit.
+[Thu Mar 02 12:23:37.207152 2017] [mpm_winnt:notice] [pid 3456:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 12:23:37.316456 2017] [mpm_winnt:notice] [pid 3748:tid 444] AH00430: Parent: Child process 3456 exited successfully.
+[Thu Mar 02 12:23:37.800891 2017] [mpm_winnt:notice] [pid 1800:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 12:23:37.800891 2017] [mpm_winnt:notice] [pid 1800:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 12:23:37.800891 2017] [core:notice] [pid 1800:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 12:23:37.800891 2017] [mpm_winnt:notice] [pid 1800:tid 444] AH00418: Parent: Created child process 1340
+[Thu Mar 02 12:23:38.113410 2017] [mpm_winnt:notice] [pid 1340:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 12:23:55.050818 2017] [wsgi:error] [pid 1340:tid 1036] Host: 123.206.52.70:9900\r\r
+[Thu Mar 02 12:23:55.050818 2017] [wsgi:error] [pid 1340:tid 1036] Accept-Encoding: gzip, deflate\r\r
+[Thu Mar 02 12:23:55.050818 2017] [wsgi:error] [pid 1340:tid 1036] Connection: keep-alive\r\r
+[Thu Mar 02 12:23:55.050818 2017] [wsgi:error] [pid 1340:tid 1036] Content-Type: application/x-www-form-urlencoded\r\r
+[Thu Mar 02 12:23:55.050818 2017] [wsgi:error] [pid 1340:tid 1036] Content-Length: 30\r\r
+[Thu Mar 02 12:23:55.050818 2017] [wsgi:error] [pid 1340:tid 1036] User-Agent: python-requests/2.13.0\r\r
+[Thu Mar 02 12:23:55.050818 2017] [wsgi:error] [pid 1340:tid 1036] Accept: */*\r\r
+[Thu Mar 02 12:23:55.050818 2017] [wsgi:error] [pid 1340:tid 1036] \r\r
+[Thu Mar 02 12:23:55.050818 2017] [wsgi:error] [pid 1340:tid 1036] \r
+[Thu Mar 02 12:24:36.566467 2017] [mpm_winnt:notice] [pid 1800:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 12:24:38.597730 2017] [mpm_winnt:notice] [pid 1340:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 12:24:38.691447 2017] [mpm_winnt:notice] [pid 1800:tid 444] AH00430: Parent: Child process 1340 exited successfully.
+[Thu Mar 02 12:24:39.332160 2017] [mpm_winnt:notice] [pid 3752:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 12:24:39.332160 2017] [mpm_winnt:notice] [pid 3752:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 12:24:39.332160 2017] [core:notice] [pid 3752:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 12:24:39.332160 2017] [mpm_winnt:notice] [pid 3752:tid 444] AH00418: Parent: Created child process 1332
+[Thu Mar 02 12:24:39.566450 2017] [mpm_winnt:notice] [pid 1332:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 12:24:46.128941 2017] [wsgi:error] [pid 1332:tid 1036] Content-Length: 30\r\r
+[Thu Mar 02 12:24:46.128941 2017] [wsgi:error] [pid 1332:tid 1036] Accept: */*\r\r
+[Thu Mar 02 12:24:46.128941 2017] [wsgi:error] [pid 1332:tid 1036] Accept-Encoding: gzip, deflate\r\r
+[Thu Mar 02 12:24:46.128941 2017] [wsgi:error] [pid 1332:tid 1036] Content-Type: application/x-www-form-urlencoded\r\r
+[Thu Mar 02 12:24:46.128941 2017] [wsgi:error] [pid 1332:tid 1036] Connection: keep-alive\r\r
+[Thu Mar 02 12:24:46.128941 2017] [wsgi:error] [pid 1332:tid 1036] Host: 123.206.52.70:9900\r\r
+[Thu Mar 02 12:24:46.128941 2017] [wsgi:error] [pid 1332:tid 1036] User-Agent: python-requests/2.13.0\r\r
+[Thu Mar 02 12:24:46.128941 2017] [wsgi:error] [pid 1332:tid 1036] \r\r
+[Thu Mar 02 12:24:46.128941 2017] [wsgi:error] [pid 1332:tid 1036] \r
+[Thu Mar 02 12:50:22.144569 2017] [mpm_winnt:notice] [pid 3752:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 12:50:24.175845 2017] [mpm_winnt:notice] [pid 1332:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 12:50:24.472699 2017] [mpm_winnt:notice] [pid 3752:tid 444] AH00430: Parent: Child process 1332 exited successfully.
+[Thu Mar 02 12:50:24.941447 2017] [mpm_winnt:notice] [pid 3300:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 12:50:24.941447 2017] [mpm_winnt:notice] [pid 3300:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 12:50:24.941447 2017] [core:notice] [pid 3300:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 12:50:24.941447 2017] [mpm_winnt:notice] [pid 3300:tid 444] AH00418: Parent: Created child process 144
+[Thu Mar 02 12:50:25.175838 2017] [mpm_winnt:notice] [pid 144:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 13:34:31.597724 2017] [mpm_winnt:notice] [pid 3300:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 13:34:33.613413 2017] [mpm_winnt:notice] [pid 144:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 13:34:33.832175 2017] [mpm_winnt:notice] [pid 3300:tid 444] AH00430: Parent: Child process 144 exited successfully.
+[Thu Mar 02 13:34:34.347689 2017] [mpm_winnt:notice] [pid 3472:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 13:34:34.347689 2017] [mpm_winnt:notice] [pid 3472:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 13:34:34.347689 2017] [core:notice] [pid 3472:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 13:34:34.347689 2017] [mpm_winnt:notice] [pid 3472:tid 444] AH00418: Parent: Created child process 1428
+[Thu Mar 02 13:34:34.582164 2017] [mpm_winnt:notice] [pid 1428:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 13:36:11.441443 2017] [mpm_winnt:notice] [pid 3472:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 13:36:13.472990 2017] [mpm_winnt:notice] [pid 1428:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 13:36:13.566468 2017] [mpm_winnt:notice] [pid 3472:tid 444] AH00430: Parent: Child process 1428 exited successfully.
+[Thu Mar 02 13:36:14.175825 2017] [mpm_winnt:notice] [pid 3568:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 13:36:14.175825 2017] [mpm_winnt:notice] [pid 3568:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 13:36:14.175825 2017] [core:notice] [pid 3568:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 13:36:14.175825 2017] [mpm_winnt:notice] [pid 3568:tid 444] AH00418: Parent: Created child process 2516
+[Thu Mar 02 13:36:14.425815 2017] [mpm_winnt:notice] [pid 2516:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 13:36:37.816475 2017] [mpm_winnt:notice] [pid 3568:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 13:36:39.847732 2017] [mpm_winnt:notice] [pid 2516:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 13:36:39.941452 2017] [mpm_winnt:notice] [pid 3568:tid 444] AH00430: Parent: Child process 2516 exited successfully.
+[Thu Mar 02 13:36:40.566453 2017] [mpm_winnt:notice] [pid 3652:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 13:36:40.566453 2017] [mpm_winnt:notice] [pid 3652:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 13:36:40.566453 2017] [core:notice] [pid 3652:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 13:36:40.566453 2017] [mpm_winnt:notice] [pid 3652:tid 444] AH00418: Parent: Created child process 3208
+[Thu Mar 02 13:36:40.847741 2017] [mpm_winnt:notice] [pid 3208:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 13:40:57.863320 2017] [mpm_winnt:notice] [pid 3652:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 13:40:59.894601 2017] [mpm_winnt:notice] [pid 3208:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 13:40:59.988530 2017] [mpm_winnt:notice] [pid 3652:tid 444] AH00430: Parent: Child process 3208 exited successfully.
+[Thu Mar 02 13:41:00.613349 2017] [mpm_winnt:notice] [pid 3016:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 13:41:00.613349 2017] [mpm_winnt:notice] [pid 3016:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 13:41:00.613349 2017] [core:notice] [pid 3016:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 13:41:00.613349 2017] [mpm_winnt:notice] [pid 3016:tid 444] AH00418: Parent: Created child process 3276
+[Thu Mar 02 13:41:00.894691 2017] [mpm_winnt:notice] [pid 3276:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 13:41:38.925834 2017] [mpm_winnt:notice] [pid 3016:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 13:41:40.957189 2017] [mpm_winnt:notice] [pid 3276:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 13:41:41.050842 2017] [mpm_winnt:notice] [pid 3016:tid 444] AH00430: Parent: Child process 3276 exited successfully.
+[Thu Mar 02 13:41:41.707154 2017] [mpm_winnt:notice] [pid 1340:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 13:41:41.707154 2017] [mpm_winnt:notice] [pid 1340:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 13:41:41.707154 2017] [core:notice] [pid 1340:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 13:41:41.707154 2017] [mpm_winnt:notice] [pid 1340:tid 444] AH00418: Parent: Created child process 3036
+[Thu Mar 02 13:41:42.019585 2017] [mpm_winnt:notice] [pid 3036:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 21:13:49.660200 2017] [mpm_winnt:notice] [pid 1340:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 21:13:51.691447 2017] [mpm_winnt:notice] [pid 3036:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 21:13:52.144640 2017] [mpm_winnt:notice] [pid 1340:tid 444] AH00430: Parent: Child process 3036 exited successfully.
+[Thu Mar 02 21:13:52.816449 2017] [mpm_winnt:notice] [pid 1528:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 21:13:52.816449 2017] [mpm_winnt:notice] [pid 1528:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 21:13:52.816449 2017] [core:notice] [pid 1528:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 21:13:52.816449 2017] [mpm_winnt:notice] [pid 1528:tid 444] AH00418: Parent: Created child process 3996
+[Thu Mar 02 21:13:53.050839 2017] [mpm_winnt:notice] [pid 3996:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 21:19:40.347722 2017] [mpm_winnt:notice] [pid 1528:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 21:19:42.379175 2017] [mpm_winnt:notice] [pid 3996:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 21:19:42.550829 2017] [mpm_winnt:notice] [pid 1528:tid 444] AH00430: Parent: Child process 3996 exited successfully.
+[Thu Mar 02 21:19:43.113308 2017] [mpm_winnt:notice] [pid 3300:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 21:19:43.113308 2017] [mpm_winnt:notice] [pid 3300:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 21:19:43.113308 2017] [core:notice] [pid 3300:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 21:19:43.113308 2017] [mpm_winnt:notice] [pid 3300:tid 444] AH00418: Parent: Created child process 3280
+[Thu Mar 02 21:19:43.347693 2017] [mpm_winnt:notice] [pid 3280:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 21:22:27.441442 2017] [wsgi:error] [pid 3280:tid 1036]  * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)\r
+[Thu Mar 02 21:22:27.441442 2017] [wsgi:warn] [pid 3280:tid 1036] mod_wsgi (pid=3280): Callback registration for signal 15 ignored.
+[Thu Mar 02 21:22:27.457276 2017] [wsgi:warn] [pid 3280:tid 1036]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Thu Mar 02 21:22:27.457276 2017] [wsgi:warn] [pid 3280:tid 1036]     from run import app\r
+[Thu Mar 02 21:22:27.457276 2017] [wsgi:warn] [pid 3280:tid 1036]   File "<frozen importlib._bootstrap>", line 2237, in _find_and_load\r
+[Thu Mar 02 21:22:27.457276 2017] [wsgi:warn] [pid 3280:tid 1036]   File "<frozen importlib._bootstrap>", line 2226, in _find_and_load_unlocked\r
+[Thu Mar 02 21:22:27.457276 2017] [wsgi:warn] [pid 3280:tid 1036]   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked\r
+[Thu Mar 02 21:22:27.457276 2017] [wsgi:warn] [pid 3280:tid 1036]   File "<frozen importlib._bootstrap>", line 1129, in _exec\r
+[Thu Mar 02 21:22:27.457276 2017] [wsgi:warn] [pid 3280:tid 1036]   File "<frozen importlib._bootstrap>", line 1471, in exec_module\r
+[Thu Mar 02 21:22:27.457276 2017] [wsgi:warn] [pid 3280:tid 1036]   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed\r
+[Thu Mar 02 21:22:27.457276 2017] [wsgi:warn] [pid 3280:tid 1036]   File "c:/weishop\\run.py", line 3, in <module>\r
+[Thu Mar 02 21:22:27.457276 2017] [wsgi:warn] [pid 3280:tid 1036]     app.run(port=9999,debug = True,threaded=True)\r
+[Thu Mar 02 21:22:27.457276 2017] [wsgi:warn] [pid 3280:tid 1036]   File "C:\\Python34\\lib\\site-packages\\flask\\app.py", line 772, in run\r
+[Thu Mar 02 21:22:27.457276 2017] [wsgi:warn] [pid 3280:tid 1036]     run_simple(host, port, self, **options)\r
+[Thu Mar 02 21:22:27.457276 2017] [wsgi:warn] [pid 3280:tid 1036]   File "C:\\Python34\\lib\\site-packages\\werkzeug\\serving.py", line 692, in run_simple\r
+[Thu Mar 02 21:22:27.457276 2017] [wsgi:warn] [pid 3280:tid 1036]     reloader_type)\r
+[Thu Mar 02 21:22:27.457276 2017] [wsgi:warn] [pid 3280:tid 1036]   File "C:\\Python34\\lib\\site-packages\\werkzeug\\_reloader.py", line 242, in run_with_reloader\r
+[Thu Mar 02 21:22:27.457276 2017] [wsgi:warn] [pid 3280:tid 1036]     signal.signal(signal.SIGTERM, lambda *args: sys.exit(0))\r
+[Thu Mar 02 21:22:27.457276 2017] [wsgi:error] [pid 3280:tid 1036]  * Restarting with stat\r
+[Thu Mar 02 21:22:56.847726 2017] [mpm_winnt:notice] [pid 3300:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 21:23:15.175843 2017] [mpm_winnt:notice] [pid 3280:tid 496] AH00362: Child: Waiting 0 more seconds for 1 worker threads to finish.
+[Thu Mar 02 21:23:15.285210 2017] [mpm_winnt:notice] [pid 3280:tid 496] AH00363: Child: Terminating 1 threads that failed to exit.
+[Thu Mar 02 21:23:15.285210 2017] [mpm_winnt:notice] [pid 3280:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 21:23:15.379164 2017] [mpm_winnt:notice] [pid 3300:tid 444] AH00430: Parent: Child process 3280 exited successfully.
+[Thu Mar 02 21:23:15.879147 2017] [mpm_winnt:notice] [pid 3224:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 21:23:15.879147 2017] [mpm_winnt:notice] [pid 3224:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 21:23:15.879147 2017] [core:notice] [pid 3224:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 21:23:15.879147 2017] [mpm_winnt:notice] [pid 3224:tid 444] AH00418: Parent: Created child process 4000
+[Thu Mar 02 21:23:16.113326 2017] [mpm_winnt:notice] [pid 4000:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 21:23:49.879155 2017] [mpm_winnt:notice] [pid 3224:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 21:23:51.910197 2017] [mpm_winnt:notice] [pid 4000:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 21:23:52.019581 2017] [mpm_winnt:notice] [pid 3224:tid 444] AH00430: Parent: Child process 4000 exited successfully.
+[Thu Mar 02 21:27:26.003981 2017] [mpm_winnt:notice] [pid 3856:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 21:27:26.003981 2017] [mpm_winnt:notice] [pid 3856:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 21:27:26.003981 2017] [core:notice] [pid 3856:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 21:27:26.003981 2017] [mpm_winnt:notice] [pid 3856:tid 444] AH00418: Parent: Created child process 2400
+[Thu Mar 02 21:27:26.332148 2017] [mpm_winnt:notice] [pid 2400:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 22:00:39.207195 2017] [mpm_winnt:notice] [pid 3856:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 22:00:41.238343 2017] [mpm_winnt:notice] [pid 2400:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 22:00:41.472712 2017] [mpm_winnt:notice] [pid 3856:tid 444] AH00430: Parent: Child process 2400 exited successfully.
+[Thu Mar 02 22:00:41.957182 2017] [mpm_winnt:notice] [pid 2436:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 22:00:41.957182 2017] [mpm_winnt:notice] [pid 2436:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 22:00:41.957182 2017] [core:notice] [pid 2436:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 22:00:41.957182 2017] [mpm_winnt:notice] [pid 2436:tid 444] AH00418: Parent: Created child process 3196
+[Thu Mar 02 22:00:42.191449 2017] [mpm_winnt:notice] [pid 3196:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 22:01:33.004144 2017] [mpm_winnt:notice] [pid 2436:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 22:01:35.035203 2017] [mpm_winnt:notice] [pid 3196:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 22:01:35.191466 2017] [mpm_winnt:notice] [pid 2436:tid 444] AH00430: Parent: Child process 3196 exited successfully.
+[Thu Mar 02 22:01:35.769821 2017] [mpm_winnt:notice] [pid 4048:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 22:01:35.769821 2017] [mpm_winnt:notice] [pid 4048:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 22:01:35.769821 2017] [core:notice] [pid 4048:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 22:01:35.769821 2017] [mpm_winnt:notice] [pid 4048:tid 444] AH00418: Parent: Created child process 3648
+[Thu Mar 02 22:01:36.004162 2017] [mpm_winnt:notice] [pid 3648:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 22:04:09.254157 2017] [mpm_winnt:notice] [pid 4048:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 22:04:11.285210 2017] [mpm_winnt:notice] [pid 3648:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 22:04:11.457195 2017] [mpm_winnt:notice] [pid 4048:tid 444] AH00430: Parent: Child process 3648 exited successfully.
+[Thu Mar 02 22:04:12.019568 2017] [mpm_winnt:notice] [pid 3508:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 22:04:12.019568 2017] [mpm_winnt:notice] [pid 3508:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 22:04:12.019568 2017] [core:notice] [pid 3508:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 22:04:12.019568 2017] [mpm_winnt:notice] [pid 3508:tid 444] AH00418: Parent: Created child process 3080
+[Thu Mar 02 22:04:12.285193 2017] [mpm_winnt:notice] [pid 3080:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 22:04:48.816463 2017] [mpm_winnt:notice] [pid 3508:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 22:04:50.847701 2017] [mpm_winnt:notice] [pid 3080:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 22:04:50.879161 2017] [mpm_winnt:notice] [pid 3508:tid 444] AH00430: Parent: Child process 3080 exited successfully.
+[Thu Mar 02 22:04:51.582150 2017] [mpm_winnt:notice] [pid 820:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 22:04:51.582150 2017] [mpm_winnt:notice] [pid 820:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 22:04:51.582150 2017] [core:notice] [pid 820:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 22:04:51.582150 2017] [mpm_winnt:notice] [pid 820:tid 444] AH00418: Parent: Created child process 2284
+[Thu Mar 02 22:04:51.832164 2017] [mpm_winnt:notice] [pid 2284:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 22:18:57.879157 2017] [mpm_winnt:notice] [pid 820:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 22:18:59.910217 2017] [mpm_winnt:notice] [pid 2284:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 22:19:00.019622 2017] [mpm_winnt:notice] [pid 820:tid 444] AH00430: Parent: Child process 2284 exited successfully.
+[Thu Mar 02 22:19:00.675885 2017] [mpm_winnt:notice] [pid 3100:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 22:19:00.675885 2017] [mpm_winnt:notice] [pid 3100:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 22:19:00.675885 2017] [core:notice] [pid 3100:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 22:19:00.675885 2017] [mpm_winnt:notice] [pid 3100:tid 444] AH00418: Parent: Created child process 844
+[Thu Mar 02 22:19:01.019584 2017] [mpm_winnt:notice] [pid 844:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 22:31:26.410188 2017] [mpm_winnt:notice] [pid 3100:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 22:31:28.425983 2017] [mpm_winnt:notice] [pid 844:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 22:31:28.504173 2017] [mpm_winnt:notice] [pid 3100:tid 444] AH00430: Parent: Child process 844 exited successfully.
+[Thu Mar 02 22:31:29.160210 2017] [mpm_winnt:notice] [pid 1308:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 22:31:29.160210 2017] [mpm_winnt:notice] [pid 1308:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 22:31:29.160210 2017] [core:notice] [pid 1308:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 22:31:29.160210 2017] [mpm_winnt:notice] [pid 1308:tid 444] AH00418: Parent: Created child process 2348
+[Thu Mar 02 22:31:29.472719 2017] [mpm_winnt:notice] [pid 2348:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 22:34:08.160625 2017] [mpm_winnt:notice] [pid 1308:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 22:34:10.191457 2017] [mpm_winnt:notice] [pid 2348:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 22:34:10.300837 2017] [mpm_winnt:notice] [pid 1308:tid 444] AH00430: Parent: Child process 2348 exited successfully.
+[Thu Mar 02 22:34:10.972737 2017] [mpm_winnt:notice] [pid 3412:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 22:34:10.972737 2017] [mpm_winnt:notice] [pid 3412:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 22:34:10.972737 2017] [core:notice] [pid 3412:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 22:34:10.972737 2017] [mpm_winnt:notice] [pid 3412:tid 444] AH00418: Parent: Created child process 616
+[Thu Mar 02 22:34:11.285199 2017] [mpm_winnt:notice] [pid 616:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 22:34:38.535190 2017] [mpm_winnt:notice] [pid 3412:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 22:34:40.566483 2017] [mpm_winnt:notice] [pid 616:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 22:34:40.660227 2017] [mpm_winnt:notice] [pid 3412:tid 444] AH00430: Parent: Child process 616 exited successfully.
+[Thu Mar 02 22:34:41.316450 2017] [mpm_winnt:notice] [pid 2744:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 22:34:41.316450 2017] [mpm_winnt:notice] [pid 2744:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 22:34:41.316450 2017] [core:notice] [pid 2744:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 22:34:41.316450 2017] [mpm_winnt:notice] [pid 2744:tid 444] AH00418: Parent: Created child process 2336
+[Thu Mar 02 22:34:41.582157 2017] [mpm_winnt:notice] [pid 2336:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 22:35:22.035235 2017] [mpm_winnt:notice] [pid 2744:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 22:35:24.066463 2017] [mpm_winnt:notice] [pid 2336:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 22:35:24.160218 2017] [mpm_winnt:notice] [pid 2744:tid 444] AH00430: Parent: Child process 2336 exited successfully.
+[Thu Mar 02 22:35:24.847698 2017] [mpm_winnt:notice] [pid 3768:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 22:35:24.847698 2017] [mpm_winnt:notice] [pid 3768:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 22:35:24.847698 2017] [core:notice] [pid 3768:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 22:35:24.847698 2017] [mpm_winnt:notice] [pid 3768:tid 444] AH00418: Parent: Created child process 1128
+[Thu Mar 02 22:35:25.144577 2017] [mpm_winnt:notice] [pid 1128:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 22:36:01.050834 2017] [mpm_winnt:notice] [pid 3768:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 22:36:03.082158 2017] [mpm_winnt:notice] [pid 1128:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 22:36:03.176257 2017] [mpm_winnt:notice] [pid 3768:tid 444] AH00430: Parent: Child process 1128 exited successfully.
+[Thu Mar 02 22:36:03.816494 2017] [mpm_winnt:notice] [pid 1984:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 22:36:03.816494 2017] [mpm_winnt:notice] [pid 1984:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 22:36:03.816494 2017] [core:notice] [pid 1984:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 22:36:03.816494 2017] [mpm_winnt:notice] [pid 1984:tid 444] AH00418: Parent: Created child process 224
+[Thu Mar 02 22:36:04.066450 2017] [mpm_winnt:notice] [pid 224:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 22:37:32.988651 2017] [mpm_winnt:notice] [pid 1984:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 22:37:35.019578 2017] [mpm_winnt:notice] [pid 224:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 22:37:35.113337 2017] [mpm_winnt:notice] [pid 1984:tid 444] AH00430: Parent: Child process 224 exited successfully.
+[Thu Mar 02 22:37:35.738325 2017] [mpm_winnt:notice] [pid 3836:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 22:37:35.738325 2017] [mpm_winnt:notice] [pid 3836:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 22:37:35.738325 2017] [core:notice] [pid 3836:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 22:37:35.738325 2017] [mpm_winnt:notice] [pid 3836:tid 444] AH00418: Parent: Created child process 604
+[Thu Mar 02 22:37:35.972703 2017] [mpm_winnt:notice] [pid 604:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 22:38:01.941459 2017] [mpm_winnt:notice] [pid 3836:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 22:38:03.972734 2017] [mpm_winnt:notice] [pid 604:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 22:38:04.066442 2017] [mpm_winnt:notice] [pid 3836:tid 444] AH00430: Parent: Child process 604 exited successfully.
+[Thu Mar 02 22:38:04.769620 2017] [mpm_winnt:notice] [pid 3780:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 22:38:04.769620 2017] [mpm_winnt:notice] [pid 3780:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 22:38:04.769620 2017] [core:notice] [pid 3780:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 22:38:04.769620 2017] [mpm_winnt:notice] [pid 3780:tid 444] AH00418: Parent: Created child process 1344
+[Thu Mar 02 22:38:05.113333 2017] [mpm_winnt:notice] [pid 1344:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 22:38:42.800826 2017] [mpm_winnt:notice] [pid 3780:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 22:38:44.832166 2017] [mpm_winnt:notice] [pid 1344:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 22:38:44.925841 2017] [mpm_winnt:notice] [pid 3780:tid 444] AH00430: Parent: Child process 1344 exited successfully.
+[Thu Mar 02 22:38:45.535196 2017] [mpm_winnt:notice] [pid 2028:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 22:38:45.535196 2017] [mpm_winnt:notice] [pid 2028:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 22:38:45.535196 2017] [core:notice] [pid 2028:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 22:38:45.535196 2017] [mpm_winnt:notice] [pid 2028:tid 444] AH00418: Parent: Created child process 3724
+[Thu Mar 02 22:38:45.769594 2017] [mpm_winnt:notice] [pid 3724:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 02 22:43:19.191601 2017] [mpm_winnt:notice] [pid 2028:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 02 22:43:21.223271 2017] [mpm_winnt:notice] [pid 3724:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 02 22:43:21.316476 2017] [mpm_winnt:notice] [pid 2028:tid 444] AH00430: Parent: Child process 3724 exited successfully.
+[Thu Mar 02 22:43:21.957188 2017] [mpm_winnt:notice] [pid 2224:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 02 22:43:21.957188 2017] [mpm_winnt:notice] [pid 2224:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 02 22:43:21.957188 2017] [core:notice] [pid 2224:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 02 22:43:21.957188 2017] [mpm_winnt:notice] [pid 2224:tid 444] AH00418: Parent: Created child process 1384
+[Thu Mar 02 22:43:22.191606 2017] [mpm_winnt:notice] [pid 1384:tid 496] AH00354: Child: Starting 64 worker threads.
+[Fri Mar 03 10:53:49.394590 2017] [mpm_winnt:notice] [pid 2224:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 03 10:53:51.425837 2017] [mpm_winnt:notice] [pid 1384:tid 496] AH00364: Child: All worker threads have exited.
+[Fri Mar 03 10:53:52.097697 2017] [mpm_winnt:notice] [pid 2224:tid 444] AH00430: Parent: Child process 1384 exited successfully.
+[Fri Mar 03 10:53:52.597768 2017] [mpm_winnt:notice] [pid 1312:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Fri Mar 03 10:53:52.597768 2017] [mpm_winnt:notice] [pid 1312:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Fri Mar 03 10:53:52.597768 2017] [core:notice] [pid 1312:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Mar 03 10:53:52.597768 2017] [mpm_winnt:notice] [pid 1312:tid 444] AH00418: Parent: Created child process 1304
+[Fri Mar 03 10:53:52.848494 2017] [mpm_winnt:notice] [pid 1304:tid 496] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 05 11:23:16.736371 2017] [mpm_winnt:notice] [pid 1312:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 05 11:23:18.767640 2017] [mpm_winnt:notice] [pid 1304:tid 496] AH00364: Child: All worker threads have exited.
+[Sun Mar 05 11:23:19.502249 2017] [mpm_winnt:notice] [pid 1312:tid 444] AH00430: Parent: Child process 1304 exited successfully.
+[Sun Mar 05 11:23:19.939500 2017] [mpm_winnt:notice] [pid 3868:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Sun Mar 05 11:23:19.939500 2017] [mpm_winnt:notice] [pid 3868:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Sun Mar 05 11:23:19.939500 2017] [core:notice] [pid 3868:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Mar 05 11:23:19.939500 2017] [mpm_winnt:notice] [pid 3868:tid 444] AH00418: Parent: Created child process 2996
+[Sun Mar 05 11:23:20.220749 2017] [mpm_winnt:notice] [pid 2996:tid 496] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 05 11:25:38.517669 2017] [mpm_winnt:notice] [pid 3868:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 05 11:25:40.548909 2017] [mpm_winnt:notice] [pid 2996:tid 496] AH00364: Child: All worker threads have exited.
+[Sun Mar 05 11:25:40.752279 2017] [mpm_winnt:notice] [pid 3868:tid 444] AH00430: Parent: Child process 2996 exited successfully.
+[Sun Mar 05 11:25:41.298877 2017] [mpm_winnt:notice] [pid 1056:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Sun Mar 05 11:25:41.298877 2017] [mpm_winnt:notice] [pid 1056:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Sun Mar 05 11:25:41.298877 2017] [core:notice] [pid 1056:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Mar 05 11:25:41.298877 2017] [mpm_winnt:notice] [pid 1056:tid 444] AH00418: Parent: Created child process 3452
+[Sun Mar 05 11:25:41.548873 2017] [mpm_winnt:notice] [pid 3452:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 07 12:43:22.361447 2017] [mpm_winnt:notice] [pid 1056:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 07 12:43:24.392648 2017] [mpm_winnt:notice] [pid 3452:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Mar 07 12:43:25.080220 2017] [mpm_winnt:notice] [pid 1056:tid 444] AH00430: Parent: Child process 3452 exited successfully.
+[Tue Mar 07 12:43:25.564500 2017] [mpm_winnt:notice] [pid 1008:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Mar 07 12:43:25.564500 2017] [mpm_winnt:notice] [pid 1008:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Mar 07 12:43:25.564500 2017] [core:notice] [pid 1008:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Mar 07 12:43:25.564500 2017] [mpm_winnt:notice] [pid 1008:tid 444] AH00418: Parent: Created child process 2000
+[Tue Mar 07 12:43:25.798877 2017] [mpm_winnt:notice] [pid 2000:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 07 12:50:26.408254 2017] [mpm_winnt:notice] [pid 1008:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 07 12:50:28.439513 2017] [mpm_winnt:notice] [pid 2000:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Mar 07 12:50:28.830387 2017] [mpm_winnt:notice] [pid 1008:tid 444] AH00430: Parent: Child process 2000 exited successfully.
+[Tue Mar 07 12:50:30.267654 2017] [mpm_winnt:notice] [pid 828:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Mar 07 12:50:30.267654 2017] [mpm_winnt:notice] [pid 828:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Mar 07 12:50:30.267654 2017] [core:notice] [pid 828:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Mar 07 12:50:30.267654 2017] [mpm_winnt:notice] [pid 828:tid 444] AH00418: Parent: Created child process 1396
+[Tue Mar 07 12:50:30.533254 2017] [mpm_winnt:notice] [pid 1396:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 07 12:53:11.892622 2017] [mpm_winnt:notice] [pid 828:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 07 12:53:13.923878 2017] [mpm_winnt:notice] [pid 1396:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Mar 07 12:53:14.095880 2017] [mpm_winnt:notice] [pid 828:tid 444] AH00430: Parent: Child process 1396 exited successfully.
+[Tue Mar 07 12:53:14.767717 2017] [mpm_winnt:notice] [pid 1256:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Mar 07 12:53:14.767717 2017] [mpm_winnt:notice] [pid 1256:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Mar 07 12:53:14.767717 2017] [core:notice] [pid 1256:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Mar 07 12:53:14.767717 2017] [mpm_winnt:notice] [pid 1256:tid 444] AH00418: Parent: Created child process 1200
+[Tue Mar 07 12:53:15.064507 2017] [mpm_winnt:notice] [pid 1200:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 07 12:57:35.236420 2017] [mpm_winnt:notice] [pid 1256:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 07 12:57:37.267690 2017] [mpm_winnt:notice] [pid 1200:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Mar 07 12:57:37.361385 2017] [mpm_winnt:notice] [pid 1256:tid 444] AH00430: Parent: Child process 1200 exited successfully.
+[Tue Mar 07 12:57:38.050771 2017] [mpm_winnt:notice] [pid 2420:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Mar 07 12:57:38.050771 2017] [mpm_winnt:notice] [pid 2420:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Mar 07 12:57:38.050771 2017] [core:notice] [pid 2420:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Mar 07 12:57:38.064505 2017] [mpm_winnt:notice] [pid 2420:tid 444] AH00418: Parent: Created child process 3752
+[Tue Mar 07 12:57:38.330208 2017] [mpm_winnt:notice] [pid 3752:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 07 15:32:55.314589 2017] [mpm_winnt:notice] [pid 2420:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 07 15:32:57.345767 2017] [mpm_winnt:notice] [pid 3752:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Mar 07 15:32:57.767749 2017] [mpm_winnt:notice] [pid 2420:tid 444] AH00430: Parent: Child process 3752 exited successfully.
+[Tue Mar 07 15:32:58.548879 2017] [mpm_winnt:notice] [pid 2880:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Mar 07 15:32:58.548879 2017] [mpm_winnt:notice] [pid 2880:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Mar 07 15:32:58.548879 2017] [core:notice] [pid 2880:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Mar 07 15:32:58.564505 2017] [mpm_winnt:notice] [pid 2880:tid 444] AH00418: Parent: Created child process 3440
+[Tue Mar 07 15:32:58.830332 2017] [mpm_winnt:notice] [pid 3440:tid 496] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 11 13:55:45.578410 2017] [core:error] [pid 3440:tid 984] [client 189.60.76.93:35525] AH00126: Invalid URI in request GET /../../../../../../../mnt/mtd/qt HTTP/1.0
+[Sat Mar 11 13:55:52.281597 2017] [core:error] [pid 3440:tid 984] [client 189.60.76.93:60619] AH00126: Invalid URI in request GET /../../../../../../../mnt/mtd/qt HTTP/1.0
