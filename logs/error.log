@@ -815,3 +815,1370 @@
 [Tue Mar 07 15:32:58.830332 2017] [mpm_winnt:notice] [pid 3440:tid 496] AH00354: Child: Starting 64 worker threads.
 [Sat Mar 11 13:55:45.578410 2017] [core:error] [pid 3440:tid 984] [client 189.60.76.93:35525] AH00126: Invalid URI in request GET /../../../../../../../mnt/mtd/qt HTTP/1.0
 [Sat Mar 11 13:55:52.281597 2017] [core:error] [pid 3440:tid 984] [client 189.60.76.93:60619] AH00126: Invalid URI in request GET /../../../../../../../mnt/mtd/qt HTTP/1.0
+[Mon Mar 13 22:04:02.077950 2017] [mpm_winnt:notice] [pid 2880:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Mar 13 22:04:04.093675 2017] [mpm_winnt:notice] [pid 3440:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Mar 13 22:04:06.765635 2017] [mpm_winnt:notice] [pid 2880:tid 444] AH00430: Parent: Child process 3440 exited successfully.
+[Mon Mar 13 22:04:07.389446 2017] [mpm_winnt:notice] [pid 1184:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Mar 13 22:04:07.389446 2017] [mpm_winnt:notice] [pid 1184:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Mar 13 22:04:07.389446 2017] [core:notice] [pid 1184:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Mar 13 22:04:07.389446 2017] [mpm_winnt:notice] [pid 1184:tid 444] AH00418: Parent: Created child process 3672
+[Mon Mar 13 22:04:07.764508 2017] [mpm_winnt:notice] [pid 3672:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Mar 13 22:08:39.327032 2017] [mpm_winnt:notice] [pid 1184:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Mar 13 22:08:41.358345 2017] [mpm_winnt:notice] [pid 3672:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Mar 13 22:08:41.733275 2017] [mpm_winnt:notice] [pid 1184:tid 444] AH00430: Parent: Child process 3672 exited successfully.
+[Mon Mar 13 22:08:42.483196 2017] [mpm_winnt:notice] [pid 3768:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Mar 13 22:08:42.483196 2017] [mpm_winnt:notice] [pid 3768:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Mar 13 22:08:42.483196 2017] [core:notice] [pid 3768:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Mar 13 22:08:42.483196 2017] [mpm_winnt:notice] [pid 3768:tid 444] AH00418: Parent: Created child process 2832
+[Mon Mar 13 22:08:42.795700 2017] [mpm_winnt:notice] [pid 2832:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Mar 13 22:10:53.811462 2017] [mpm_winnt:notice] [pid 3768:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Mar 13 22:10:55.842584 2017] [mpm_winnt:notice] [pid 2832:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Mar 13 22:10:56.061474 2017] [mpm_winnt:notice] [pid 3768:tid 444] AH00430: Parent: Child process 2832 exited successfully.
+[Mon Mar 13 22:10:56.639451 2017] [mpm_winnt:notice] [pid 3108:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Mar 13 22:10:56.639451 2017] [mpm_winnt:notice] [pid 3108:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Mar 13 22:10:56.639451 2017] [core:notice] [pid 3108:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Mar 13 22:10:56.639451 2017] [mpm_winnt:notice] [pid 3108:tid 444] AH00418: Parent: Created child process 3528
+[Mon Mar 13 22:10:56.920705 2017] [mpm_winnt:notice] [pid 3528:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Mar 13 22:11:40.092677 2017] [mpm_winnt:notice] [pid 3108:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Mar 13 22:11:42.124041 2017] [mpm_winnt:notice] [pid 3528:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Mar 13 22:11:42.233227 2017] [mpm_winnt:notice] [pid 3108:tid 444] AH00430: Parent: Child process 3528 exited successfully.
+[Mon Mar 13 22:11:42.889508 2017] [mpm_winnt:notice] [pid 3560:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Mar 13 22:11:42.889508 2017] [mpm_winnt:notice] [pid 3560:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Mar 13 22:11:42.889508 2017] [core:notice] [pid 3560:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Mar 13 22:11:42.889508 2017] [mpm_winnt:notice] [pid 3560:tid 444] AH00418: Parent: Created child process 1352
+[Mon Mar 13 22:11:43.170695 2017] [mpm_winnt:notice] [pid 1352:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Mar 13 22:13:13.420705 2017] [mpm_winnt:notice] [pid 3560:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Mar 13 22:13:15.452085 2017] [mpm_winnt:notice] [pid 1352:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Mar 13 22:13:15.577660 2017] [mpm_winnt:notice] [pid 3560:tid 444] AH00430: Parent: Child process 1352 exited successfully.
+[Mon Mar 13 22:13:16.280096 2017] [mpm_winnt:notice] [pid 3084:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Mar 13 22:13:16.280096 2017] [mpm_winnt:notice] [pid 3084:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Mar 13 22:13:16.280096 2017] [core:notice] [pid 3084:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Mar 13 22:13:16.280096 2017] [mpm_winnt:notice] [pid 3084:tid 444] AH00418: Parent: Created child process 3588
+[Mon Mar 13 22:13:16.639462 2017] [mpm_winnt:notice] [pid 3588:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Mar 13 22:14:23.623877 2017] [mpm_winnt:notice] [pid 3084:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Mar 13 22:14:25.655297 2017] [mpm_winnt:notice] [pid 3588:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Mar 13 22:14:25.764468 2017] [mpm_winnt:notice] [pid 3084:tid 444] AH00430: Parent: Child process 3588 exited successfully.
+[Mon Mar 13 22:14:26.405137 2017] [mpm_winnt:notice] [pid 1884:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Mar 13 22:14:26.405137 2017] [mpm_winnt:notice] [pid 1884:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Mar 13 22:14:26.405137 2017] [core:notice] [pid 1884:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Mar 13 22:14:26.405137 2017] [mpm_winnt:notice] [pid 1884:tid 444] AH00418: Parent: Created child process 3596
+[Mon Mar 13 22:14:26.686332 2017] [mpm_winnt:notice] [pid 3596:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Mar 13 22:16:37.499058 2017] [mpm_winnt:notice] [pid 1884:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Mar 13 22:16:39.515056 2017] [mpm_winnt:notice] [pid 3596:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Mar 13 22:16:39.639476 2017] [mpm_winnt:notice] [pid 1884:tid 444] AH00430: Parent: Child process 3596 exited successfully.
+[Mon Mar 13 22:16:40.358195 2017] [mpm_winnt:notice] [pid 3628:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Mar 13 22:16:40.358195 2017] [mpm_winnt:notice] [pid 3628:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Mar 13 22:16:40.358195 2017] [core:notice] [pid 3628:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Mar 13 22:16:40.374031 2017] [mpm_winnt:notice] [pid 3628:tid 444] AH00418: Parent: Created child process 3440
+[Mon Mar 13 22:16:40.733201 2017] [mpm_winnt:notice] [pid 3440:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 14 09:23:43.780065 2017] [mpm_winnt:notice] [pid 3628:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 14 09:23:45.811338 2017] [mpm_winnt:notice] [pid 3440:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Mar 14 09:23:46.420738 2017] [mpm_winnt:notice] [pid 3628:tid 444] AH00430: Parent: Child process 3440 exited successfully.
+[Tue Mar 14 09:23:46.983236 2017] [mpm_winnt:notice] [pid 560:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Mar 14 09:23:46.983236 2017] [mpm_winnt:notice] [pid 560:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Mar 14 09:23:46.983236 2017] [core:notice] [pid 560:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Mar 14 09:23:46.983236 2017] [mpm_winnt:notice] [pid 560:tid 444] AH00418: Parent: Created child process 3020
+[Tue Mar 14 09:23:47.264509 2017] [mpm_winnt:notice] [pid 3020:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 14 09:25:44.905107 2017] [mpm_winnt:notice] [pid 560:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 14 09:25:46.936356 2017] [mpm_winnt:notice] [pid 3020:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Mar 14 09:25:46.983220 2017] [mpm_winnt:notice] [pid 560:tid 444] AH00430: Parent: Child process 3020 exited successfully.
+[Tue Mar 14 09:25:47.733205 2017] [mpm_winnt:notice] [pid 3448:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Mar 14 09:25:47.733205 2017] [mpm_winnt:notice] [pid 3448:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Mar 14 09:25:47.733205 2017] [core:notice] [pid 3448:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Mar 14 09:25:47.733205 2017] [mpm_winnt:notice] [pid 3448:tid 444] AH00418: Parent: Created child process 1036
+[Tue Mar 14 09:25:48.046125 2017] [mpm_winnt:notice] [pid 1036:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 14 09:26:36.374036 2017] [mpm_winnt:notice] [pid 3448:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 14 09:26:38.389664 2017] [mpm_winnt:notice] [pid 1036:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Mar 14 09:26:38.514486 2017] [mpm_winnt:notice] [pid 3448:tid 444] AH00430: Parent: Child process 1036 exited successfully.
+[Tue Mar 14 09:26:39.217591 2017] [mpm_winnt:notice] [pid 2860:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Mar 14 09:26:39.217591 2017] [mpm_winnt:notice] [pid 2860:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Mar 14 09:26:39.217591 2017] [core:notice] [pid 2860:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Mar 14 09:26:39.217591 2017] [mpm_winnt:notice] [pid 2860:tid 444] AH00418: Parent: Created child process 432
+[Tue Mar 14 09:26:39.577617 2017] [mpm_winnt:notice] [pid 432:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 14 09:31:52.280083 2017] [mpm_winnt:notice] [pid 2860:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 14 09:31:54.311340 2017] [mpm_winnt:notice] [pid 432:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Mar 14 09:31:54.545711 2017] [mpm_winnt:notice] [pid 2860:tid 444] AH00430: Parent: Child process 432 exited successfully.
+[Tue Mar 14 09:31:55.202781 2017] [mpm_winnt:notice] [pid 4016:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Mar 14 09:31:55.202781 2017] [mpm_winnt:notice] [pid 4016:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Mar 14 09:31:55.202781 2017] [core:notice] [pid 4016:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Mar 14 09:31:55.202781 2017] [mpm_winnt:notice] [pid 4016:tid 444] AH00418: Parent: Created child process 3392
+[Tue Mar 14 09:31:55.514459 2017] [mpm_winnt:notice] [pid 3392:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 14 09:33:18.858400 2017] [mpm_winnt:notice] [pid 4016:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 14 09:33:20.889494 2017] [mpm_winnt:notice] [pid 3392:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Mar 14 09:33:20.936336 2017] [mpm_winnt:notice] [pid 4016:tid 444] AH00430: Parent: Child process 3392 exited successfully.
+[Tue Mar 14 09:49:56.483250 2017] [mpm_winnt:notice] [pid 2976:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Mar 14 09:49:56.483250 2017] [mpm_winnt:notice] [pid 2976:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Mar 14 09:49:56.483250 2017] [core:notice] [pid 2976:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Mar 14 09:49:56.483250 2017] [mpm_winnt:notice] [pid 2976:tid 444] AH00418: Parent: Created child process 3972
+[Tue Mar 14 09:49:56.874036 2017] [mpm_winnt:notice] [pid 3972:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 14 09:54:36.514467 2017] [wsgi:error] [pid 3972:tid 1036]  * Running on http://127.0.0.1:9990/ (Press CTRL+C to quit)\r
+[Tue Mar 14 09:54:36.514467 2017] [wsgi:warn] [pid 3972:tid 1036] mod_wsgi (pid=3972): Callback registration for signal 15 ignored.
+[Tue Mar 14 09:54:36.561337 2017] [wsgi:warn] [pid 3972:tid 1036]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Tue Mar 14 09:54:36.561337 2017] [wsgi:warn] [pid 3972:tid 1036]     from run import app\r
+[Tue Mar 14 09:54:36.561337 2017] [wsgi:warn] [pid 3972:tid 1036]   File "<frozen importlib._bootstrap>", line 2237, in _find_and_load\r
+[Tue Mar 14 09:54:36.561337 2017] [wsgi:warn] [pid 3972:tid 1036]   File "<frozen importlib._bootstrap>", line 2226, in _find_and_load_unlocked\r
+[Tue Mar 14 09:54:36.561337 2017] [wsgi:warn] [pid 3972:tid 1036]   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked\r
+[Tue Mar 14 09:54:36.561337 2017] [wsgi:warn] [pid 3972:tid 1036]   File "<frozen importlib._bootstrap>", line 1129, in _exec\r
+[Tue Mar 14 09:54:36.561337 2017] [wsgi:warn] [pid 3972:tid 1036]   File "<frozen importlib._bootstrap>", line 1471, in exec_module\r
+[Tue Mar 14 09:54:36.561337 2017] [wsgi:warn] [pid 3972:tid 1036]   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed\r
+[Tue Mar 14 09:54:36.561337 2017] [wsgi:warn] [pid 3972:tid 1036]   File "c:/weishop\\run.py", line 3, in <module>\r
+[Tue Mar 14 09:54:36.561337 2017] [wsgi:warn] [pid 3972:tid 1036]     app.run(port=9990,debug = True,threaded=True)\r
+[Tue Mar 14 09:54:36.561337 2017] [wsgi:warn] [pid 3972:tid 1036]   File "C:\\Python34\\lib\\site-packages\\flask\\app.py", line 772, in run\r
+[Tue Mar 14 09:54:36.561337 2017] [wsgi:warn] [pid 3972:tid 1036]     run_simple(host, port, self, **options)\r
+[Tue Mar 14 09:54:36.561337 2017] [wsgi:warn] [pid 3972:tid 1036]   File "C:\\Python34\\lib\\site-packages\\werkzeug\\serving.py", line 692, in run_simple\r
+[Tue Mar 14 09:54:36.561337 2017] [wsgi:warn] [pid 3972:tid 1036]     reloader_type)\r
+[Tue Mar 14 09:54:36.561337 2017] [wsgi:warn] [pid 3972:tid 1036]   File "C:\\Python34\\lib\\site-packages\\werkzeug\\_reloader.py", line 242, in run_with_reloader\r
+[Tue Mar 14 09:54:36.561337 2017] [wsgi:warn] [pid 3972:tid 1036]     signal.signal(signal.SIGTERM, lambda *args: sys.exit(0))\r
+[Tue Mar 14 09:54:36.561337 2017] [wsgi:error] [pid 3972:tid 1036]  * Restarting with stat\r
+[Tue Mar 14 09:55:13.061337 2017] [mpm_winnt:notice] [pid 2976:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 14 09:55:31.389548 2017] [mpm_winnt:notice] [pid 3972:tid 496] AH00362: Child: Waiting 0 more seconds for 1 worker threads to finish.
+[Tue Mar 14 09:55:31.499055 2017] [mpm_winnt:notice] [pid 3972:tid 496] AH00363: Child: Terminating 1 threads that failed to exit.
+[Tue Mar 14 09:55:31.499055 2017] [mpm_winnt:notice] [pid 3972:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Mar 14 09:55:31.624024 2017] [mpm_winnt:notice] [pid 2976:tid 444] AH00430: Parent: Child process 3972 exited successfully.
+[Tue Mar 14 09:55:32.155074 2017] [mpm_winnt:notice] [pid 2196:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Mar 14 09:55:32.155074 2017] [mpm_winnt:notice] [pid 2196:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Mar 14 09:55:32.155074 2017] [core:notice] [pid 2196:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Mar 14 09:55:32.155074 2017] [mpm_winnt:notice] [pid 2196:tid 444] AH00418: Parent: Created child process 3820
+[Tue Mar 14 09:55:32.499049 2017] [mpm_winnt:notice] [pid 3820:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 14 15:31:05.295846 2017] [mpm_winnt:notice] [pid 2196:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 14 15:31:07.327031 2017] [mpm_winnt:notice] [pid 3820:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Mar 14 15:31:08.702029 2017] [mpm_winnt:notice] [pid 2196:tid 444] AH00430: Parent: Child process 3820 exited successfully.
+[Tue Mar 14 15:31:09.389464 2017] [mpm_winnt:notice] [pid 1172:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Mar 14 15:31:09.389464 2017] [mpm_winnt:notice] [pid 1172:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Mar 14 15:31:09.389464 2017] [core:notice] [pid 1172:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Mar 14 15:31:09.389464 2017] [mpm_winnt:notice] [pid 1172:tid 444] AH00418: Parent: Created child process 3588
+[Tue Mar 14 15:31:09.795722 2017] [mpm_winnt:notice] [pid 3588:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 14 15:31:44.139467 2017] [mpm_winnt:notice] [pid 1172:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 14 15:31:46.170701 2017] [mpm_winnt:notice] [pid 3588:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Mar 14 15:31:46.327034 2017] [mpm_winnt:notice] [pid 1172:tid 444] AH00430: Parent: Child process 3588 exited successfully.
+[Tue Mar 14 15:31:46.874028 2017] [mpm_winnt:notice] [pid 3904:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Mar 14 15:31:46.874028 2017] [mpm_winnt:notice] [pid 3904:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Mar 14 15:31:46.874028 2017] [core:notice] [pid 3904:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Mar 14 15:31:46.889459 2017] [mpm_winnt:notice] [pid 3904:tid 444] AH00418: Parent: Created child process 3356
+[Tue Mar 14 15:31:47.139452 2017] [mpm_winnt:notice] [pid 3356:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 14 17:48:33.842580 2017] [mpm_winnt:notice] [pid 3904:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 14 17:48:35.874164 2017] [mpm_winnt:notice] [pid 3356:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Mar 14 17:48:36.280153 2017] [mpm_winnt:notice] [pid 3904:tid 444] AH00430: Parent: Child process 3356 exited successfully.
+[Tue Mar 14 17:48:37.030086 2017] [mpm_winnt:notice] [pid 3428:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Mar 14 17:48:37.030086 2017] [mpm_winnt:notice] [pid 3428:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Mar 14 17:48:37.030086 2017] [core:notice] [pid 3428:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Mar 14 17:48:37.030086 2017] [mpm_winnt:notice] [pid 3428:tid 444] AH00418: Parent: Created child process 2740
+[Tue Mar 14 17:48:37.327086 2017] [mpm_winnt:notice] [pid 2740:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 14 17:54:36.374047 2017] [mpm_winnt:notice] [pid 3428:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 14 17:54:38.405081 2017] [mpm_winnt:notice] [pid 2740:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Mar 14 17:54:38.546100 2017] [mpm_winnt:notice] [pid 3428:tid 444] AH00430: Parent: Child process 2740 exited successfully.
+[Tue Mar 14 17:54:39.170708 2017] [mpm_winnt:notice] [pid 648:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Mar 14 17:54:39.170708 2017] [mpm_winnt:notice] [pid 648:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Mar 14 17:54:39.170708 2017] [core:notice] [pid 648:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Mar 14 17:54:39.170708 2017] [mpm_winnt:notice] [pid 648:tid 444] AH00418: Parent: Created child process 3212
+[Tue Mar 14 17:54:39.452034 2017] [mpm_winnt:notice] [pid 3212:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 14 18:24:41.795703 2017] [mpm_winnt:notice] [pid 648:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 14 18:24:43.827101 2017] [mpm_winnt:notice] [pid 3212:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Mar 14 18:24:44.342592 2017] [mpm_winnt:notice] [pid 648:tid 444] AH00430: Parent: Child process 3212 exited successfully.
+[Tue Mar 14 18:24:45.030078 2017] [mpm_winnt:notice] [pid 3872:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Mar 14 18:24:45.030078 2017] [mpm_winnt:notice] [pid 3872:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Mar 14 18:24:45.030078 2017] [core:notice] [pid 3872:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Mar 14 18:24:45.030078 2017] [mpm_winnt:notice] [pid 3872:tid 444] AH00418: Parent: Created child process 1396
+[Tue Mar 14 18:24:45.342576 2017] [mpm_winnt:notice] [pid 1396:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 14 23:56:14.592581 2017] [mpm_winnt:notice] [pid 3872:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 14 23:56:16.624066 2017] [mpm_winnt:notice] [pid 1396:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Mar 14 23:56:17.358246 2017] [mpm_winnt:notice] [pid 3872:tid 444] AH00430: Parent: Child process 1396 exited successfully.
+[Tue Mar 14 23:56:17.858205 2017] [mpm_winnt:notice] [pid 3876:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Mar 14 23:56:17.873986 2017] [mpm_winnt:notice] [pid 3876:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Mar 14 23:56:17.873986 2017] [core:notice] [pid 3876:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Mar 14 23:56:17.873986 2017] [mpm_winnt:notice] [pid 3876:tid 444] AH00418: Parent: Created child process 2604
+[Tue Mar 14 23:56:18.233222 2017] [mpm_winnt:notice] [pid 2604:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 15 11:12:39.092617 2017] [mpm_winnt:notice] [pid 3876:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 15 11:12:41.124059 2017] [mpm_winnt:notice] [pid 2604:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 15 11:12:41.905088 2017] [mpm_winnt:notice] [pid 3876:tid 444] AH00430: Parent: Child process 2604 exited successfully.
+[Wed Mar 15 11:12:42.733213 2017] [mpm_winnt:notice] [pid 3560:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 15 11:12:42.733213 2017] [mpm_winnt:notice] [pid 3560:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 15 11:12:42.733213 2017] [core:notice] [pid 3560:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 15 11:12:42.733213 2017] [mpm_winnt:notice] [pid 3560:tid 444] AH00418: Parent: Created child process 2228
+[Wed Mar 15 11:12:43.030079 2017] [mpm_winnt:notice] [pid 2228:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 15 11:14:49.639453 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1906] mod_wsgi (pid=2228): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 11:14:49.639453 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1906] mod_wsgi (pid=2228): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 11:14:49.639453 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1906] Traceback (most recent call last):\r
+[Wed Mar 15 11:14:49.639453 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1906]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 11:14:49.639453 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1906]     from run import app\r
+[Wed Mar 15 11:14:49.639453 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1906]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 11:14:49.639453 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1906]     from app import app\r
+[Wed Mar 15 11:14:49.639453 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1906]   File "c:/weishop\\app\\__init__.py", line 13, in <module>\r
+[Wed Mar 15 11:14:49.639453 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1906]     from app import views, models\r
+[Wed Mar 15 11:14:49.639453 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1906]   File "c:/weishop\\app\\views.py", line 13, in <module>\r
+[Wed Mar 15 11:14:49.639453 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1906]     import img_camera\r
+[Wed Mar 15 11:14:49.639453 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1906] ImportError: No module named 'img_camera'\r
+[Wed Mar 15 11:14:49.702054 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1910] mod_wsgi (pid=2228): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 11:14:49.702054 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1910] mod_wsgi (pid=2228): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 11:14:49.702054 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1910] Traceback (most recent call last):\r
+[Wed Mar 15 11:14:49.702054 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1910]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 11:14:49.702054 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1910]     from run import app\r
+[Wed Mar 15 11:14:49.702054 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1910]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 11:14:49.702054 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1910]     from app import app\r
+[Wed Mar 15 11:14:49.702054 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1910]   File "c:/weishop\\app\\__init__.py", line 13, in <module>\r
+[Wed Mar 15 11:14:49.702054 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1910]     from app import views, models\r
+[Wed Mar 15 11:14:49.702054 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1910]   File "c:/weishop\\app\\views.py", line 13, in <module>\r
+[Wed Mar 15 11:14:49.702054 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1910]     import img_camera\r
+[Wed Mar 15 11:14:49.702054 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1910] ImportError: No module named 'img_camera'\r
+[Wed Mar 15 11:14:50.795843 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1945] mod_wsgi (pid=2228): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 11:14:50.795843 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1945] mod_wsgi (pid=2228): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 11:14:50.795843 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1945] Traceback (most recent call last):\r
+[Wed Mar 15 11:14:50.795843 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1945]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 11:14:50.795843 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1945]     from run import app\r
+[Wed Mar 15 11:14:50.795843 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1945]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 11:14:50.795843 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1945]     from app import app\r
+[Wed Mar 15 11:14:50.795843 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1945]   File "c:/weishop\\app\\__init__.py", line 13, in <module>\r
+[Wed Mar 15 11:14:50.795843 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1945]     from app import views, models\r
+[Wed Mar 15 11:14:50.795843 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1945]   File "c:/weishop\\app\\views.py", line 13, in <module>\r
+[Wed Mar 15 11:14:50.795843 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1945]     import img_camera\r
+[Wed Mar 15 11:14:50.795843 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1945] ImportError: No module named 'img_camera'\r
+[Wed Mar 15 11:14:51.264470 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1946] mod_wsgi (pid=2228): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 11:14:51.264470 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1946] mod_wsgi (pid=2228): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 11:14:51.264470 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1946] Traceback (most recent call last):\r
+[Wed Mar 15 11:14:51.264470 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1946]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 11:14:51.264470 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1946]     from run import app\r
+[Wed Mar 15 11:14:51.264470 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1946]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 11:14:51.264470 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1946]     from app import app\r
+[Wed Mar 15 11:14:51.264470 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1946]   File "c:/weishop\\app\\__init__.py", line 13, in <module>\r
+[Wed Mar 15 11:14:51.264470 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1946]     from app import views, models\r
+[Wed Mar 15 11:14:51.264470 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1946]   File "c:/weishop\\app\\views.py", line 13, in <module>\r
+[Wed Mar 15 11:14:51.264470 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1946]     import img_camera\r
+[Wed Mar 15 11:14:51.264470 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1946] ImportError: No module named 'img_camera'\r
+[Wed Mar 15 11:14:51.327058 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1950] mod_wsgi (pid=2228): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 11:14:51.327058 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1950] mod_wsgi (pid=2228): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 11:14:51.327058 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1950] Traceback (most recent call last):\r
+[Wed Mar 15 11:14:51.327058 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1950]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 11:14:51.327058 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1950]     from run import app\r
+[Wed Mar 15 11:14:51.327058 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1950]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 11:14:51.327058 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1950]     from app import app\r
+[Wed Mar 15 11:14:51.327058 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1950]   File "c:/weishop\\app\\__init__.py", line 13, in <module>\r
+[Wed Mar 15 11:14:51.327058 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1950]     from app import views, models\r
+[Wed Mar 15 11:14:51.327058 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1950]   File "c:/weishop\\app\\views.py", line 13, in <module>\r
+[Wed Mar 15 11:14:51.327058 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1950]     import img_camera\r
+[Wed Mar 15 11:14:51.327058 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1950] ImportError: No module named 'img_camera'\r
+[Wed Mar 15 11:14:51.405111 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1951] mod_wsgi (pid=2228): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 11:14:51.405111 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1951] mod_wsgi (pid=2228): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 11:14:51.405111 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1951] Traceback (most recent call last):\r
+[Wed Mar 15 11:14:51.405111 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1951]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 11:14:51.405111 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1951]     from run import app\r
+[Wed Mar 15 11:14:51.405111 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1951]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 11:14:51.405111 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1951]     from app import app\r
+[Wed Mar 15 11:14:51.405111 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1951]   File "c:/weishop\\app\\__init__.py", line 13, in <module>\r
+[Wed Mar 15 11:14:51.405111 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1951]     from app import views, models\r
+[Wed Mar 15 11:14:51.405111 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1951]   File "c:/weishop\\app\\views.py", line 13, in <module>\r
+[Wed Mar 15 11:14:51.405111 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1951]     import img_camera\r
+[Wed Mar 15 11:14:51.405111 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1951] ImportError: No module named 'img_camera'\r
+[Wed Mar 15 11:14:51.467585 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1952] mod_wsgi (pid=2228): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 11:14:51.467585 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1952] mod_wsgi (pid=2228): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 11:14:51.467585 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1952] Traceback (most recent call last):\r
+[Wed Mar 15 11:14:51.467585 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1952]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 11:14:51.467585 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1952]     from run import app\r
+[Wed Mar 15 11:14:51.467585 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1952]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 11:14:51.467585 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1952]     from app import app\r
+[Wed Mar 15 11:14:51.483250 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1952]   File "c:/weishop\\app\\__init__.py", line 13, in <module>\r
+[Wed Mar 15 11:14:51.483250 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1952]     from app import views, models\r
+[Wed Mar 15 11:14:51.483250 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1952]   File "c:/weishop\\app\\views.py", line 13, in <module>\r
+[Wed Mar 15 11:14:51.483250 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1952]     import img_camera\r
+[Wed Mar 15 11:14:51.483250 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1952] ImportError: No module named 'img_camera'\r
+[Wed Mar 15 11:14:51.889457 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1956] mod_wsgi (pid=2228): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 11:14:51.889457 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1956] mod_wsgi (pid=2228): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 11:14:51.889457 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1956] Traceback (most recent call last):\r
+[Wed Mar 15 11:14:51.889457 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1956]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 11:14:51.889457 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1956]     from run import app\r
+[Wed Mar 15 11:14:51.889457 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1956]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 11:14:51.889457 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1956]     from app import app\r
+[Wed Mar 15 11:14:51.889457 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1956]   File "c:/weishop\\app\\__init__.py", line 13, in <module>\r
+[Wed Mar 15 11:14:51.889457 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1956]     from app import views, models\r
+[Wed Mar 15 11:14:51.889457 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1956]   File "c:/weishop\\app\\views.py", line 13, in <module>\r
+[Wed Mar 15 11:14:51.889457 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1956]     import img_camera\r
+[Wed Mar 15 11:14:51.889457 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1956] ImportError: No module named 'img_camera'\r
+[Wed Mar 15 11:15:02.811349 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1967] mod_wsgi (pid=2228): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 11:15:02.811349 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1967] mod_wsgi (pid=2228): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 11:15:02.811349 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1967] Traceback (most recent call last):\r
+[Wed Mar 15 11:15:02.811349 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1967]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 11:15:02.811349 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1967]     from run import app\r
+[Wed Mar 15 11:15:02.811349 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1967]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 11:15:02.811349 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1967]     from app import app\r
+[Wed Mar 15 11:15:02.811349 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1967]   File "c:/weishop\\app\\__init__.py", line 13, in <module>\r
+[Wed Mar 15 11:15:02.811349 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1967]     from app import views, models\r
+[Wed Mar 15 11:15:02.811349 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1967]   File "c:/weishop\\app\\views.py", line 13, in <module>\r
+[Wed Mar 15 11:15:02.811349 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1967]     import img_camera\r
+[Wed Mar 15 11:15:02.811349 2017] [wsgi:error] [pid 2228:tid 1036] [client 36.40.139.213:1967] ImportError: No module named 'img_camera'\r
+[Wed Mar 15 11:15:06.501163 2017] [mpm_winnt:notice] [pid 3560:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 15 11:15:08.530087 2017] [mpm_winnt:notice] [pid 2228:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 15 11:15:08.749373 2017] [mpm_winnt:notice] [pid 3560:tid 444] AH00430: Parent: Child process 2228 exited successfully.
+[Wed Mar 15 12:03:01.389454 2017] [mpm_winnt:notice] [pid 3840:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 15 12:03:01.389454 2017] [mpm_winnt:notice] [pid 3840:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 15 12:03:01.389454 2017] [core:notice] [pid 3840:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 15 12:03:01.389454 2017] [mpm_winnt:notice] [pid 3840:tid 444] AH00418: Parent: Created child process 3488
+[Wed Mar 15 12:03:01.764464 2017] [mpm_winnt:notice] [pid 3488:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 15 19:51:35.639450 2017] [mpm_winnt:notice] [pid 3840:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 15 19:51:37.670703 2017] [mpm_winnt:notice] [pid 3488:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 15 19:51:38.280114 2017] [mpm_winnt:notice] [pid 3840:tid 444] AH00430: Parent: Child process 3488 exited successfully.
+[Wed Mar 15 19:51:38.920803 2017] [mpm_winnt:notice] [pid 2372:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 15 19:51:38.920803 2017] [mpm_winnt:notice] [pid 2372:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 15 19:51:38.920803 2017] [core:notice] [pid 2372:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 15 19:51:38.920803 2017] [mpm_winnt:notice] [pid 2372:tid 444] AH00418: Parent: Created child process 232
+[Wed Mar 15 19:51:39.389690 2017] [mpm_winnt:notice] [pid 232:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 15 19:55:03.592572 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2751] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 19:55:03.592572 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2751] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 19:55:03.592572 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2751] Traceback (most recent call last):\r
+[Wed Mar 15 19:55:03.592572 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2751]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 19:55:03.592572 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2751]     from run import app\r
+[Wed Mar 15 19:55:03.592572 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2751]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 19:55:03.592572 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2751]     from app import app\r
+[Wed Mar 15 19:55:03.592572 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2751]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 19:55:03.592572 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2751]     from app import views, models\r
+[Wed Mar 15 19:55:03.592572 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2751]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 19:55:03.592572 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2751]     def gettoday():\r
+[Wed Mar 15 19:55:03.592572 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2751]                   ^\r
+[Wed Mar 15 19:55:03.592572 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2751] IndentationError: expected an indented block\r
+[Wed Mar 15 19:56:02.514478 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2853] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 19:56:02.514478 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2853] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 19:56:02.514478 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2853] Traceback (most recent call last):\r
+[Wed Mar 15 19:56:02.514478 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2853]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 19:56:02.514478 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2853]     from run import app\r
+[Wed Mar 15 19:56:02.514478 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2853]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 19:56:02.514478 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2853]     from app import app\r
+[Wed Mar 15 19:56:02.514478 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2853]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 19:56:02.514478 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2853]     from app import views, models\r
+[Wed Mar 15 19:56:02.514478 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2853]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 19:56:02.514478 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2853]     def gettoday():\r
+[Wed Mar 15 19:56:02.514478 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2853]                   ^\r
+[Wed Mar 15 19:56:02.514478 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2853] IndentationError: expected an indented block\r
+[Wed Mar 15 19:57:02.467720 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2994] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 19:57:02.467720 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2994] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 19:57:02.467720 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2994] Traceback (most recent call last):\r
+[Wed Mar 15 19:57:02.467720 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2994]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 19:57:02.467720 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2994]     from run import app\r
+[Wed Mar 15 19:57:02.467720 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2994]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 19:57:02.467720 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2994]     from app import app\r
+[Wed Mar 15 19:57:02.467720 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2994]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 19:57:02.467720 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2994]     from app import views, models\r
+[Wed Mar 15 19:57:02.467720 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2994]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 19:57:02.467720 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2994]     def gettoday():\r
+[Wed Mar 15 19:57:02.467720 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2994]                   ^\r
+[Wed Mar 15 19:57:02.467720 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:2994] IndentationError: expected an indented block\r
+[Wed Mar 15 19:58:02.420726 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3193] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 19:58:02.420726 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3193] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 19:58:02.420726 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3193] Traceback (most recent call last):\r
+[Wed Mar 15 19:58:02.420726 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3193]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 19:58:02.420726 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3193]     from run import app\r
+[Wed Mar 15 19:58:02.420726 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3193]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 19:58:02.420726 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3193]     from app import app\r
+[Wed Mar 15 19:58:02.420726 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3193]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 19:58:02.420726 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3193]     from app import views, models\r
+[Wed Mar 15 19:58:02.420726 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3193]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 19:58:02.420726 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3193]     def gettoday():\r
+[Wed Mar 15 19:58:02.420726 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3193]                   ^\r
+[Wed Mar 15 19:58:02.420726 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3193] IndentationError: expected an indented block\r
+[Wed Mar 15 19:59:02.311363 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3247] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 19:59:02.311363 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3247] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 19:59:02.311363 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3247] Traceback (most recent call last):\r
+[Wed Mar 15 19:59:02.311363 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3247]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 19:59:02.311363 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3247]     from run import app\r
+[Wed Mar 15 19:59:02.311363 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3247]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 19:59:02.311363 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3247]     from app import app\r
+[Wed Mar 15 19:59:02.311363 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3247]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 19:59:02.311363 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3247]     from app import views, models\r
+[Wed Mar 15 19:59:02.311363 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3247]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 19:59:02.311363 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3247]     def gettoday():\r
+[Wed Mar 15 19:59:02.311363 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3247]                   ^\r
+[Wed Mar 15 19:59:02.311363 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3247] IndentationError: expected an indented block\r
+[Wed Mar 15 20:00:02.295707 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3345] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:00:02.295707 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3345] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:00:02.295707 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3345] Traceback (most recent call last):\r
+[Wed Mar 15 20:00:02.295707 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3345]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:00:02.295707 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3345]     from run import app\r
+[Wed Mar 15 20:00:02.295707 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3345]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:00:02.295707 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3345]     from app import app\r
+[Wed Mar 15 20:00:02.295707 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3345]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:00:02.295707 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3345]     from app import views, models\r
+[Wed Mar 15 20:00:02.295707 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3345]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:00:02.295707 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3345]     def gettoday():\r
+[Wed Mar 15 20:00:02.295707 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3345]                   ^\r
+[Wed Mar 15 20:00:02.295707 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3345] IndentationError: expected an indented block\r
+[Wed Mar 15 20:01:02.264461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3397] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:01:02.264461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3397] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:01:02.264461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3397] Traceback (most recent call last):\r
+[Wed Mar 15 20:01:02.264461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3397]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:01:02.264461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3397]     from run import app\r
+[Wed Mar 15 20:01:02.264461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3397]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:01:02.264461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3397]     from app import app\r
+[Wed Mar 15 20:01:02.264461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3397]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:01:02.264461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3397]     from app import views, models\r
+[Wed Mar 15 20:01:02.264461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3397]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:01:02.264461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3397]     def gettoday():\r
+[Wed Mar 15 20:01:02.264461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3397]                   ^\r
+[Wed Mar 15 20:01:02.264461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3397] IndentationError: expected an indented block\r
+[Wed Mar 15 20:02:02.014461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3432] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:02:02.014461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3432] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:02:02.014461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3432] Traceback (most recent call last):\r
+[Wed Mar 15 20:02:02.014461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3432]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:02:02.014461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3432]     from run import app\r
+[Wed Mar 15 20:02:02.014461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3432]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:02:02.014461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3432]     from app import app\r
+[Wed Mar 15 20:02:02.014461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3432]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:02:02.014461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3432]     from app import views, models\r
+[Wed Mar 15 20:02:02.014461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3432]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:02:02.014461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3432]     def gettoday():\r
+[Wed Mar 15 20:02:02.014461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3432]                   ^\r
+[Wed Mar 15 20:02:02.014461 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3432] IndentationError: expected an indented block\r
+[Wed Mar 15 20:03:01.983206 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3457] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:03:01.983206 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3457] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:03:01.983206 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3457] Traceback (most recent call last):\r
+[Wed Mar 15 20:03:01.983206 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3457]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:03:01.983206 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3457]     from run import app\r
+[Wed Mar 15 20:03:01.983206 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3457]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:03:01.983206 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3457]     from app import app\r
+[Wed Mar 15 20:03:01.983206 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3457]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:03:01.983206 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3457]     from app import views, models\r
+[Wed Mar 15 20:03:01.983206 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3457]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:03:01.983206 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3457]     def gettoday():\r
+[Wed Mar 15 20:03:01.983206 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3457]                   ^\r
+[Wed Mar 15 20:03:01.983206 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3457] IndentationError: expected an indented block\r
+[Wed Mar 15 20:04:01.952063 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3558] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:04:01.952063 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3558] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:04:01.952063 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3558] Traceback (most recent call last):\r
+[Wed Mar 15 20:04:01.952063 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3558]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:04:01.952063 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3558]     from run import app\r
+[Wed Mar 15 20:04:01.952063 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3558]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:04:01.952063 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3558]     from app import app\r
+[Wed Mar 15 20:04:01.952063 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3558]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:04:01.952063 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3558]     from app import views, models\r
+[Wed Mar 15 20:04:01.952063 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3558]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:04:01.952063 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3558]     def gettoday():\r
+[Wed Mar 15 20:04:01.952063 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3558]                   ^\r
+[Wed Mar 15 20:04:01.952063 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3558] IndentationError: expected an indented block\r
+[Wed Mar 15 20:05:02.858278 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3623] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:05:02.858278 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3623] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:05:02.858278 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3623] Traceback (most recent call last):\r
+[Wed Mar 15 20:05:02.858278 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3623]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:05:02.858278 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3623]     from run import app\r
+[Wed Mar 15 20:05:02.858278 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3623]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:05:02.858278 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3623]     from app import app\r
+[Wed Mar 15 20:05:02.858278 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3623]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:05:02.858278 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3623]     from app import views, models\r
+[Wed Mar 15 20:05:02.858278 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3623]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:05:02.858278 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3623]     def gettoday():\r
+[Wed Mar 15 20:05:02.858278 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3623]                   ^\r
+[Wed Mar 15 20:05:02.858278 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3623] IndentationError: expected an indented block\r
+[Wed Mar 15 20:06:02.795711 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3633] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:06:02.795711 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3633] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:06:02.795711 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3633] Traceback (most recent call last):\r
+[Wed Mar 15 20:06:02.795711 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3633]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:06:02.795711 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3633]     from run import app\r
+[Wed Mar 15 20:06:02.795711 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3633]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:06:02.795711 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3633]     from app import app\r
+[Wed Mar 15 20:06:02.795711 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3633]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:06:02.795711 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3633]     from app import views, models\r
+[Wed Mar 15 20:06:02.795711 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3633]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:06:02.795711 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3633]     def gettoday():\r
+[Wed Mar 15 20:06:02.795711 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3633]                   ^\r
+[Wed Mar 15 20:06:02.795711 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3633] IndentationError: expected an indented block\r
+[Wed Mar 15 20:07:02.717590 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3790] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:07:02.717590 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3790] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:07:02.717590 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3790] Traceback (most recent call last):\r
+[Wed Mar 15 20:07:02.717590 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3790]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:07:02.717590 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3790]     from run import app\r
+[Wed Mar 15 20:07:02.717590 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3790]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:07:02.717590 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3790]     from app import app\r
+[Wed Mar 15 20:07:02.717590 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3790]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:07:02.717590 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3790]     from app import views, models\r
+[Wed Mar 15 20:07:02.717590 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3790]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:07:02.717590 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3790]     def gettoday():\r
+[Wed Mar 15 20:07:02.717590 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3790]                   ^\r
+[Wed Mar 15 20:07:02.717590 2017] [wsgi:error] [pid 232:tid 1036] [client 36.40.139.213:3790] IndentationError: expected an indented block\r
+[Wed Mar 15 20:08:02.655079 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:3872] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:08:02.655079 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:3872] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:08:02.655079 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:3872] Traceback (most recent call last):\r
+[Wed Mar 15 20:08:02.655079 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:3872]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:08:02.655079 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:3872]     from run import app\r
+[Wed Mar 15 20:08:02.655079 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:3872]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:08:02.655079 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:3872]     from app import app\r
+[Wed Mar 15 20:08:02.655079 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:3872]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:08:02.655079 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:3872]     from app import views, models\r
+[Wed Mar 15 20:08:02.655079 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:3872]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:08:02.655079 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:3872]     def gettoday():\r
+[Wed Mar 15 20:08:02.655079 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:3872]                   ^\r
+[Wed Mar 15 20:08:02.655079 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:3872] IndentationError: expected an indented block\r
+[Wed Mar 15 20:09:02.592950 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4076] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:09:02.592950 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4076] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:09:02.592950 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4076] Traceback (most recent call last):\r
+[Wed Mar 15 20:09:02.592950 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4076]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:09:02.592950 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4076]     from run import app\r
+[Wed Mar 15 20:09:02.592950 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4076]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:09:02.592950 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4076]     from app import app\r
+[Wed Mar 15 20:09:02.592950 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4076]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:09:02.592950 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4076]     from app import views, models\r
+[Wed Mar 15 20:09:02.592950 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4076]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:09:02.592950 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4076]     def gettoday():\r
+[Wed Mar 15 20:09:02.592950 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4076]                   ^\r
+[Wed Mar 15 20:09:02.592950 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4076] IndentationError: expected an indented block\r
+[Wed Mar 15 20:10:02.061335 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4174] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:10:02.061335 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4174] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:10:02.061335 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4174] Traceback (most recent call last):\r
+[Wed Mar 15 20:10:02.061335 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4174]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:10:02.061335 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4174]     from run import app\r
+[Wed Mar 15 20:10:02.061335 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4174]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:10:02.061335 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4174]     from app import app\r
+[Wed Mar 15 20:10:02.061335 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4174]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:10:02.061335 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4174]     from app import views, models\r
+[Wed Mar 15 20:10:02.061335 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4174]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:10:02.061335 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4174]     def gettoday():\r
+[Wed Mar 15 20:10:02.061335 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4174]                   ^\r
+[Wed Mar 15 20:10:02.061335 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4174] IndentationError: expected an indented block\r
+[Wed Mar 15 20:11:02.045720 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4276] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:11:02.045720 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4276] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:11:02.045720 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4276] Traceback (most recent call last):\r
+[Wed Mar 15 20:11:02.045720 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4276]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:11:02.045720 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4276]     from run import app\r
+[Wed Mar 15 20:11:02.045720 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4276]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:11:02.045720 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4276]     from app import app\r
+[Wed Mar 15 20:11:02.045720 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4276]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:11:02.045720 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4276]     from app import views, models\r
+[Wed Mar 15 20:11:02.045720 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4276]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:11:02.045720 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4276]     def gettoday():\r
+[Wed Mar 15 20:11:02.045720 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4276]                   ^\r
+[Wed Mar 15 20:11:02.045720 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4276] IndentationError: expected an indented block\r
+[Wed Mar 15 20:12:01.952089 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4607] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:12:01.952089 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4607] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:12:01.952089 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4607] Traceback (most recent call last):\r
+[Wed Mar 15 20:12:01.952089 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4607]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:12:01.952089 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4607]     from run import app\r
+[Wed Mar 15 20:12:01.952089 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4607]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:12:01.952089 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4607]     from app import app\r
+[Wed Mar 15 20:12:01.952089 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4607]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:12:01.952089 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4607]     from app import views, models\r
+[Wed Mar 15 20:12:01.952089 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4607]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:12:01.952089 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4607]     def gettoday():\r
+[Wed Mar 15 20:12:01.952089 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4607]                   ^\r
+[Wed Mar 15 20:12:01.952089 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4607] IndentationError: expected an indented block\r
+[Wed Mar 15 20:13:01.936892 2017] [wsgi:error] [pid 232:tid 1008] [client 36.40.139.213:4631] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:13:01.936892 2017] [wsgi:error] [pid 232:tid 1008] [client 36.40.139.213:4631] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:13:01.936892 2017] [wsgi:error] [pid 232:tid 1008] [client 36.40.139.213:4631] Traceback (most recent call last):\r
+[Wed Mar 15 20:13:01.936892 2017] [wsgi:error] [pid 232:tid 1008] [client 36.40.139.213:4631]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:13:01.936892 2017] [wsgi:error] [pid 232:tid 1008] [client 36.40.139.213:4631]     from run import app\r
+[Wed Mar 15 20:13:01.936892 2017] [wsgi:error] [pid 232:tid 1008] [client 36.40.139.213:4631]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:13:01.936892 2017] [wsgi:error] [pid 232:tid 1008] [client 36.40.139.213:4631]     from app import app\r
+[Wed Mar 15 20:13:01.936892 2017] [wsgi:error] [pid 232:tid 1008] [client 36.40.139.213:4631]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:13:01.936892 2017] [wsgi:error] [pid 232:tid 1008] [client 36.40.139.213:4631]     from app import views, models\r
+[Wed Mar 15 20:13:01.936892 2017] [wsgi:error] [pid 232:tid 1008] [client 36.40.139.213:4631]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:13:01.936892 2017] [wsgi:error] [pid 232:tid 1008] [client 36.40.139.213:4631]     def gettoday():\r
+[Wed Mar 15 20:13:01.936892 2017] [wsgi:error] [pid 232:tid 1008] [client 36.40.139.213:4631]                   ^\r
+[Wed Mar 15 20:13:01.936892 2017] [wsgi:error] [pid 232:tid 1008] [client 36.40.139.213:4631] IndentationError: expected an indented block\r
+[Wed Mar 15 20:14:05.889573 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:4733] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:14:05.889573 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:4733] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:14:05.905507 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:4733] Traceback (most recent call last):\r
+[Wed Mar 15 20:14:05.905507 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:4733]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:14:05.905507 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:4733]     from run import app\r
+[Wed Mar 15 20:14:05.905507 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:4733]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:14:05.905507 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:4733]     from app import app\r
+[Wed Mar 15 20:14:05.905507 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:4733]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:14:05.905507 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:4733]     from app import views, models\r
+[Wed Mar 15 20:14:05.905507 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:4733]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:14:05.905507 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:4733]     def gettoday():\r
+[Wed Mar 15 20:14:05.905507 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:4733]                   ^\r
+[Wed Mar 15 20:14:05.905507 2017] [wsgi:error] [pid 232:tid 1004] [client 36.40.139.213:4733] IndentationError: expected an indented block\r
+[Wed Mar 15 20:15:02.686338 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4765] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:15:02.686338 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4765] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:15:02.686338 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4765] Traceback (most recent call last):\r
+[Wed Mar 15 20:15:02.686338 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4765]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:15:02.686338 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4765]     from run import app\r
+[Wed Mar 15 20:15:02.686338 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4765]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:15:02.686338 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4765]     from app import app\r
+[Wed Mar 15 20:15:02.686338 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4765]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:15:02.686338 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4765]     from app import views, models\r
+[Wed Mar 15 20:15:02.686338 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4765]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:15:02.686338 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4765]     def gettoday():\r
+[Wed Mar 15 20:15:02.686338 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4765]                   ^\r
+[Wed Mar 15 20:15:02.686338 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4765] IndentationError: expected an indented block\r
+[Wed Mar 15 20:16:02.859689 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4812] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:16:02.859689 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4812] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:16:02.859689 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4812] Traceback (most recent call last):\r
+[Wed Mar 15 20:16:02.859689 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4812]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:16:02.859689 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4812]     from run import app\r
+[Wed Mar 15 20:16:02.859689 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4812]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:16:02.859689 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4812]     from app import app\r
+[Wed Mar 15 20:16:02.859689 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4812]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:16:02.859689 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4812]     from app import views, models\r
+[Wed Mar 15 20:16:02.859689 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4812]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:16:02.859689 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4812]     def gettoday():\r
+[Wed Mar 15 20:16:02.859689 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4812]                   ^\r
+[Wed Mar 15 20:16:02.859689 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4812] IndentationError: expected an indented block\r
+[Wed Mar 15 20:17:02.827085 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4868] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:17:02.827085 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4868] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:17:02.827085 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4868] Traceback (most recent call last):\r
+[Wed Mar 15 20:17:02.827085 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4868]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:17:02.827085 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4868]     from run import app\r
+[Wed Mar 15 20:17:02.827085 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4868]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:17:02.827085 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4868]     from app import app\r
+[Wed Mar 15 20:17:02.827085 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4868]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:17:02.827085 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4868]     from app import views, models\r
+[Wed Mar 15 20:17:02.827085 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4868]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:17:02.827085 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4868]     def gettoday():\r
+[Wed Mar 15 20:17:02.827085 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4868]                   ^\r
+[Wed Mar 15 20:17:02.827085 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4868] IndentationError: expected an indented block\r
+[Wed Mar 15 20:18:02.795704 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4908] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:18:02.795704 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4908] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:18:02.795704 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4908] Traceback (most recent call last):\r
+[Wed Mar 15 20:18:02.795704 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4908]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:18:02.795704 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4908]     from run import app\r
+[Wed Mar 15 20:18:02.795704 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4908]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:18:02.795704 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4908]     from app import app\r
+[Wed Mar 15 20:18:02.795704 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4908]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:18:02.795704 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4908]     from app import views, models\r
+[Wed Mar 15 20:18:02.795704 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4908]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:18:02.795704 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4908]     def gettoday():\r
+[Wed Mar 15 20:18:02.795704 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4908]                   ^\r
+[Wed Mar 15 20:18:02.795704 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4908] IndentationError: expected an indented block\r
+[Wed Mar 15 20:18:10.889693 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4914] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:18:10.889693 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4914] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:18:10.889693 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4914] Traceback (most recent call last):\r
+[Wed Mar 15 20:18:10.889693 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4914]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:18:10.889693 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4914]     from run import app\r
+[Wed Mar 15 20:18:10.889693 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4914]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:18:10.889693 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4914]     from app import app\r
+[Wed Mar 15 20:18:10.889693 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4914]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:18:10.889693 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4914]     from app import views, models\r
+[Wed Mar 15 20:18:10.889693 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4914]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:18:10.889693 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4914]     def gettoday():\r
+[Wed Mar 15 20:18:10.889693 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4914]                   ^\r
+[Wed Mar 15 20:18:10.889693 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4914] IndentationError: expected an indented block\r
+[Wed Mar 15 20:19:02.717571 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4939] mod_wsgi (pid=232): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Mar 15 20:19:02.717571 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4939] mod_wsgi (pid=232): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Mar 15 20:19:02.717571 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4939] Traceback (most recent call last):\r
+[Wed Mar 15 20:19:02.717571 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4939]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Mar 15 20:19:02.717571 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4939]     from run import app\r
+[Wed Mar 15 20:19:02.717571 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4939]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Mar 15 20:19:02.717571 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4939]     from app import app\r
+[Wed Mar 15 20:19:02.717571 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4939]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Mar 15 20:19:02.717571 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4939]     from app import views, models\r
+[Wed Mar 15 20:19:02.717571 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4939]   File "c:/weishop\\app\\views.py", line 81\r
+[Wed Mar 15 20:19:02.717571 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4939]     def gettoday():\r
+[Wed Mar 15 20:19:02.717571 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4939]                   ^\r
+[Wed Mar 15 20:19:02.717571 2017] [wsgi:error] [pid 232:tid 1020] [client 36.40.139.213:4939] IndentationError: expected an indented block\r
+[Wed Mar 15 20:19:59.061330 2017] [mpm_winnt:notice] [pid 2372:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 15 20:20:01.092972 2017] [mpm_winnt:notice] [pid 232:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 15 20:20:01.405360 2017] [mpm_winnt:notice] [pid 2372:tid 444] AH00430: Parent: Child process 232 exited successfully.
+[Wed Mar 15 22:02:50.936467 2017] [mpm_winnt:notice] [pid 1096:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 15 22:02:50.936467 2017] [mpm_winnt:notice] [pid 1096:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 15 22:02:50.936467 2017] [core:notice] [pid 1096:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 15 22:02:50.936467 2017] [mpm_winnt:notice] [pid 1096:tid 444] AH00418: Parent: Created child process 3628
+[Wed Mar 15 22:02:51.249070 2017] [mpm_winnt:notice] [pid 3628:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 16 00:07:13.045888 2017] [mpm_winnt:notice] [pid 1096:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 16 00:07:15.077050 2017] [mpm_winnt:notice] [pid 3628:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Mar 16 00:07:15.577064 2017] [mpm_winnt:notice] [pid 1096:tid 444] AH00430: Parent: Child process 3628 exited successfully.
+[Thu Mar 16 00:07:16.311320 2017] [mpm_winnt:notice] [pid 1300:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Thu Mar 16 00:07:16.311320 2017] [mpm_winnt:notice] [pid 1300:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Thu Mar 16 00:07:16.311320 2017] [core:notice] [pid 1300:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 16 00:07:16.311320 2017] [mpm_winnt:notice] [pid 1300:tid 444] AH00418: Parent: Created child process 2808
+[Thu Mar 16 00:07:16.670693 2017] [mpm_winnt:notice] [pid 2808:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 16 12:21:53.111455 2017] [core:error] [pid 2808:tid 1032] [client 1.214.89.69:47849] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Thu Mar 16 12:21:53.217608 2017] [cgi:error] [pid 2808:tid 996] [client 1.214.89.69:47939] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Thu Mar 16 12:21:53.342584 2017] [cgi:error] [pid 2808:tid 968] [client 1.214.89.69:48025] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php4
+[Thu Mar 16 12:21:53.452057 2017] [cgi:error] [pid 2808:tid 1016] [client 1.214.89.69:48122] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php5
+[Thu Mar 16 12:21:53.561351 2017] [cgi:error] [pid 2808:tid 964] [client 1.214.89.69:48212] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php-cgi
+[Thu Mar 16 12:21:53.670722 2017] [cgi:error] [pid 2808:tid 1008] [client 1.214.89.69:48305] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php.cgi
+[Thu Mar 16 16:19:38.749055 2017] [cgi:error] [pid 2808:tid 968] [client 1.214.89.69:55915] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Thu Mar 16 16:19:38.811312 2017] [cgi:error] [pid 2808:tid 964] [client 1.214.89.69:55927] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Fri Mar 17 00:25:27.233208 2017] [mpm_winnt:notice] [pid 1300:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 17 00:25:29.264463 2017] [mpm_winnt:notice] [pid 2808:tid 496] AH00364: Child: All worker threads have exited.
+[Fri Mar 17 00:25:29.998882 2017] [mpm_winnt:notice] [pid 1300:tid 444] AH00430: Parent: Child process 2808 exited successfully.
+[Fri Mar 17 00:25:30.500221 2017] [mpm_winnt:notice] [pid 3088:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Fri Mar 17 00:25:30.500221 2017] [mpm_winnt:notice] [pid 3088:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Fri Mar 17 00:25:30.500221 2017] [core:notice] [pid 3088:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Mar 17 00:25:30.500221 2017] [mpm_winnt:notice] [pid 3088:tid 444] AH00418: Parent: Created child process 1320
+[Fri Mar 17 00:25:30.842571 2017] [mpm_winnt:notice] [pid 1320:tid 496] AH00354: Child: Starting 64 worker threads.
+[Fri Mar 17 00:28:39.749116 2017] [mpm_winnt:notice] [pid 3088:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 17 00:28:41.780089 2017] [mpm_winnt:notice] [pid 1320:tid 496] AH00364: Child: All worker threads have exited.
+[Fri Mar 17 00:28:41.889465 2017] [mpm_winnt:notice] [pid 3088:tid 444] AH00430: Parent: Child process 1320 exited successfully.
+[Fri Mar 17 00:43:23.249186 2017] [mpm_winnt:notice] [pid 3724:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Fri Mar 17 00:43:23.249186 2017] [mpm_winnt:notice] [pid 3724:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Fri Mar 17 00:43:23.249186 2017] [core:notice] [pid 3724:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Mar 17 00:43:23.264992 2017] [mpm_winnt:notice] [pid 3724:tid 444] AH00418: Parent: Created child process 3740
+[Fri Mar 17 00:43:23.624038 2017] [mpm_winnt:notice] [pid 3740:tid 496] AH00354: Child: Starting 64 worker threads.
+[Fri Mar 17 22:33:36.624031 2017] [mpm_winnt:notice] [pid 3724:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Mar 17 22:33:38.655073 2017] [mpm_winnt:notice] [pid 3740:tid 496] AH00364: Child: All worker threads have exited.
+[Fri Mar 17 22:33:39.436321 2017] [mpm_winnt:notice] [pid 3724:tid 444] AH00430: Parent: Child process 3740 exited successfully.
+[Sat Mar 18 08:41:35.716525 2017] [mpm_winnt:notice] [pid 3640:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Sat Mar 18 08:41:35.716525 2017] [mpm_winnt:notice] [pid 3640:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Sat Mar 18 08:41:35.716525 2017] [core:notice] [pid 3640:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Mar 18 08:41:35.716525 2017] [mpm_winnt:notice] [pid 3640:tid 444] AH00418: Parent: Created child process 1724
+[Sat Mar 18 08:41:35.997592 2017] [mpm_winnt:notice] [pid 1724:tid 496] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 18 08:42:53.747812 2017] [mpm_winnt:notice] [pid 3640:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Mar 18 08:42:55.778867 2017] [mpm_winnt:notice] [pid 1724:tid 496] AH00364: Child: All worker threads have exited.
+[Sat Mar 18 08:42:56.200925 2017] [mpm_winnt:notice] [pid 3640:tid 444] AH00430: Parent: Child process 1724 exited successfully.
+[Sat Mar 18 08:43:37.653864 2017] [mpm_winnt:notice] [pid 3204:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Sat Mar 18 08:43:37.653864 2017] [mpm_winnt:notice] [pid 3204:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Sat Mar 18 08:43:37.653864 2017] [core:notice] [pid 3204:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Mar 18 08:43:37.653864 2017] [mpm_winnt:notice] [pid 3204:tid 444] AH00418: Parent: Created child process 3984
+[Sat Mar 18 08:43:38.028860 2017] [mpm_winnt:notice] [pid 3984:tid 496] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 18 08:53:46.481976 2017] [mpm_winnt:notice] [pid 3204:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Mar 18 08:53:48.513219 2017] [mpm_winnt:notice] [pid 3984:tid 496] AH00364: Child: All worker threads have exited.
+[Sat Mar 18 08:53:48.716425 2017] [mpm_winnt:notice] [pid 3204:tid 444] AH00430: Parent: Child process 3984 exited successfully.
+[Sat Mar 18 08:53:50.122802 2017] [mpm_winnt:notice] [pid 3172:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Sat Mar 18 08:53:50.122802 2017] [mpm_winnt:notice] [pid 3172:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Sat Mar 18 08:53:50.122802 2017] [core:notice] [pid 3172:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Mar 18 08:53:50.122802 2017] [mpm_winnt:notice] [pid 3172:tid 444] AH00418: Parent: Created child process 3740
+[Sat Mar 18 08:53:50.513223 2017] [mpm_winnt:notice] [pid 3740:tid 496] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 18 08:54:19.731997 2017] [mpm_winnt:notice] [pid 3172:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Mar 18 08:54:21.763292 2017] [mpm_winnt:notice] [pid 3740:tid 496] AH00364: Child: All worker threads have exited.
+[Sat Mar 18 08:54:21.872885 2017] [mpm_winnt:notice] [pid 3172:tid 444] AH00430: Parent: Child process 3740 exited successfully.
+[Sat Mar 18 09:03:34.856963 2017] [mpm_winnt:notice] [pid 3784:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Sat Mar 18 09:03:34.856963 2017] [mpm_winnt:notice] [pid 3784:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Sat Mar 18 09:03:34.856963 2017] [core:notice] [pid 3784:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Mar 18 09:03:34.856963 2017] [mpm_winnt:notice] [pid 3784:tid 444] AH00418: Parent: Created child process 972
+[Sat Mar 18 09:03:35.231961 2017] [mpm_winnt:notice] [pid 972:tid 496] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 18 11:51:27.794469 2017] [mpm_winnt:notice] [pid 3784:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Mar 18 11:51:29.825827 2017] [mpm_winnt:notice] [pid 972:tid 496] AH00364: Child: All worker threads have exited.
+[Sat Mar 18 11:51:30.419657 2017] [mpm_winnt:notice] [pid 3784:tid 444] AH00430: Parent: Child process 972 exited successfully.
+[Sat Mar 18 11:57:22.544466 2017] [mpm_winnt:notice] [pid 2524:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Sat Mar 18 11:57:22.544466 2017] [mpm_winnt:notice] [pid 2524:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Sat Mar 18 11:57:22.544466 2017] [core:notice] [pid 2524:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Mar 18 11:57:22.544466 2017] [mpm_winnt:notice] [pid 2524:tid 444] AH00418: Parent: Created child process 4088
+[Sat Mar 18 11:57:22.856972 2017] [mpm_winnt:notice] [pid 4088:tid 496] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 19 10:31:08.684380 2017] [mpm_winnt:notice] [pid 2524:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 19 10:31:10.715665 2017] [mpm_winnt:notice] [pid 4088:tid 496] AH00364: Child: All worker threads have exited.
+[Sun Mar 19 10:31:11.606271 2017] [mpm_winnt:notice] [pid 2524:tid 444] AH00430: Parent: Child process 4088 exited successfully.
+[Sun Mar 19 10:58:56.106574 2017] [mpm_winnt:notice] [pid 1320:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Sun Mar 19 10:58:56.106574 2017] [mpm_winnt:notice] [pid 1320:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Sun Mar 19 10:58:56.106574 2017] [core:notice] [pid 1320:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Mar 19 10:58:56.106574 2017] [mpm_winnt:notice] [pid 1320:tid 444] AH00418: Parent: Created child process 1204
+[Sun Mar 19 10:58:56.387513 2017] [mpm_winnt:notice] [pid 1204:tid 496] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 19 13:27:43.106253 2017] [mpm_winnt:notice] [pid 1320:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 19 13:27:45.137529 2017] [mpm_winnt:notice] [pid 1204:tid 496] AH00364: Child: All worker threads have exited.
+[Sun Mar 19 13:27:45.653164 2017] [mpm_winnt:notice] [pid 1320:tid 444] AH00430: Parent: Child process 1204 exited successfully.
+[Sun Mar 19 13:35:39.731283 2017] [mpm_winnt:notice] [pid 3492:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Sun Mar 19 13:35:39.731283 2017] [mpm_winnt:notice] [pid 3492:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Sun Mar 19 13:35:39.731283 2017] [core:notice] [pid 3492:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Mar 19 13:35:39.731283 2017] [mpm_winnt:notice] [pid 3492:tid 444] AH00418: Parent: Created child process 1420
+[Sun Mar 19 13:35:40.075097 2017] [mpm_winnt:notice] [pid 1420:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 22 16:38:43.575088 2017] [mpm_winnt:notice] [pid 3492:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 22 16:38:45.606267 2017] [mpm_winnt:notice] [pid 1420:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Mar 22 16:38:46.529289 2017] [mpm_winnt:notice] [pid 3492:tid 444] AH00430: Parent: Child process 1420 exited successfully.
+[Wed Mar 22 16:38:47.309395 2017] [mpm_winnt:notice] [pid 1096:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Mar 22 16:38:47.309395 2017] [mpm_winnt:notice] [pid 1096:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Mar 22 16:38:47.309395 2017] [core:notice] [pid 1096:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 22 16:38:47.309395 2017] [mpm_winnt:notice] [pid 1096:tid 444] AH00418: Parent: Created child process 2196
+[Wed Mar 22 16:38:47.637515 2017] [mpm_winnt:notice] [pid 2196:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 23 09:08:01.637532 2017] [cgi:error] [pid 2196:tid 1004] [client 191.96.249.97:51547] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Fri Mar 24 18:21:26.762857 2017] [cgi:error] [pid 2196:tid 1028] [client 191.96.249.97:33832] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Sun Mar 26 10:47:10.103811 2017] [cgi:error] [pid 2196:tid 1028] [client 191.96.249.97:45676] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Thu Mar 30 13:16:23.588179 2017] [cgi:error] [pid 2196:tid 968] [client 109.201.134.2:53545] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/user
+[Fri Mar 31 01:28:38.603795 2017] [cgi:error] [pid 2196:tid 1008] [client 189.5.120.199:34460] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgiSrv.cgi
+[Fri Mar 31 01:28:42.150660 2017] [cgi:error] [pid 2196:tid 996] [client 189.5.120.199:45993] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgiSrv.cgi
+[Fri Mar 31 16:27:11.932020 2017] [cgi:error] [pid 2196:tid 968] [client 191.96.249.97:42052] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Sun Apr 02 17:10:28.303761 2017] [cgi:error] [pid 2196:tid 1028] [client 69.50.209.208:52895] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/test-cgi
+[Sun Apr 02 17:10:28.663159 2017] [cgi:error] [pid 2196:tid 1008] [client 69.50.209.208:52923] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/test.cgi
+[Mon Apr 03 02:39:28.928724 2017] [cgi:error] [pid 2196:tid 1016] [client 191.96.249.97:59452] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Mon Apr 03 07:31:50.663109 2017] [cgi:error] [pid 2196:tid 1016] [client 179.159.54.71:37083] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgiSrv.cgi
+[Mon Apr 03 07:32:02.803734 2017] [cgi:error] [pid 2196:tid 1036] [client 179.159.54.71:45829] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgiSrv.cgi
+[Mon Apr 03 20:38:44.209986 2017] [cgi:error] [pid 2196:tid 1012] [client 51.15.141.187:33530] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/user
+[Tue Apr 04 22:11:22.194431 2017] [mpm_winnt:notice] [pid 1096:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Apr 04 22:11:24.273098 2017] [mpm_winnt:notice] [pid 2196:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Apr 04 22:11:26.725615 2017] [mpm_winnt:notice] [pid 1096:tid 444] AH00430: Parent: Child process 2196 exited successfully.
+[Tue Apr 04 22:11:27.475849 2017] [mpm_winnt:notice] [pid 3740:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Apr 04 22:11:27.475849 2017] [mpm_winnt:notice] [pid 3740:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Apr 04 22:11:27.475849 2017] [core:notice] [pid 3740:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Apr 04 22:11:27.491447 2017] [mpm_winnt:notice] [pid 3740:tid 444] AH00418: Parent: Created child process 2256
+[Tue Apr 04 22:11:27.803737 2017] [mpm_winnt:notice] [pid 2256:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 04 23:17:30.444461 2017] [mpm_winnt:notice] [pid 3740:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Apr 04 23:17:32.475621 2017] [mpm_winnt:notice] [pid 2256:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Apr 04 23:17:33.194354 2017] [mpm_winnt:notice] [pid 3740:tid 444] AH00430: Parent: Child process 2256 exited successfully.
+[Tue Apr 04 23:17:33.678715 2017] [mpm_winnt:notice] [pid 3912:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Apr 04 23:17:33.678715 2017] [mpm_winnt:notice] [pid 3912:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Apr 04 23:17:33.678715 2017] [core:notice] [pid 3912:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Apr 04 23:17:33.678715 2017] [mpm_winnt:notice] [pid 3912:tid 444] AH00418: Parent: Created child process 2392
+[Tue Apr 04 23:17:33.991441 2017] [mpm_winnt:notice] [pid 2392:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 04 23:22:06.850607 2017] [mpm_winnt:notice] [pid 3912:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Apr 04 23:22:08.866454 2017] [mpm_winnt:notice] [pid 2392:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Apr 04 23:22:09.042327 2017] [mpm_winnt:notice] [pid 3912:tid 444] AH00430: Parent: Child process 2392 exited successfully.
+[Tue Apr 04 23:22:09.709979 2017] [mpm_winnt:notice] [pid 2400:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Apr 04 23:22:09.709979 2017] [mpm_winnt:notice] [pid 2400:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Apr 04 23:22:09.709979 2017] [core:notice] [pid 2400:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Apr 04 23:22:09.709979 2017] [mpm_winnt:notice] [pid 2400:tid 444] AH00418: Parent: Created child process 2916
+[Tue Apr 04 23:22:10.008728 2017] [mpm_winnt:notice] [pid 2916:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 04 23:27:16.803731 2017] [mpm_winnt:notice] [pid 2400:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Apr 04 23:27:18.834986 2017] [mpm_winnt:notice] [pid 2916:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Apr 04 23:27:19.053745 2017] [mpm_winnt:notice] [pid 2400:tid 444] AH00430: Parent: Child process 2916 exited successfully.
+[Tue Apr 04 23:27:19.600655 2017] [mpm_winnt:notice] [pid 4060:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Apr 04 23:27:19.600655 2017] [mpm_winnt:notice] [pid 4060:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Apr 04 23:27:19.600655 2017] [core:notice] [pid 4060:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Apr 04 23:27:19.600655 2017] [mpm_winnt:notice] [pid 4060:tid 444] AH00418: Parent: Created child process 2808
+[Tue Apr 04 23:27:19.913090 2017] [mpm_winnt:notice] [pid 2808:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 05 16:29:45.319440 2017] [cgi:error] [pid 2808:tid 1012] [client 191.96.249.97:43053] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Fri Apr 07 09:28:44.991440 2017] [cgi:error] [pid 2808:tid 968] [client 191.96.249.97:36281] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Fri Apr 07 09:28:50.913124 2017] [cgi:error] [pid 2808:tid 968] [client 191.96.249.97:55277] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Fri Apr 07 12:03:20.100670 2017] [cgi:error] [pid 2808:tid 1028] [client 179.233.93.123:37841] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgiSrv.cgi
+[Fri Apr 07 12:03:25.366445 2017] [cgi:error] [pid 2808:tid 1028] [client 179.233.93.123:47322] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgiSrv.cgi
+[Sat Apr 08 06:34:44.162114 2017] [wsgi:error] [pid 2808:tid 1020] [client 113.105.128.253:61983] Target WSGI script not found or unable to stat: c:/flask_web/app/views.wsgi/ , referer: http://123.206.52.70:8080/
+[Sun Apr 09 07:00:17.817214 2017] [cgi:error] [pid 2808:tid 992] [client 191.96.249.97:46092] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Sun Apr 09 19:34:16.410876 2017] [mpm_winnt:notice] [pid 4060:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 09 19:34:18.442169 2017] [mpm_winnt:notice] [pid 2808:tid 496] AH00364: Child: All worker threads have exited.
+[Sun Apr 09 19:34:19.004579 2017] [mpm_winnt:notice] [pid 4060:tid 444] AH00430: Parent: Child process 2808 exited successfully.
+[Sun Apr 09 19:34:19.645235 2017] [mpm_winnt:notice] [pid 3556:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Sun Apr 09 19:34:19.645235 2017] [mpm_winnt:notice] [pid 3556:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Sun Apr 09 19:34:19.645235 2017] [core:notice] [pid 3556:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Apr 09 19:34:19.645235 2017] [mpm_winnt:notice] [pid 3556:tid 444] AH00418: Parent: Created child process 2964
+[Sun Apr 09 19:34:19.957752 2017] [mpm_winnt:notice] [pid 2964:tid 496] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 09 19:40:34.051447 2017] [mpm_winnt:notice] [pid 3556:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 09 19:40:36.082793 2017] [mpm_winnt:notice] [pid 2964:tid 496] AH00364: Child: All worker threads have exited.
+[Sun Apr 09 19:40:36.207703 2017] [mpm_winnt:notice] [pid 3556:tid 444] AH00430: Parent: Child process 2964 exited successfully.
+[Sun Apr 09 19:45:17.285815 2017] [mpm_winnt:notice] [pid 3784:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Sun Apr 09 19:45:17.285815 2017] [mpm_winnt:notice] [pid 3784:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Sun Apr 09 19:45:17.285815 2017] [core:notice] [pid 3784:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Apr 09 19:45:17.285815 2017] [mpm_winnt:notice] [pid 3784:tid 444] AH00418: Parent: Created child process 2452
+[Sun Apr 09 19:45:17.535817 2017] [mpm_winnt:notice] [pid 2452:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 10 10:59:44.785893 2017] [mpm_winnt:notice] [pid 3784:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 10 10:59:46.817172 2017] [mpm_winnt:notice] [pid 2452:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 10 10:59:47.379595 2017] [mpm_winnt:notice] [pid 3784:tid 444] AH00430: Parent: Child process 2452 exited successfully.
+[Mon Apr 10 10:59:48.082704 2017] [mpm_winnt:notice] [pid 3824:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 10 10:59:48.082704 2017] [mpm_winnt:notice] [pid 3824:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 10 10:59:48.082704 2017] [core:notice] [pid 3824:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 10 10:59:48.082704 2017] [mpm_winnt:notice] [pid 3824:tid 444] AH00418: Parent: Created child process 3820
+[Mon Apr 10 10:59:48.379567 2017] [mpm_winnt:notice] [pid 3820:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 10 11:13:44.707697 2017] [mpm_winnt:notice] [pid 3824:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 10 11:13:46.739173 2017] [mpm_winnt:notice] [pid 3820:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 10 11:13:46.895197 2017] [mpm_winnt:notice] [pid 3824:tid 444] AH00430: Parent: Child process 3820 exited successfully.
+[Mon Apr 10 11:13:47.645199 2017] [mpm_winnt:notice] [pid 2096:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 10 11:13:47.645199 2017] [mpm_winnt:notice] [pid 2096:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 10 11:13:47.645199 2017] [core:notice] [pid 2096:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 10 11:13:47.645199 2017] [mpm_winnt:notice] [pid 2096:tid 444] AH00418: Parent: Created child process 3960
+[Mon Apr 10 11:13:47.911097 2017] [mpm_winnt:notice] [pid 3960:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 11 07:08:30.817179 2017] [cgi:error] [pid 3960:tid 1000] [client 191.96.249.97:38248] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Tue Apr 11 13:03:59.770234 2017] [cgi:error] [pid 3960:tid 1020] [client 191.96.249.97:41392] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Tue Apr 11 15:42:31.301502 2017] [cgi:error] [pid 3960:tid 1008] [client 186.223.232.17:33020] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgiSrv.cgi
+[Tue Apr 11 15:42:36.582709 2017] [cgi:error] [pid 3960:tid 1008] [client 186.223.232.17:50954] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgiSrv.cgi
+[Tue Apr 11 18:29:50.223401 2017] [cgi:error] [pid 3960:tid 992] [client 119.147.207.158:42126] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgiSrv.cgi
+[Thu Apr 13 12:14:31.285939 2017] [wsgi:error] [pid 3960:tid 1020] [client 60.191.100.133:2002] Target WSGI script not found or unable to stat: c:/flask_web/app/views.wsgi/ , referer: http://123.206.52.70:8080/
+[Thu Apr 13 17:44:05.176470 2017] [cgi:error] [pid 3960:tid 1000] [client 191.96.249.97:32771] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Sat Apr 15 20:06:32.659868 2017] [cgi:error] [pid 3960:tid 1000] [client 191.96.249.97:57237] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Mon Apr 17 17:23:23.971016 2017] [mpm_winnt:notice] [pid 2096:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 17:23:26.002149 2017] [mpm_winnt:notice] [pid 3960:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 17:23:27.189600 2017] [mpm_winnt:notice] [pid 2096:tid 444] AH00430: Parent: Child process 3960 exited successfully.
+[Mon Apr 17 17:23:28.017741 2017] [mpm_winnt:notice] [pid 3200:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 17:23:28.017741 2017] [mpm_winnt:notice] [pid 3200:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 17:23:28.017741 2017] [core:notice] [pid 3200:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 17:23:28.017741 2017] [mpm_winnt:notice] [pid 3200:tid 444] AH00418: Parent: Created child process 2296
+[Mon Apr 17 17:23:28.267766 2017] [mpm_winnt:notice] [pid 2296:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 17:24:14.658372 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23054] mod_wsgi (pid=2296): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Mon Apr 17 17:24:14.658372 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23054] mod_wsgi (pid=2296): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Mon Apr 17 17:24:14.658372 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23054] Traceback (most recent call last):\r
+[Mon Apr 17 17:24:14.658372 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23054]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Mon Apr 17 17:24:14.658372 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23054]     from run import app\r
+[Mon Apr 17 17:24:14.658372 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23054]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Mon Apr 17 17:24:14.658372 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23054]     from app import app\r
+[Mon Apr 17 17:24:14.658372 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23054]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Mon Apr 17 17:24:14.658372 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23054]     from app import views, models\r
+[Mon Apr 17 17:24:14.658372 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23054]   File "c:/weishop\\app\\views.py", line 58\r
+[Mon Apr 17 17:24:14.658372 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23054]     return 'successed\r
+[Mon Apr 17 17:24:14.658372 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23054]                     ^\r
+[Mon Apr 17 17:24:14.658372 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23054] SyntaxError: EOL while scanning string literal\r
+[Mon Apr 17 17:24:16.502117 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23074] mod_wsgi (pid=2296): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Mon Apr 17 17:24:16.502117 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23074] mod_wsgi (pid=2296): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Mon Apr 17 17:24:16.502117 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23074] Traceback (most recent call last):\r
+[Mon Apr 17 17:24:16.502117 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23074]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Mon Apr 17 17:24:16.502117 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23074]     from run import app\r
+[Mon Apr 17 17:24:16.502117 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23074]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Mon Apr 17 17:24:16.502117 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23074]     from app import app\r
+[Mon Apr 17 17:24:16.502117 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23074]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Mon Apr 17 17:24:16.502117 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23074]     from app import views, models\r
+[Mon Apr 17 17:24:16.502117 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23074]   File "c:/weishop\\app\\views.py", line 58\r
+[Mon Apr 17 17:24:16.502117 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23074]     return 'successed\r
+[Mon Apr 17 17:24:16.502117 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23074]                     ^\r
+[Mon Apr 17 17:24:16.502117 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23074] SyntaxError: EOL while scanning string literal\r
+[Mon Apr 17 17:24:45.533381 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23100] mod_wsgi (pid=2296): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Mon Apr 17 17:24:45.533381 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23100] mod_wsgi (pid=2296): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Mon Apr 17 17:24:45.533381 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23100] Traceback (most recent call last):\r
+[Mon Apr 17 17:24:45.533381 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23100]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Mon Apr 17 17:24:45.533381 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23100]     from run import app\r
+[Mon Apr 17 17:24:45.533381 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23100]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Mon Apr 17 17:24:45.533381 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23100]     from app import app\r
+[Mon Apr 17 17:24:45.533381 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23100]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Mon Apr 17 17:24:45.533381 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23100]     from app import views, models\r
+[Mon Apr 17 17:24:45.533381 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23100]   File "c:/weishop\\app\\views.py", line 58\r
+[Mon Apr 17 17:24:45.533381 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23100]     return 'successed\r
+[Mon Apr 17 17:24:45.533381 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23100]                     ^\r
+[Mon Apr 17 17:24:45.533381 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23100] SyntaxError: EOL while scanning string literal\r
+[Mon Apr 17 17:24:51.705236 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23106] mod_wsgi (pid=2296): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Mon Apr 17 17:24:51.705236 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23106] mod_wsgi (pid=2296): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Mon Apr 17 17:24:51.705236 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23106] Traceback (most recent call last):\r
+[Mon Apr 17 17:24:51.705236 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23106]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Mon Apr 17 17:24:51.705236 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23106]     from run import app\r
+[Mon Apr 17 17:24:51.705236 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23106]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Mon Apr 17 17:24:51.705236 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23106]     from app import app\r
+[Mon Apr 17 17:24:51.705236 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23106]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Mon Apr 17 17:24:51.705236 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23106]     from app import views, models\r
+[Mon Apr 17 17:24:51.705236 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23106]   File "c:/weishop\\app\\views.py", line 58\r
+[Mon Apr 17 17:24:51.705236 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23106]     return 'successed\r
+[Mon Apr 17 17:24:51.705236 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23106]                     ^\r
+[Mon Apr 17 17:24:51.705236 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23106] SyntaxError: EOL while scanning string literal\r
+[Mon Apr 17 17:26:30.502130 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23465] mod_wsgi (pid=2296): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Mon Apr 17 17:26:30.502130 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23465] mod_wsgi (pid=2296): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Mon Apr 17 17:26:30.502130 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23465] Traceback (most recent call last):\r
+[Mon Apr 17 17:26:30.502130 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23465]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Mon Apr 17 17:26:30.502130 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23465]     from run import app\r
+[Mon Apr 17 17:26:30.502130 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23465]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Mon Apr 17 17:26:30.502130 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23465]     from app import app\r
+[Mon Apr 17 17:26:30.502130 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23465]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Mon Apr 17 17:26:30.502130 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23465]     from app import views, models\r
+[Mon Apr 17 17:26:30.502130 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23465]   File "c:/weishop\\app\\views.py", line 58\r
+[Mon Apr 17 17:26:30.502130 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23465]     return 'successed\r
+[Mon Apr 17 17:26:30.502130 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23465]                     ^\r
+[Mon Apr 17 17:26:30.502130 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23465] SyntaxError: EOL while scanning string literal\r
+[Mon Apr 17 17:26:31.674007 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23468] mod_wsgi (pid=2296): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Mon Apr 17 17:26:31.674007 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23468] mod_wsgi (pid=2296): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Mon Apr 17 17:26:31.674007 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23468] Traceback (most recent call last):\r
+[Mon Apr 17 17:26:31.674007 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23468]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Mon Apr 17 17:26:31.674007 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23468]     from run import app\r
+[Mon Apr 17 17:26:31.674007 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23468]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Mon Apr 17 17:26:31.674007 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23468]     from app import app\r
+[Mon Apr 17 17:26:31.674007 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23468]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Mon Apr 17 17:26:31.674007 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23468]     from app import views, models\r
+[Mon Apr 17 17:26:31.674007 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23468]   File "c:/weishop\\app\\views.py", line 58\r
+[Mon Apr 17 17:26:31.674007 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23468]     return 'successed\r
+[Mon Apr 17 17:26:31.674007 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23468]                     ^\r
+[Mon Apr 17 17:26:31.674007 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23468] SyntaxError: EOL while scanning string literal\r
+[Mon Apr 17 17:26:32.127136 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23469] mod_wsgi (pid=2296): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Mon Apr 17 17:26:32.127136 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23469] mod_wsgi (pid=2296): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Mon Apr 17 17:26:32.127136 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23469] Traceback (most recent call last):\r
+[Mon Apr 17 17:26:32.127136 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23469]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Mon Apr 17 17:26:32.127136 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23469]     from run import app\r
+[Mon Apr 17 17:26:32.127136 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23469]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Mon Apr 17 17:26:32.127136 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23469]     from app import app\r
+[Mon Apr 17 17:26:32.127136 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23469]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Mon Apr 17 17:26:32.127136 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23469]     from app import views, models\r
+[Mon Apr 17 17:26:32.127136 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23469]   File "c:/weishop\\app\\views.py", line 58\r
+[Mon Apr 17 17:26:32.127136 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23469]     return 'successed\r
+[Mon Apr 17 17:26:32.127136 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23469]                     ^\r
+[Mon Apr 17 17:26:32.127136 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23469] SyntaxError: EOL while scanning string literal\r
+[Mon Apr 17 17:26:32.252134 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23472] mod_wsgi (pid=2296): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Mon Apr 17 17:26:32.252134 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23472] mod_wsgi (pid=2296): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Mon Apr 17 17:26:32.252134 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23472] Traceback (most recent call last):\r
+[Mon Apr 17 17:26:32.252134 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23472]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Mon Apr 17 17:26:32.252134 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23472]     from run import app\r
+[Mon Apr 17 17:26:32.252134 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23472]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Mon Apr 17 17:26:32.252134 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23472]     from app import app\r
+[Mon Apr 17 17:26:32.252134 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23472]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Mon Apr 17 17:26:32.252134 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23472]     from app import views, models\r
+[Mon Apr 17 17:26:32.252134 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23472]   File "c:/weishop\\app\\views.py", line 58\r
+[Mon Apr 17 17:26:32.252134 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23472]     return 'successed\r
+[Mon Apr 17 17:26:32.252134 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23472]                     ^\r
+[Mon Apr 17 17:26:32.252134 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23472] SyntaxError: EOL while scanning string literal\r
+[Mon Apr 17 17:26:32.314708 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23473] mod_wsgi (pid=2296): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Mon Apr 17 17:26:32.314708 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23473] mod_wsgi (pid=2296): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Mon Apr 17 17:26:32.314708 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23473] Traceback (most recent call last):\r
+[Mon Apr 17 17:26:32.314708 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23473]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Mon Apr 17 17:26:32.314708 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23473]     from run import app\r
+[Mon Apr 17 17:26:32.314708 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23473]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Mon Apr 17 17:26:32.314708 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23473]     from app import app\r
+[Mon Apr 17 17:26:32.314708 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23473]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Mon Apr 17 17:26:32.314708 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23473]     from app import views, models\r
+[Mon Apr 17 17:26:32.314708 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23473]   File "c:/weishop\\app\\views.py", line 58\r
+[Mon Apr 17 17:26:32.314708 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23473]     return 'successed\r
+[Mon Apr 17 17:26:32.314708 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23473]                     ^\r
+[Mon Apr 17 17:26:32.314708 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23473] SyntaxError: EOL while scanning string literal\r
+[Mon Apr 17 17:26:33.955257 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23475] mod_wsgi (pid=2296): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Mon Apr 17 17:26:33.955257 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23475] mod_wsgi (pid=2296): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Mon Apr 17 17:26:33.955257 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23475] Traceback (most recent call last):\r
+[Mon Apr 17 17:26:33.955257 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23475]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Mon Apr 17 17:26:33.955257 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23475]     from run import app\r
+[Mon Apr 17 17:26:33.955257 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23475]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Mon Apr 17 17:26:33.955257 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23475]     from app import app\r
+[Mon Apr 17 17:26:33.955257 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23475]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Mon Apr 17 17:26:33.955257 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23475]     from app import views, models\r
+[Mon Apr 17 17:26:33.955257 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23475]   File "c:/weishop\\app\\views.py", line 58\r
+[Mon Apr 17 17:26:33.955257 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23475]     return 'successed\r
+[Mon Apr 17 17:26:33.955257 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23475]                     ^\r
+[Mon Apr 17 17:26:33.955257 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23475] SyntaxError: EOL while scanning string literal\r
+[Mon Apr 17 17:26:34.017765 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23476] mod_wsgi (pid=2296): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Mon Apr 17 17:26:34.017765 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23476] mod_wsgi (pid=2296): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Mon Apr 17 17:26:34.017765 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23476] Traceback (most recent call last):\r
+[Mon Apr 17 17:26:34.017765 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23476]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Mon Apr 17 17:26:34.017765 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23476]     from run import app\r
+[Mon Apr 17 17:26:34.017765 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23476]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Mon Apr 17 17:26:34.017765 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23476]     from app import app\r
+[Mon Apr 17 17:26:34.017765 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23476]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Mon Apr 17 17:26:34.017765 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23476]     from app import views, models\r
+[Mon Apr 17 17:26:34.017765 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23476]   File "c:/weishop\\app\\views.py", line 58\r
+[Mon Apr 17 17:26:34.017765 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23476]     return 'successed\r
+[Mon Apr 17 17:26:34.017765 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23476]                     ^\r
+[Mon Apr 17 17:26:34.017765 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23476] SyntaxError: EOL while scanning string literal\r
+[Mon Apr 17 17:26:34.064710 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23477] mod_wsgi (pid=2296): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Mon Apr 17 17:26:34.064710 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23477] mod_wsgi (pid=2296): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Mon Apr 17 17:26:34.064710 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23477] Traceback (most recent call last):\r
+[Mon Apr 17 17:26:34.064710 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23477]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Mon Apr 17 17:26:34.064710 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23477]     from run import app\r
+[Mon Apr 17 17:26:34.064710 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23477]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Mon Apr 17 17:26:34.064710 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23477]     from app import app\r
+[Mon Apr 17 17:26:34.064710 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23477]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Mon Apr 17 17:26:34.064710 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23477]     from app import views, models\r
+[Mon Apr 17 17:26:34.064710 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23477]   File "c:/weishop\\app\\views.py", line 58\r
+[Mon Apr 17 17:26:34.064710 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23477]     return 'successed\r
+[Mon Apr 17 17:26:34.064710 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23477]                     ^\r
+[Mon Apr 17 17:26:34.064710 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23477] SyntaxError: EOL while scanning string literal\r
+[Mon Apr 17 17:26:35.033386 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23482] mod_wsgi (pid=2296): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Mon Apr 17 17:26:35.033386 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23482] mod_wsgi (pid=2296): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Mon Apr 17 17:26:35.033386 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23482] Traceback (most recent call last):\r
+[Mon Apr 17 17:26:35.033386 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23482]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Mon Apr 17 17:26:35.033386 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23482]     from run import app\r
+[Mon Apr 17 17:26:35.033386 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23482]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Mon Apr 17 17:26:35.033386 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23482]     from app import app\r
+[Mon Apr 17 17:26:35.033386 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23482]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Mon Apr 17 17:26:35.033386 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23482]     from app import views, models\r
+[Mon Apr 17 17:26:35.033386 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23482]   File "c:/weishop\\app\\views.py", line 58\r
+[Mon Apr 17 17:26:35.033386 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23482]     return 'successed\r
+[Mon Apr 17 17:26:35.033386 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23482]                     ^\r
+[Mon Apr 17 17:26:35.033386 2017] [wsgi:error] [pid 2296:tid 1036] [client 113.143.181.226:23482] SyntaxError: EOL while scanning string literal\r
+[Mon Apr 17 17:26:35.361608 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23481] mod_wsgi (pid=2296): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module., referer: http://123.206.52.70:9900/production_get
+[Mon Apr 17 17:26:35.361608 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23481] mod_wsgi (pid=2296): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'., referer: http://123.206.52.70:9900/production_get
+[Mon Apr 17 17:26:35.361608 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23481] Traceback (most recent call last):\r, referer: http://123.206.52.70:9900/production_get
+[Mon Apr 17 17:26:35.361608 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23481]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r, referer: http://123.206.52.70:9900/production_get
+[Mon Apr 17 17:26:35.361608 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23481]     from run import app\r, referer: http://123.206.52.70:9900/production_get
+[Mon Apr 17 17:26:35.361608 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23481]   File "c:/weishop\\run.py", line 2, in <module>\r, referer: http://123.206.52.70:9900/production_get
+[Mon Apr 17 17:26:35.361608 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23481]     from app import app\r, referer: http://123.206.52.70:9900/production_get
+[Mon Apr 17 17:26:35.361608 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23481]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r, referer: http://123.206.52.70:9900/production_get
+[Mon Apr 17 17:26:35.361608 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23481]     from app import views, models\r, referer: http://123.206.52.70:9900/production_get
+[Mon Apr 17 17:26:35.361608 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23481]   File "c:/weishop\\app\\views.py", line 58\r, referer: http://123.206.52.70:9900/production_get
+[Mon Apr 17 17:26:35.361608 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23481]     return 'successed\r, referer: http://123.206.52.70:9900/production_get
+[Mon Apr 17 17:26:35.361608 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23481]                     ^\r, referer: http://123.206.52.70:9900/production_get
+[Mon Apr 17 17:26:35.361608 2017] [wsgi:error] [pid 2296:tid 1032] [client 113.143.181.226:23481] SyntaxError: EOL while scanning string literal\r, referer: http://123.206.52.70:9900/production_get
+[Mon Apr 17 17:26:55.064726 2017] [mpm_winnt:notice] [pid 3200:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 17:26:57.082970 2017] [mpm_winnt:notice] [pid 2296:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 17:26:57.330440 2017] [mpm_winnt:notice] [pid 3200:tid 444] AH00430: Parent: Child process 2296 exited successfully.
+[Mon Apr 17 17:27:33.564759 2017] [mpm_winnt:notice] [pid 3332:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 17:27:33.564759 2017] [mpm_winnt:notice] [pid 3332:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 17:27:33.564759 2017] [core:notice] [pid 3332:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 17:27:33.564759 2017] [mpm_winnt:notice] [pid 3332:tid 444] AH00418: Parent: Created child process 784
+[Mon Apr 17 17:27:33.908367 2017] [mpm_winnt:notice] [pid 784:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 17:27:51.314705 2017] [mpm_winnt:notice] [pid 3332:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 17:27:54.002119 2017] [mpm_winnt:notice] [pid 784:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 17:27:54.095939 2017] [mpm_winnt:notice] [pid 3332:tid 444] AH00430: Parent: Child process 784 exited successfully.
+[Mon Apr 17 17:41:03.408401 2017] [mpm_winnt:notice] [pid 3236:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 17:41:03.408401 2017] [mpm_winnt:notice] [pid 3236:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 17:41:03.408401 2017] [core:notice] [pid 3236:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 17:41:03.408401 2017] [mpm_winnt:notice] [pid 3236:tid 444] AH00418: Parent: Created child process 2412
+[Mon Apr 17 17:41:03.752112 2017] [mpm_winnt:notice] [pid 2412:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 17:47:21.189731 2017] [mpm_winnt:notice] [pid 3236:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 17:47:23.220864 2017] [mpm_winnt:notice] [pid 2412:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 17:47:23.361707 2017] [mpm_winnt:notice] [pid 3236:tid 444] AH00430: Parent: Child process 2412 exited successfully.
+[Mon Apr 17 17:47:23.986734 2017] [mpm_winnt:notice] [pid 2736:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 17:47:23.986734 2017] [mpm_winnt:notice] [pid 2736:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 17:47:23.986734 2017] [core:notice] [pid 2736:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 17:47:23.986734 2017] [mpm_winnt:notice] [pid 2736:tid 444] AH00418: Parent: Created child process 3804
+[Mon Apr 17 17:47:24.299004 2017] [mpm_winnt:notice] [pid 3804:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 17:50:15.502190 2017] [mpm_winnt:notice] [pid 2736:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 17:50:17.533384 2017] [mpm_winnt:notice] [pid 3804:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 17:50:17.595899 2017] [mpm_winnt:notice] [pid 2736:tid 444] AH00430: Parent: Child process 3804 exited successfully.
+[Mon Apr 17 17:50:18.283366 2017] [mpm_winnt:notice] [pid 2924:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 17:50:18.283366 2017] [mpm_winnt:notice] [pid 2924:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 17:50:18.283366 2017] [core:notice] [pid 2924:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 17:50:18.283366 2017] [mpm_winnt:notice] [pid 2924:tid 444] AH00418: Parent: Created child process 3344
+[Mon Apr 17 17:50:18.548991 2017] [mpm_winnt:notice] [pid 3344:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 18:05:26.689782 2017] [mpm_winnt:notice] [pid 2924:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 18:05:28.720880 2017] [mpm_winnt:notice] [pid 3344:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 18:05:28.783428 2017] [mpm_winnt:notice] [pid 2924:tid 444] AH00430: Parent: Child process 3344 exited successfully.
+[Mon Apr 17 18:05:29.470853 2017] [mpm_winnt:notice] [pid 644:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 18:05:29.470853 2017] [mpm_winnt:notice] [pid 644:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 18:05:29.470853 2017] [core:notice] [pid 644:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 18:05:29.470853 2017] [mpm_winnt:notice] [pid 644:tid 444] AH00418: Parent: Created child process 3260
+[Mon Apr 17 18:05:29.705231 2017] [mpm_winnt:notice] [pid 3260:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 18:09:13.142736 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21831] mod_wsgi (pid=3260): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Mon Apr 17 18:09:13.142736 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21831] mod_wsgi (pid=3260): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Mon Apr 17 18:09:13.142736 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21831] Traceback (most recent call last):\r
+[Mon Apr 17 18:09:13.142736 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21831]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Mon Apr 17 18:09:13.142736 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21831]     from run import app\r
+[Mon Apr 17 18:09:13.142736 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21831]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Mon Apr 17 18:09:13.142736 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21831]     from app import app\r
+[Mon Apr 17 18:09:13.142736 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21831]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Mon Apr 17 18:09:13.142736 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21831]     from app import views, models\r
+[Mon Apr 17 18:09:13.142736 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21831]   File "c:/weishop\\app\\views.py", line 63, in <module>\r
+[Mon Apr 17 18:09:13.142736 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21831]     @app.route('/production_get', methods=['POST','GET'])\r
+[Mon Apr 17 18:09:13.142736 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21831]   File "C:\\Python34\\lib\\site-packages\\flask\\app.py", line 1013, in decorator\r
+[Mon Apr 17 18:09:13.142736 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21831]     self.add_url_rule(rule, endpoint, f, **options)\r
+[Mon Apr 17 18:09:13.142736 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21831]   File "C:\\Python34\\lib\\site-packages\\flask\\app.py", line 62, in wrapper_func\r
+[Mon Apr 17 18:09:13.142736 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21831]     return f(self, *args, **kwargs)\r
+[Mon Apr 17 18:09:13.142736 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21831]   File "C:\\Python34\\lib\\site-packages\\flask\\app.py", line 984, in add_url_rule\r
+[Mon Apr 17 18:09:13.142736 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21831]     'existing endpoint function: %s' % endpoint)\r
+[Mon Apr 17 18:09:13.142736 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21831] AssertionError: View function mapping is overwriting an existing endpoint function: production_get\r
+[Mon Apr 17 18:09:41.127124 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21839] mod_wsgi (pid=3260): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Mon Apr 17 18:09:41.127124 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21839] mod_wsgi (pid=3260): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Mon Apr 17 18:09:41.127124 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21839] Traceback (most recent call last):\r
+[Mon Apr 17 18:09:41.127124 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21839]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Mon Apr 17 18:09:41.127124 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21839]     from run import app\r
+[Mon Apr 17 18:09:41.127124 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21839]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Mon Apr 17 18:09:41.127124 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21839]     from app import app\r
+[Mon Apr 17 18:09:41.127124 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21839]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Mon Apr 17 18:09:41.127124 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21839]     from app import views, models\r
+[Mon Apr 17 18:09:41.127124 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21839]   File "c:/weishop\\app\\views.py", line 63, in <module>\r
+[Mon Apr 17 18:09:41.127124 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21839]     @app.route('/production_get', methods=['POST','GET'])\r
+[Mon Apr 17 18:09:41.127124 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21839]   File "C:\\Python34\\lib\\site-packages\\flask\\app.py", line 1013, in decorator\r
+[Mon Apr 17 18:09:41.127124 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21839]     self.add_url_rule(rule, endpoint, f, **options)\r
+[Mon Apr 17 18:09:41.127124 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21839]   File "C:\\Python34\\lib\\site-packages\\flask\\app.py", line 62, in wrapper_func\r
+[Mon Apr 17 18:09:41.127124 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21839]     return f(self, *args, **kwargs)\r
+[Mon Apr 17 18:09:41.127124 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21839]   File "C:\\Python34\\lib\\site-packages\\flask\\app.py", line 984, in add_url_rule\r
+[Mon Apr 17 18:09:41.127124 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21839]     'existing endpoint function: %s' % endpoint)\r
+[Mon Apr 17 18:09:41.127124 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21839] AssertionError: View function mapping is overwriting an existing endpoint function: production_get\r
+[Mon Apr 17 18:10:19.767742 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21847] mod_wsgi (pid=3260): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Mon Apr 17 18:10:19.767742 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21847] mod_wsgi (pid=3260): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Mon Apr 17 18:10:19.767742 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21847] Traceback (most recent call last):\r
+[Mon Apr 17 18:10:19.767742 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21847]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Mon Apr 17 18:10:19.767742 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21847]     from run import app\r
+[Mon Apr 17 18:10:19.767742 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21847]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Mon Apr 17 18:10:19.767742 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21847]     from app import app\r
+[Mon Apr 17 18:10:19.767742 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21847]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Mon Apr 17 18:10:19.767742 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21847]     from app import views, models\r
+[Mon Apr 17 18:10:19.767742 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21847]   File "c:/weishop\\app\\views.py", line 63, in <module>\r
+[Mon Apr 17 18:10:19.767742 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21847]     @app.route('/production_get', methods=['POST','GET'])\r
+[Mon Apr 17 18:10:19.767742 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21847]   File "C:\\Python34\\lib\\site-packages\\flask\\app.py", line 1013, in decorator\r
+[Mon Apr 17 18:10:19.767742 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21847]     self.add_url_rule(rule, endpoint, f, **options)\r
+[Mon Apr 17 18:10:19.767742 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21847]   File "C:\\Python34\\lib\\site-packages\\flask\\app.py", line 62, in wrapper_func\r
+[Mon Apr 17 18:10:19.767742 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21847]     return f(self, *args, **kwargs)\r
+[Mon Apr 17 18:10:19.767742 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21847]   File "C:\\Python34\\lib\\site-packages\\flask\\app.py", line 984, in add_url_rule\r
+[Mon Apr 17 18:10:19.767742 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21847]     'existing endpoint function: %s' % endpoint)\r
+[Mon Apr 17 18:10:19.767742 2017] [wsgi:error] [pid 3260:tid 1036] [client 113.143.181.226:21847] AssertionError: View function mapping is overwriting an existing endpoint function: production_get\r
+[Mon Apr 17 18:11:23.752111 2017] [mpm_winnt:notice] [pid 644:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 18:11:25.783370 2017] [mpm_winnt:notice] [pid 3260:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 18:11:25.861708 2017] [mpm_winnt:notice] [pid 644:tid 444] AH00430: Parent: Child process 3260 exited successfully.
+[Mon Apr 17 18:11:26.548990 2017] [mpm_winnt:notice] [pid 2212:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 18:11:26.548990 2017] [mpm_winnt:notice] [pid 2212:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 18:11:26.548990 2017] [core:notice] [pid 2212:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 18:11:26.548990 2017] [mpm_winnt:notice] [pid 2212:tid 444] AH00418: Parent: Created child process 3156
+[Mon Apr 17 18:11:26.845863 2017] [mpm_winnt:notice] [pid 3156:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 18:15:34.050162 2017] [mpm_winnt:notice] [pid 2212:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 18:15:36.080247 2017] [mpm_winnt:notice] [pid 3156:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 18:15:36.174020 2017] [mpm_winnt:notice] [pid 2212:tid 444] AH00430: Parent: Child process 3156 exited successfully.
+[Mon Apr 17 18:15:36.877111 2017] [mpm_winnt:notice] [pid 4052:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 18:15:36.877111 2017] [mpm_winnt:notice] [pid 4052:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 18:15:36.877111 2017] [core:notice] [pid 4052:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 18:15:36.877111 2017] [mpm_winnt:notice] [pid 4052:tid 444] AH00418: Parent: Created child process 2016
+[Mon Apr 17 18:15:37.127112 2017] [mpm_winnt:notice] [pid 2016:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 18:16:30.783363 2017] [mpm_winnt:notice] [pid 4052:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 18:16:32.815752 2017] [mpm_winnt:notice] [pid 2016:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 18:16:32.845926 2017] [mpm_winnt:notice] [pid 4052:tid 444] AH00430: Parent: Child process 2016 exited successfully.
+[Mon Apr 17 18:16:33.564708 2017] [mpm_winnt:notice] [pid 3044:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 18:16:33.564708 2017] [mpm_winnt:notice] [pid 3044:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 18:16:33.564708 2017] [core:notice] [pid 3044:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 18:16:33.564708 2017] [mpm_winnt:notice] [pid 3044:tid 444] AH00418: Parent: Created child process 1020
+[Mon Apr 17 18:16:33.861480 2017] [mpm_winnt:notice] [pid 1020:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 18:16:58.002149 2017] [wsgi:error] [pid 1020:tid 1036]  * Running on http://127.0.0.1:9998/ (Press CTRL+C to quit)\r
+[Mon Apr 17 18:16:58.002149 2017] [wsgi:warn] [pid 1020:tid 1036] mod_wsgi (pid=1020): Callback registration for signal 15 ignored.
+[Mon Apr 17 18:16:58.017734 2017] [wsgi:warn] [pid 1020:tid 1036]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Mon Apr 17 18:16:58.017734 2017] [wsgi:warn] [pid 1020:tid 1036]     from run import app\r
+[Mon Apr 17 18:16:58.017734 2017] [wsgi:warn] [pid 1020:tid 1036]   File "<frozen importlib._bootstrap>", line 2237, in _find_and_load\r
+[Mon Apr 17 18:16:58.017734 2017] [wsgi:warn] [pid 1020:tid 1036]   File "<frozen importlib._bootstrap>", line 2226, in _find_and_load_unlocked\r
+[Mon Apr 17 18:16:58.017734 2017] [wsgi:warn] [pid 1020:tid 1036]   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked\r
+[Mon Apr 17 18:16:58.017734 2017] [wsgi:warn] [pid 1020:tid 1036]   File "<frozen importlib._bootstrap>", line 1129, in _exec\r
+[Mon Apr 17 18:16:58.017734 2017] [wsgi:warn] [pid 1020:tid 1036]   File "<frozen importlib._bootstrap>", line 1471, in exec_module\r
+[Mon Apr 17 18:16:58.017734 2017] [wsgi:warn] [pid 1020:tid 1036]   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed\r
+[Mon Apr 17 18:16:58.017734 2017] [wsgi:warn] [pid 1020:tid 1036]   File "c:/weishop\\run.py", line 3, in <module>\r
+[Mon Apr 17 18:16:58.017734 2017] [wsgi:warn] [pid 1020:tid 1036]     app.run(port=9998,debug = True,threaded=True)\r
+[Mon Apr 17 18:16:58.017734 2017] [wsgi:warn] [pid 1020:tid 1036]   File "C:\\Python34\\lib\\site-packages\\flask\\app.py", line 772, in run\r
+[Mon Apr 17 18:16:58.017734 2017] [wsgi:warn] [pid 1020:tid 1036]     run_simple(host, port, self, **options)\r
+[Mon Apr 17 18:16:58.017734 2017] [wsgi:warn] [pid 1020:tid 1036]   File "C:\\Python34\\lib\\site-packages\\werkzeug\\serving.py", line 692, in run_simple\r
+[Mon Apr 17 18:16:58.017734 2017] [wsgi:warn] [pid 1020:tid 1036]     reloader_type)\r
+[Mon Apr 17 18:16:58.017734 2017] [wsgi:warn] [pid 1020:tid 1036]   File "C:\\Python34\\lib\\site-packages\\werkzeug\\_reloader.py", line 242, in run_with_reloader\r
+[Mon Apr 17 18:16:58.017734 2017] [wsgi:warn] [pid 1020:tid 1036]     signal.signal(signal.SIGTERM, lambda *args: sys.exit(0))\r
+[Mon Apr 17 18:16:58.017734 2017] [wsgi:error] [pid 1020:tid 1036]  * Restarting with stat\r
+[Mon Apr 17 18:17:31.127104 2017] [mpm_winnt:notice] [pid 3044:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 18:17:49.455238 2017] [mpm_winnt:notice] [pid 1020:tid 496] AH00362: Child: Waiting 0 more seconds for 3 worker threads to finish.
+[Mon Apr 17 18:17:49.564696 2017] [mpm_winnt:notice] [pid 1020:tid 496] AH00363: Child: Terminating 3 threads that failed to exit.
+[Mon Apr 17 18:17:49.564696 2017] [mpm_winnt:notice] [pid 1020:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 18:17:49.689704 2017] [mpm_winnt:notice] [pid 3044:tid 444] AH00430: Parent: Child process 1020 exited successfully.
+[Mon Apr 17 18:17:50.189696 2017] [mpm_winnt:notice] [pid 1352:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 18:17:50.189696 2017] [mpm_winnt:notice] [pid 1352:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 18:17:50.189696 2017] [core:notice] [pid 1352:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 18:17:50.189696 2017] [mpm_winnt:notice] [pid 1352:tid 444] AH00418: Parent: Created child process 3488
+[Mon Apr 17 18:17:50.455241 2017] [mpm_winnt:notice] [pid 3488:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:error] [pid 3488:tid 1036]  * Running on http://127.0.0.1:9998/ (Press CTRL+C to quit)\r
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:warn] [pid 3488:tid 1036] mod_wsgi (pid=3488): Callback registration for signal 15 ignored.
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:warn] [pid 3488:tid 1036]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:warn] [pid 3488:tid 1036]     from run import app\r
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:warn] [pid 3488:tid 1036]   File "<frozen importlib._bootstrap>", line 2237, in _find_and_load\r
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:warn] [pid 3488:tid 1036]   File "<frozen importlib._bootstrap>", line 2226, in _find_and_load_unlocked\r
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:warn] [pid 3488:tid 1036]   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked\r
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:warn] [pid 3488:tid 1036]   File "<frozen importlib._bootstrap>", line 1129, in _exec\r
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:warn] [pid 3488:tid 1036]   File "<frozen importlib._bootstrap>", line 1471, in exec_module\r
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:warn] [pid 3488:tid 1036]   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed\r
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:warn] [pid 3488:tid 1036]   File "c:/weishop\\run.py", line 3, in <module>\r
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:warn] [pid 3488:tid 1036]     app.run(port=9998,debug = True,threaded=True)\r
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:warn] [pid 3488:tid 1036]   File "C:\\Python34\\lib\\site-packages\\flask\\app.py", line 772, in run\r
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:warn] [pid 3488:tid 1036]     run_simple(host, port, self, **options)\r
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:warn] [pid 3488:tid 1036]   File "C:\\Python34\\lib\\site-packages\\werkzeug\\serving.py", line 692, in run_simple\r
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:warn] [pid 3488:tid 1036]     reloader_type)\r
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:warn] [pid 3488:tid 1036]   File "C:\\Python34\\lib\\site-packages\\werkzeug\\_reloader.py", line 242, in run_with_reloader\r
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:warn] [pid 3488:tid 1036]     signal.signal(signal.SIGTERM, lambda *args: sys.exit(0))\r
+[Mon Apr 17 18:17:56.298985 2017] [wsgi:error] [pid 3488:tid 1036]  * Restarting with stat\r
+[Mon Apr 17 18:20:53.689695 2017] [mpm_winnt:notice] [pid 1352:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 18:21:12.018211 2017] [mpm_winnt:notice] [pid 3488:tid 496] AH00362: Child: Waiting 0 more seconds for 4 worker threads to finish.
+[Mon Apr 17 18:21:12.127148 2017] [mpm_winnt:notice] [pid 3488:tid 496] AH00363: Child: Terminating 4 threads that failed to exit.
+[Mon Apr 17 18:21:12.127148 2017] [mpm_winnt:notice] [pid 3488:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 18:21:12.267756 2017] [mpm_winnt:notice] [pid 1352:tid 444] AH00430: Parent: Child process 3488 exited successfully.
+[Mon Apr 17 18:21:12.799049 2017] [mpm_winnt:notice] [pid 2040:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 18:21:12.799049 2017] [mpm_winnt:notice] [pid 2040:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 18:21:12.799049 2017] [core:notice] [pid 2040:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 18:21:12.799049 2017] [mpm_winnt:notice] [pid 2040:tid 444] AH00418: Parent: Created child process 3564
+[Mon Apr 17 18:21:13.174030 2017] [mpm_winnt:notice] [pid 3564:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 18:25:51.611701 2017] [mpm_winnt:notice] [pid 2040:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 18:25:53.645089 2017] [mpm_winnt:notice] [pid 3564:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 18:25:53.783376 2017] [mpm_winnt:notice] [pid 2040:tid 444] AH00430: Parent: Child process 3564 exited successfully.
+[Mon Apr 17 18:25:54.377274 2017] [mpm_winnt:notice] [pid 2248:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 18:25:54.377274 2017] [mpm_winnt:notice] [pid 2248:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 18:25:54.377274 2017] [core:notice] [pid 2248:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 18:25:54.377274 2017] [mpm_winnt:notice] [pid 2248:tid 444] AH00418: Parent: Created child process 3976
+[Mon Apr 17 18:25:54.642744 2017] [mpm_winnt:notice] [pid 3976:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 18:26:17.986728 2017] [mpm_winnt:notice] [pid 2248:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 18:26:20.018532 2017] [mpm_winnt:notice] [pid 3976:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 18:26:20.111703 2017] [mpm_winnt:notice] [pid 2248:tid 444] AH00430: Parent: Child process 3976 exited successfully.
+[Mon Apr 17 18:26:20.783363 2017] [mpm_winnt:notice] [pid 1304:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 18:26:20.783363 2017] [mpm_winnt:notice] [pid 1304:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 18:26:20.783363 2017] [core:notice] [pid 1304:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 18:26:20.783363 2017] [mpm_winnt:notice] [pid 1304:tid 444] AH00418: Parent: Created child process 3580
+[Mon Apr 17 18:26:21.033360 2017] [mpm_winnt:notice] [pid 3580:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 18:26:50.892731 2017] [mpm_winnt:notice] [pid 1304:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 18:26:52.924042 2017] [mpm_winnt:notice] [pid 3580:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 18:26:53.017758 2017] [mpm_winnt:notice] [pid 1304:tid 444] AH00430: Parent: Child process 3580 exited successfully.
+[Mon Apr 17 18:26:53.673990 2017] [mpm_winnt:notice] [pid 3728:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 18:26:53.673990 2017] [mpm_winnt:notice] [pid 3728:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 18:26:53.673990 2017] [core:notice] [pid 3728:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 18:26:53.689716 2017] [mpm_winnt:notice] [pid 3728:tid 444] AH00418: Parent: Created child process 2100
+[Mon Apr 17 18:26:53.970857 2017] [mpm_winnt:notice] [pid 2100:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 18:27:33.502159 2017] [mpm_winnt:notice] [pid 3728:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 18:27:35.533372 2017] [mpm_winnt:notice] [pid 2100:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 18:27:35.658384 2017] [mpm_winnt:notice] [pid 3728:tid 444] AH00430: Parent: Child process 2100 exited successfully.
+[Mon Apr 17 18:27:36.267815 2017] [mpm_winnt:notice] [pid 2332:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 18:27:36.267815 2017] [mpm_winnt:notice] [pid 2332:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 18:27:36.267815 2017] [core:notice] [pid 2332:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 18:27:36.267815 2017] [mpm_winnt:notice] [pid 2332:tid 444] AH00418: Parent: Created child process 3852
+[Mon Apr 17 18:27:36.658367 2017] [mpm_winnt:notice] [pid 3852:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 18:27:55.767836 2017] [mpm_winnt:notice] [pid 2332:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 18:27:57.799006 2017] [mpm_winnt:notice] [pid 3852:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 18:27:57.877125 2017] [mpm_winnt:notice] [pid 2332:tid 444] AH00430: Parent: Child process 3852 exited successfully.
+[Mon Apr 17 18:27:58.517734 2017] [mpm_winnt:notice] [pid 1884:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 18:27:58.517734 2017] [mpm_winnt:notice] [pid 1884:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 18:27:58.517734 2017] [core:notice] [pid 1884:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 18:27:58.517734 2017] [mpm_winnt:notice] [pid 1884:tid 444] AH00418: Parent: Created child process 3604
+[Mon Apr 17 18:27:58.830234 2017] [mpm_winnt:notice] [pid 3604:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 18:31:25.111698 2017] [mpm_winnt:notice] [pid 1884:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 18:31:27.142876 2017] [mpm_winnt:notice] [pid 3604:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 18:31:27.252140 2017] [mpm_winnt:notice] [pid 1884:tid 444] AH00430: Parent: Child process 3604 exited successfully.
+[Mon Apr 17 18:31:27.923985 2017] [mpm_winnt:notice] [pid 2208:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 18:31:27.923985 2017] [mpm_winnt:notice] [pid 2208:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 18:31:27.923985 2017] [core:notice] [pid 2208:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 18:31:27.923985 2017] [mpm_winnt:notice] [pid 2208:tid 444] AH00418: Parent: Created child process 3576
+[Mon Apr 17 18:31:28.220864 2017] [mpm_winnt:notice] [pid 3576:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 18:31:57.080268 2017] [mpm_winnt:notice] [pid 2208:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 18:31:59.111693 2017] [mpm_winnt:notice] [pid 3576:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 18:31:59.220957 2017] [mpm_winnt:notice] [pid 2208:tid 444] AH00430: Parent: Child process 3576 exited successfully.
+[Mon Apr 17 18:31:59.972217 2017] [mpm_winnt:notice] [pid 860:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 18:31:59.972217 2017] [mpm_winnt:notice] [pid 860:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 18:31:59.972217 2017] [core:notice] [pid 860:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 18:31:59.972217 2017] [mpm_winnt:notice] [pid 860:tid 444] AH00418: Parent: Created child process 2844
+[Mon Apr 17 18:32:00.362628 2017] [mpm_winnt:notice] [pid 2844:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 18:36:38.940366 2017] [mpm_winnt:notice] [pid 860:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 18:36:40.970903 2017] [mpm_winnt:notice] [pid 2844:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 18:36:41.080253 2017] [mpm_winnt:notice] [pid 860:tid 444] AH00430: Parent: Child process 2844 exited successfully.
+[Mon Apr 17 20:02:02.439935 2017] [mpm_winnt:notice] [pid 3284:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 20:02:02.439935 2017] [mpm_winnt:notice] [pid 3284:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 20:02:02.439935 2017] [core:notice] [pid 3284:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 20:02:02.439935 2017] [mpm_winnt:notice] [pid 3284:tid 444] AH00418: Parent: Created child process 4060
+[Mon Apr 17 20:02:02.705245 2017] [mpm_winnt:notice] [pid 4060:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 22:27:25.767739 2017] [mpm_winnt:notice] [pid 3284:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 22:27:27.799118 2017] [mpm_winnt:notice] [pid 4060:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 22:27:28.111696 2017] [mpm_winnt:notice] [pid 3284:tid 444] AH00430: Parent: Child process 4060 exited successfully.
+[Mon Apr 17 22:27:28.502108 2017] [mpm_winnt:notice] [pid 3376:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 22:27:28.502108 2017] [mpm_winnt:notice] [pid 3376:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 22:27:28.502108 2017] [core:notice] [pid 3376:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 22:27:28.502108 2017] [mpm_winnt:notice] [pid 3376:tid 444] AH00418: Parent: Created child process 2192
+[Mon Apr 17 22:27:28.736697 2017] [mpm_winnt:notice] [pid 2192:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 17 22:27:58.752117 2017] [mpm_winnt:notice] [pid 3376:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 17 22:28:00.783683 2017] [mpm_winnt:notice] [pid 2192:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Apr 17 22:28:00.877126 2017] [mpm_winnt:notice] [pid 3376:tid 444] AH00430: Parent: Child process 2192 exited successfully.
+[Mon Apr 17 22:34:26.955227 2017] [mpm_winnt:notice] [pid 2764:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon Apr 17 22:34:26.955227 2017] [mpm_winnt:notice] [pid 2764:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon Apr 17 22:34:26.955227 2017] [core:notice] [pid 2764:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Apr 17 22:34:26.955227 2017] [mpm_winnt:notice] [pid 2764:tid 444] AH00418: Parent: Created child process 852
+[Mon Apr 17 22:34:27.252121 2017] [mpm_winnt:notice] [pid 852:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 19 10:59:39.158382 2017] [mpm_winnt:notice] [pid 2764:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Apr 19 10:59:41.189711 2017] [mpm_winnt:notice] [pid 852:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Apr 19 10:59:41.845895 2017] [mpm_winnt:notice] [pid 2764:tid 444] AH00430: Parent: Child process 852 exited successfully.
+[Wed Apr 19 10:59:42.408352 2017] [mpm_winnt:notice] [pid 3392:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Apr 19 10:59:42.408352 2017] [mpm_winnt:notice] [pid 3392:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Apr 19 10:59:42.408352 2017] [core:notice] [pid 3392:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Apr 19 10:59:42.408352 2017] [mpm_winnt:notice] [pid 3392:tid 444] AH00418: Parent: Created child process 3168
+[Wed Apr 19 10:59:42.752183 2017] [mpm_winnt:notice] [pid 3168:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 19 11:05:24.142782 2017] [mpm_winnt:notice] [pid 3392:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Apr 19 11:05:26.158627 2017] [mpm_winnt:notice] [pid 3168:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Apr 19 11:05:26.314706 2017] [mpm_winnt:notice] [pid 3392:tid 444] AH00430: Parent: Child process 3168 exited successfully.
+[Wed Apr 19 11:05:38.689708 2017] [mpm_winnt:notice] [pid 3360:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Apr 19 11:05:38.705233 2017] [mpm_winnt:notice] [pid 3360:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Apr 19 11:05:38.705233 2017] [core:notice] [pid 3360:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Apr 19 11:05:38.705233 2017] [mpm_winnt:notice] [pid 3360:tid 444] AH00418: Parent: Created child process 1308
+[Wed Apr 19 11:05:39.002114 2017] [mpm_winnt:notice] [pid 1308:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 19 11:05:50.845875 2017] [wsgi:error] [pid 1308:tid 1036] [client 123.206.52.70:62261] mod_wsgi (pid=1308): Target WSGI script 'C:/weishop/app/views.wsgi' cannot be loaded as Python module.
+[Wed Apr 19 11:05:50.845875 2017] [wsgi:error] [pid 1308:tid 1036] [client 123.206.52.70:62261] mod_wsgi (pid=1308): Exception occurred processing WSGI script 'C:/weishop/app/views.wsgi'.
+[Wed Apr 19 11:05:50.845875 2017] [wsgi:error] [pid 1308:tid 1036] [client 123.206.52.70:62261] Traceback (most recent call last):\r
+[Wed Apr 19 11:05:50.845875 2017] [wsgi:error] [pid 1308:tid 1036] [client 123.206.52.70:62261]   File "C:/weishop/app/views.wsgi", line 3, in <module>\r
+[Wed Apr 19 11:05:50.845875 2017] [wsgi:error] [pid 1308:tid 1036] [client 123.206.52.70:62261]     from run import app\r
+[Wed Apr 19 11:05:50.845875 2017] [wsgi:error] [pid 1308:tid 1036] [client 123.206.52.70:62261]   File "c:/weishop\\run.py", line 2, in <module>\r
+[Wed Apr 19 11:05:50.845875 2017] [wsgi:error] [pid 1308:tid 1036] [client 123.206.52.70:62261]     from app import app\r
+[Wed Apr 19 11:05:50.845875 2017] [wsgi:error] [pid 1308:tid 1036] [client 123.206.52.70:62261]   File "c:/weishop\\app\\__init__.py", line 12, in <module>\r
+[Wed Apr 19 11:05:50.845875 2017] [wsgi:error] [pid 1308:tid 1036] [client 123.206.52.70:62261]     from app import views, models\r
+[Wed Apr 19 11:05:50.845875 2017] [wsgi:error] [pid 1308:tid 1036] [client 123.206.52.70:62261]   File "c:/weishop\\app\\views.py", line 72\r
+[Wed Apr 19 11:05:50.845875 2017] [wsgi:error] [pid 1308:tid 1036] [client 123.206.52.70:62261]     str_json=json.dumps({"price":str(production.price),"stock":str(production.stock),"photo_id":str(production.photo_id),"body":production.body},ensure_ascii=False))\r
+[Wed Apr 19 11:05:50.845875 2017] [wsgi:error] [pid 1308:tid 1036] [client 123.206.52.70:62261]                                                                                                                                                                     ^\r
+[Wed Apr 19 11:05:50.845875 2017] [wsgi:error] [pid 1308:tid 1036] [client 123.206.52.70:62261] SyntaxError: invalid syntax\r
+[Wed Apr 19 11:06:55.533383 2017] [mpm_winnt:notice] [pid 3360:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Apr 19 11:06:57.564705 2017] [mpm_winnt:notice] [pid 1308:tid 496] AH00364: Child: All worker threads have exited.
+[Wed Apr 19 11:06:57.674010 2017] [mpm_winnt:notice] [pid 3360:tid 444] AH00430: Parent: Child process 1308 exited successfully.
+[Wed Apr 19 11:06:58.361992 2017] [mpm_winnt:notice] [pid 3048:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Wed Apr 19 11:06:58.361992 2017] [mpm_winnt:notice] [pid 3048:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Wed Apr 19 11:06:58.361992 2017] [core:notice] [pid 3048:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Apr 19 11:06:58.361992 2017] [mpm_winnt:notice] [pid 3048:tid 444] AH00418: Parent: Created child process 4036
+[Wed Apr 19 11:06:58.627221 2017] [mpm_winnt:notice] [pid 4036:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 20 03:42:07.908385 2017] [cgi:error] [pid 4036:tid 1016] [client 191.96.249.97:41920] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Thu Apr 20 07:08:12.064713 2017] [cgi:error] [pid 4036:tid 992] [client 191.96.249.97:52496] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Thu Apr 20 22:54:23.330252 2017] [cgi:error] [pid 4036:tid 1028] [client 177.143.195.133:45194] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgiSrv.cgi
+[Thu Apr 20 22:54:30.267772 2017] [cgi:error] [pid 4036:tid 1028] [client 177.143.195.133:56330] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgiSrv.cgi
+[Sat Apr 22 12:02:51.671166 2017] [cgi:error] [pid 4036:tid 1016] [client 191.96.249.97:48574] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Mon Apr 24 04:08:13.451225 2017] [cgi:error] [pid 4036:tid 1032] [client 191.96.249.97:48328] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Mon Apr 24 11:14:07.826309 2017] [cgi:error] [pid 4036:tid 1032] [client 106.168.252.166:42798] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/authLogin.cgi
+[Tue Apr 25 02:57:04.607482 2017] [cgi:error] [pid 4036:tid 988] [client 191.96.249.97:52074] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Tue Apr 25 09:40:52.607676 2017] [cgi:error] [pid 4036:tid 996] [client 201.81.229.7:58370] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgiSrv.cgi
+[Tue Apr 25 09:40:59.451227 2017] [cgi:error] [pid 4036:tid 996] [client 201.81.229.7:36286] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgiSrv.cgi
+[Tue Apr 25 20:33:57.873118 2017] [mpm_winnt:notice] [pid 3048:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Apr 25 20:33:59.890211 2017] [mpm_winnt:notice] [pid 4036:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Apr 25 20:34:05.419973 2017] [mpm_winnt:notice] [pid 3048:tid 444] AH00430: Parent: Child process 4036 exited successfully.
+[Tue Apr 25 20:34:06.435665 2017] [mpm_winnt:notice] [pid 1332:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Apr 25 20:34:06.435665 2017] [mpm_winnt:notice] [pid 1332:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Apr 25 20:34:06.435665 2017] [core:notice] [pid 1332:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Apr 25 20:34:06.435665 2017] [mpm_winnt:notice] [pid 1332:tid 444] AH00418: Parent: Created child process 3944
+[Tue Apr 25 20:34:06.826261 2017] [mpm_winnt:notice] [pid 3944:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 25 20:35:58.701955 2017] [mpm_winnt:notice] [pid 1332:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Apr 25 20:36:01.482475 2017] [mpm_winnt:notice] [pid 3944:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Apr 25 20:36:01.685714 2017] [mpm_winnt:notice] [pid 1332:tid 444] AH00430: Parent: Child process 3944 exited successfully.
+[Tue Apr 25 20:36:02.419971 2017] [mpm_winnt:notice] [pid 1956:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Tue Apr 25 20:36:02.419971 2017] [mpm_winnt:notice] [pid 1956:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Tue Apr 25 20:36:02.419971 2017] [core:notice] [pid 1956:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Apr 25 20:36:02.419971 2017] [mpm_winnt:notice] [pid 1956:tid 444] AH00418: Parent: Created child process 3852
+[Tue Apr 25 20:36:02.795132 2017] [mpm_winnt:notice] [pid 3852:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 26 03:13:21.294979 2017] [cgi:error] [pid 3852:tid 1008] [client 191.96.249.97:50588] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/php
+[Sat Apr 29 05:46:19.248351 2017] [core:error] [pid 3852:tid 968] [client 140.117.20.104:62458] AH00126: Invalid URI in request GET: index.php HTTP/1.0 
+[Sat Apr 29 18:13:43.981711 2017] [cgi:error] [pid 3852:tid 948] [client 191.180.110.197:60513] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgiSrv.cgi
+[Sat Apr 29 18:13:48.561801 2017] [cgi:error] [pid 3852:tid 948] [client 191.180.110.197:53022] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgiSrv.cgi
+[Mon May 01 09:10:53.730589 2017] [mpm_winnt:notice] [pid 1956:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon May 01 09:10:55.761781 2017] [mpm_winnt:notice] [pid 3852:tid 496] AH00364: Child: All worker threads have exited.
+[Mon May 01 09:10:56.496373 2017] [mpm_winnt:notice] [pid 1956:tid 444] AH00430: Parent: Child process 3852 exited successfully.
+[Mon May 01 09:10:57.043195 2017] [mpm_winnt:notice] [pid 224:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon May 01 09:10:57.043195 2017] [mpm_winnt:notice] [pid 224:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon May 01 09:10:57.043195 2017] [core:notice] [pid 224:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon May 01 09:10:57.058741 2017] [mpm_winnt:notice] [pid 224:tid 444] AH00418: Parent: Created child process 3328
+[Mon May 01 09:10:57.480726 2017] [mpm_winnt:notice] [pid 3328:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon May 01 09:13:45.996212 2017] [mpm_winnt:notice] [pid 224:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon May 01 09:13:48.011966 2017] [mpm_winnt:notice] [pid 3328:tid 496] AH00364: Child: All worker threads have exited.
+[Mon May 01 09:13:48.089904 2017] [mpm_winnt:notice] [pid 224:tid 444] AH00430: Parent: Child process 3328 exited successfully.
+[Mon May 01 09:13:48.811745 2017] [mpm_winnt:notice] [pid 2000:tid 444] AH00455: Apache/2.4.20 (Win64) mod_wsgi/4.4.12 Python/3.4.2 configured -- resuming normal operations
+[Mon May 01 09:13:48.811745 2017] [mpm_winnt:notice] [pid 2000:tid 444] AH00456: Apache Lounge VC10 Server built: Apr 10 2016 13:18:43
+[Mon May 01 09:13:48.811745 2017] [core:notice] [pid 2000:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon May 01 09:13:48.811745 2017] [mpm_winnt:notice] [pid 2000:tid 444] AH00418: Parent: Created child process 2200
